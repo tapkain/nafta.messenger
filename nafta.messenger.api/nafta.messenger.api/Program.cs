@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace nafta.messenger.api
+namespace Nafta.Messenger.Api
 {
     public class Program
     {

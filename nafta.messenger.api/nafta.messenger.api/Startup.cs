@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using Nafta.Messenger.Api.Repository;
+using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore.Swagger;
 
-namespace nafta.messenger.api
+namespace Nafta.Messenger.Api
 {
     public class Startup
     {
@@ -24,6 +21,13 @@ namespace nafta.messenger.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddDbContext<DataContext>(options => options.UseSqlite("Data Source=nafta.messenger.db"));
+            services.AddScoped<DataContext>();
+
+			services.AddSwaggerGen(c =>
+			{
+				c.SwaggerDoc("v1", new Info { Title = "nafta.messenger.api", Version = "v1" });
+			});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,6 +36,12 @@ namespace nafta.messenger.api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+				app.UseSwagger();
+
+				app.UseSwaggerUI(c =>
+				{
+					c.SwaggerEndpoint("/swagger/v1/swagger.json", "nafta.messenger.api");
+				});
             }
 
             app.UseMvc();
