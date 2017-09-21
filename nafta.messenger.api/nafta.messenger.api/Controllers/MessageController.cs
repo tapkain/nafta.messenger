@@ -19,15 +19,12 @@ namespace Nafta.Messenger.Api.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Message> Get()
+        public Message Get(int user_id, int timestamp)
         {
-            return _dataContext.Messages.ToList();
-        }
-
-        [HttpGet("{id}")]
-        public Message Get(int id)
-        {
-            return _dataContext.Messages.Where(m => m.MessageId == id).FirstOrDefault();
+            return _dataContext.Messages
+                               .Where(m => m.UserReceiverId == user_id)
+                               .Where(m => m.SendTimestamp >= timestamp)
+                               .FirstOrDefault();
         }
 
         [HttpPost]
@@ -39,14 +36,6 @@ namespace Nafta.Messenger.Api.Controllers
             }
 
             _dataContext.Messages.Add(message);
-            _dataContext.SaveChanges();
-        }
-
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-            var message = _dataContext.Messages.Where(m => m.MessageId == id).First();
-            _dataContext.Messages.Remove(message);
             _dataContext.SaveChanges();
         }
     }
