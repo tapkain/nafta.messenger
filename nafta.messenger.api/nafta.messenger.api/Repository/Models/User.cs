@@ -1,4 +1,7 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
+using Microsoft.EntityFrameworkCore.Scaffolding.Metadata.Internal;
+
 namespace Nafta.Messenger.Api.Repository.Models
 {
     public class User

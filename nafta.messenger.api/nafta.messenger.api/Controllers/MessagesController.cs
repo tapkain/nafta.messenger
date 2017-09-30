@@ -9,26 +9,25 @@ using Nafta.Messenger.Api.Repository.Models;
 namespace Nafta.Messenger.Api.Controllers
 {
     [Route("api/[controller]")]
-    public class MessageController : Controller
+    public class MessagesController : Controller
     {
-        private DataContext _dataContext { get; set; }
+        private readonly DataContext _dataContext;
 
-        public MessageController(DataContext dataContext)
+        public MessagesController(DataContext dataContext)
         {
             _dataContext = dataContext;
         }
 
         [HttpGet]
-        public Message Get(int user_id, int timestamp)
+        public Message Get(int userId, int timestamp)
         {
             return _dataContext.Messages
-                               .Where(m => m.UserReceiverId == user_id)
-                               .Where(m => m.SendTimestamp >= timestamp)
-                               .FirstOrDefault();
+                .Where(m => m.UserReceiverId == userId)
+                .FirstOrDefault(m => m.SendTimestamp >= timestamp);
         }
 
         [HttpPost]
-        public void Post([FromBody]Message message)
+        public void Post([FromBody] Message message)
         {
             if (message == null)
             {
