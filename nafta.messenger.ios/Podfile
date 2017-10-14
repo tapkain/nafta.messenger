@@ -1,0 +1,4 @@
+target 'nafta.messenger.ios' do
+  use_frameworks!
+  pod 'RealmSwift'
+end

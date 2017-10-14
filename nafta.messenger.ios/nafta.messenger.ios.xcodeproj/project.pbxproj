@@ -7,25 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79238B471F82C26500686163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79238B461F82C26500686163 /* AppDelegate.swift */; };
-		79238B491F82C26500686163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79238B481F82C26500686163 /* ViewController.swift */; };
-		79238B4C1F82C26500686163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79238B4A1F82C26500686163 /* Main.storyboard */; };
-		79238B4E1F82C26500686163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79238B4D1F82C26500686163 /* Assets.xcassets */; };
-		79238B511F82C26500686163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79238B4F1F82C26500686163 /* LaunchScreen.storyboard */; };
+		07B264B75EFF499175A0620F /* Pods_nafta_messenger_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */; };
+		79EF3A361F8FDEFF008AEB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */; };
+		79EF3A3B1F8FDEFF008AEB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A391F8FDEFF008AEB9E /* Main.storyboard */; };
+		79EF3A3D1F8FDEFF008AEB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */; };
+		79EF3A401F8FDEFF008AEB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A3E1F8FDEFF008AEB9E /* LaunchScreen.storyboard */; };
+		79EF3A4B1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A4A1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift */; };
+		79EF3A561F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A551F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift */; };
+		79EF3A761F8FE43F008AEB9E /* ChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A701F8FE43F008AEB9E /* ChatInteractor.swift */; };
+		79EF3A771F8FE43F008AEB9E /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A711F8FE43F008AEB9E /* ChatModels.swift */; };
+		79EF3A781F8FE43F008AEB9E /* ChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A721F8FE43F008AEB9E /* ChatPresenter.swift */; };
+		79EF3A791F8FE43F008AEB9E /* ChatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A731F8FE43F008AEB9E /* ChatRouter.swift */; };
+		79EF3A7A1F8FE43F008AEB9E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A741F8FE43F008AEB9E /* ChatViewController.swift */; };
+		79EF3A7B1F8FE43F008AEB9E /* ChatWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A751F8FE43F008AEB9E /* ChatWorker.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		79EF3A471F8FDEFF008AEB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EF3A2A1F8FDEFF008AEB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EF3A311F8FDEFF008AEB9E;
+			remoteInfo = nafta.messenger.ios;
+		};
+		79EF3A521F8FDEFF008AEB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EF3A2A1F8FDEFF008AEB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EF3A311F8FDEFF008AEB9E;
+			remoteInfo = nafta.messenger.ios;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		79238B431F82C26500686163 /* nafta.messenger.ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nafta.messenger.ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		79238B461F82C26500686163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79238B481F82C26500686163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79238B4B1F82C26500686163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79238B4D1F82C26500686163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79238B501F82C26500686163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79238B521F82C26500686163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405CFC4779E89FB70479255A /* Pods-nafta.messenger.ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nafta.messenger.ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.release.xcconfig"; sourceTree = "<group>"; };
+		6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nafta_messenger_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EF3A321F8FDEFF008AEB9E /* nafta.messenger.ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nafta.messenger.ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79EF3A3A1F8FDEFF008AEB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79EF3A3F1F8FDEFF008AEB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79EF3A411F8FDEFF008AEB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EF3A461F8FDEFF008AEB9E /* nafta.messenger.iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nafta.messenger.iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EF3A4A1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nafta_messenger_iosTests.swift; sourceTree = "<group>"; };
+		79EF3A4C1F8FDEFF008AEB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EF3A511F8FDEFF008AEB9E /* nafta.messenger.iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nafta.messenger.iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EF3A551F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nafta_messenger_iosUITests.swift; sourceTree = "<group>"; };
+		79EF3A571F8FDF00008AEB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EF3A701F8FE43F008AEB9E /* ChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractor.swift; sourceTree = "<group>"; };
+		79EF3A711F8FE43F008AEB9E /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
+		79EF3A721F8FE43F008AEB9E /* ChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPresenter.swift; sourceTree = "<group>"; };
+		79EF3A731F8FE43F008AEB9E /* ChatRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRouter.swift; sourceTree = "<group>"; };
+		79EF3A741F8FE43F008AEB9E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		79EF3A751F8FE43F008AEB9E /* ChatWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWorker.swift; sourceTree = "<group>"; };
+		A3CEDA866D688EBA018F8031 /* Pods-nafta.messenger.ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nafta.messenger.ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79238B401F82C26500686163 /* Frameworks */ = {
+		79EF3A2F1F8FDEFF008AEB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B264B75EFF499175A0620F /* Pods_nafta_messenger_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF3A431F8FDEFF008AEB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF3A4E1F8FDEFF008AEB9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +89,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79238B3A1F82C26500686163 = {
+		03ACA0DCC296D6EA12AAE8C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				79238B451F82C26500686163 /* nafta.messenger.ios */,
-				79238B441F82C26500686163 /* Products */,
+				6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48D376B9CE195523634CC64C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3CEDA866D688EBA018F8031 /* Pods-nafta.messenger.ios.debug.xcconfig */,
+				405CFC4779E89FB70479255A /* Pods-nafta.messenger.ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79EF3A291F8FDEFF008AEB9E = {
+			isa = PBXGroup;
+			children = (
+				79EF3A341F8FDEFF008AEB9E /* nafta.messenger.ios */,
+				79EF3A491F8FDEFF008AEB9E /* nafta.messenger.iosTests */,
+				79EF3A541F8FDEFF008AEB9E /* nafta.messenger.iosUITests */,
+				79EF3A331F8FDEFF008AEB9E /* Products */,
+				48D376B9CE195523634CC64C /* Pods */,
+				03ACA0DCC296D6EA12AAE8C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		79238B441F82C26500686163 /* Products */ = {
+		79EF3A331F8FDEFF008AEB9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79238B431F82C26500686163 /* nafta.messenger.ios.app */,
+				79EF3A321F8FDEFF008AEB9E /* nafta.messenger.ios.app */,
+				79EF3A461F8FDEFF008AEB9E /* nafta.messenger.iosTests.xctest */,
+				79EF3A511F8FDEFF008AEB9E /* nafta.messenger.iosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79238B451F82C26500686163 /* nafta.messenger.ios */ = {
+		79EF3A341F8FDEFF008AEB9E /* nafta.messenger.ios */ = {
 			isa = PBXGroup;
 			children = (
-				79238B461F82C26500686163 /* AppDelegate.swift */,
-				79238B481F82C26500686163 /* ViewController.swift */,
-				79238B4A1F82C26500686163 /* Main.storyboard */,
-				79238B4D1F82C26500686163 /* Assets.xcassets */,
-				79238B4F1F82C26500686163 /* LaunchScreen.storyboard */,
-				79238B521F82C26500686163 /* Info.plist */,
+				79EF3A631F8FE344008AEB9E /* ChatScene */,
+				79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */,
+				79EF3A391F8FDEFF008AEB9E /* Main.storyboard */,
+				79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */,
+				79EF3A3E1F8FDEFF008AEB9E /* LaunchScreen.storyboard */,
+				79EF3A411F8FDEFF008AEB9E /* Info.plist */,
 			);
 			path = nafta.messenger.ios;
+			sourceTree = "<group>";
+		};
+		79EF3A491F8FDEFF008AEB9E /* nafta.messenger.iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				79EF3A4A1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift */,
+				79EF3A4C1F8FDEFF008AEB9E /* Info.plist */,
+			);
+			path = nafta.messenger.iosTests;
+			sourceTree = "<group>";
+		};
+		79EF3A541F8FDEFF008AEB9E /* nafta.messenger.iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79EF3A551F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift */,
+				79EF3A571F8FDF00008AEB9E /* Info.plist */,
+			);
+			path = nafta.messenger.iosUITests;
+			sourceTree = "<group>";
+		};
+		79EF3A631F8FE344008AEB9E /* ChatScene */ = {
+			isa = PBXGroup;
+			children = (
+				79EF3A701F8FE43F008AEB9E /* ChatInteractor.swift */,
+				79EF3A711F8FE43F008AEB9E /* ChatModels.swift */,
+				79EF3A721F8FE43F008AEB9E /* ChatPresenter.swift */,
+				79EF3A731F8FE43F008AEB9E /* ChatRouter.swift */,
+				79EF3A741F8FE43F008AEB9E /* ChatViewController.swift */,
+				79EF3A751F8FE43F008AEB9E /* ChatWorker.swift */,
+			);
+			path = ChatScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79238B421F82C26500686163 /* nafta.messenger.ios */ = {
+		79EF3A311F8FDEFF008AEB9E /* nafta.messenger.ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79238B551F82C26500686163 /* Build configuration list for PBXNativeTarget "nafta.messenger.ios" */;
+			buildConfigurationList = 79EF3A5A1F8FDF00008AEB9E /* Build configuration list for PBXNativeTarget "nafta.messenger.ios" */;
 			buildPhases = (
-				79238B3F1F82C26500686163 /* Sources */,
-				79238B401F82C26500686163 /* Frameworks */,
-				79238B411F82C26500686163 /* Resources */,
+				924F56ED5B9E35024483D36F /* [CP] Check Pods Manifest.lock */,
+				79EF3A2E1F8FDEFF008AEB9E /* Sources */,
+				79EF3A2F1F8FDEFF008AEB9E /* Frameworks */,
+				79EF3A301F8FDEFF008AEB9E /* Resources */,
+				D573EF187A171EFFCD3E8FAE /* [CP] Embed Pods Frameworks */,
+				4D42710DF1DD5C2EF06F3C87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +192,72 @@
 			);
 			name = nafta.messenger.ios;
 			productName = nafta.messenger.ios;
-			productReference = 79238B431F82C26500686163 /* nafta.messenger.ios.app */;
+			productReference = 79EF3A321F8FDEFF008AEB9E /* nafta.messenger.ios.app */;
 			productType = "com.apple.product-type.application";
+		};
+		79EF3A451F8FDEFF008AEB9E /* nafta.messenger.iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EF3A5D1F8FDF00008AEB9E /* Build configuration list for PBXNativeTarget "nafta.messenger.iosTests" */;
+			buildPhases = (
+				79EF3A421F8FDEFF008AEB9E /* Sources */,
+				79EF3A431F8FDEFF008AEB9E /* Frameworks */,
+				79EF3A441F8FDEFF008AEB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EF3A481F8FDEFF008AEB9E /* PBXTargetDependency */,
+			);
+			name = nafta.messenger.iosTests;
+			productName = nafta.messenger.iosTests;
+			productReference = 79EF3A461F8FDEFF008AEB9E /* nafta.messenger.iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79EF3A501F8FDEFF008AEB9E /* nafta.messenger.iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EF3A601F8FDF00008AEB9E /* Build configuration list for PBXNativeTarget "nafta.messenger.iosUITests" */;
+			buildPhases = (
+				79EF3A4D1F8FDEFF008AEB9E /* Sources */,
+				79EF3A4E1F8FDEFF008AEB9E /* Frameworks */,
+				79EF3A4F1F8FDEFF008AEB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EF3A531F8FDEFF008AEB9E /* PBXTargetDependency */,
+			);
+			name = nafta.messenger.iosUITests;
+			productName = nafta.messenger.iosUITests;
+			productReference = 79EF3A511F8FDEFF008AEB9E /* nafta.messenger.iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		79238B3B1F82C26500686163 /* Project object */ = {
+		79EF3A2A1F8FDEFF008AEB9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Yevhen Velizhenkov";
 				TargetAttributes = {
-					79238B421F82C26500686163 = {
+					79EF3A311F8FDEFF008AEB9E = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					79EF3A451F8FDEFF008AEB9E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79EF3A311F8FDEFF008AEB9E;
+					};
+					79EF3A501F8FDEFF008AEB9E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79EF3A311F8FDEFF008AEB9E;
+					};
 				};
 			};
-			buildConfigurationList = 79238B3E1F82C26500686163 /* Build configuration list for PBXProject "nafta.messenger.ios" */;
+			buildConfigurationList = 79EF3A2D1F8FDEFF008AEB9E /* Build configuration list for PBXProject "nafta.messenger.ios" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +265,160 @@
 				en,
 				Base,
 			);
-			mainGroup = 79238B3A1F82C26500686163;
-			productRefGroup = 79238B441F82C26500686163 /* Products */;
+			mainGroup = 79EF3A291F8FDEFF008AEB9E;
+			productRefGroup = 79EF3A331F8FDEFF008AEB9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79238B421F82C26500686163 /* nafta.messenger.ios */,
+				79EF3A311F8FDEFF008AEB9E /* nafta.messenger.ios */,
+				79EF3A451F8FDEFF008AEB9E /* nafta.messenger.iosTests */,
+				79EF3A501F8FDEFF008AEB9E /* nafta.messenger.iosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79238B411F82C26500686163 /* Resources */ = {
+		79EF3A301F8FDEFF008AEB9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79238B511F82C26500686163 /* LaunchScreen.storyboard in Resources */,
-				79238B4E1F82C26500686163 /* Assets.xcassets in Resources */,
-				79238B4C1F82C26500686163 /* Main.storyboard in Resources */,
+				79EF3A401F8FDEFF008AEB9E /* LaunchScreen.storyboard in Resources */,
+				79EF3A3D1F8FDEFF008AEB9E /* Assets.xcassets in Resources */,
+				79EF3A3B1F8FDEFF008AEB9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF3A441F8FDEFF008AEB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF3A4F1F8FDEFF008AEB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D42710DF1DD5C2EF06F3C87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		924F56ED5B9E35024483D36F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nafta.messenger.ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D573EF187A171EFFCD3E8FAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		79238B3F1F82C26500686163 /* Sources */ = {
+		79EF3A2E1F8FDEFF008AEB9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79238B491F82C26500686163 /* ViewController.swift in Sources */,
-				79238B471F82C26500686163 /* AppDelegate.swift in Sources */,
+				79EF3A771F8FE43F008AEB9E /* ChatModels.swift in Sources */,
+				79EF3A761F8FE43F008AEB9E /* ChatInteractor.swift in Sources */,
+				79EF3A781F8FE43F008AEB9E /* ChatPresenter.swift in Sources */,
+				79EF3A361F8FDEFF008AEB9E /* AppDelegate.swift in Sources */,
+				79EF3A7A1F8FE43F008AEB9E /* ChatViewController.swift in Sources */,
+				79EF3A7B1F8FE43F008AEB9E /* ChatWorker.swift in Sources */,
+				79EF3A791F8FE43F008AEB9E /* ChatRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF3A421F8FDEFF008AEB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF3A4B1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF3A4D1F8FDEFF008AEB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF3A561F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		79EF3A481F8FDEFF008AEB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EF3A311F8FDEFF008AEB9E /* nafta.messenger.ios */;
+			targetProxy = 79EF3A471F8FDEFF008AEB9E /* PBXContainerItemProxy */;
+		};
+		79EF3A531F8FDEFF008AEB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EF3A311F8FDEFF008AEB9E /* nafta.messenger.ios */;
+			targetProxy = 79EF3A521F8FDEFF008AEB9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		79238B4A1F82C26500686163 /* Main.storyboard */ = {
+		79EF3A391F8FDEFF008AEB9E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79238B4B1F82C26500686163 /* Base */,
+				79EF3A3A1F8FDEFF008AEB9E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		79238B4F1F82C26500686163 /* LaunchScreen.storyboard */ = {
+		79EF3A3E1F8FDEFF008AEB9E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79238B501F82C26500686163 /* Base */,
+				79EF3A3F1F8FDEFF008AEB9E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +426,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		79238B531F82C26500686163 /* Debug */ = {
+		79EF3A581F8FDF00008AEB9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +483,7 @@
 			};
 			name = Debug;
 		};
-		79238B541F82C26500686163 /* Release */ = {
+		79EF3A591F8FDF00008AEB9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,8 +533,9 @@
 			};
 			name = Release;
 		};
-		79238B561F82C26500686163 /* Debug */ = {
+		79EF3A5B1F8FDF00008AEB9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CEDA866D688EBA018F8031 /* Pods-nafta.messenger.ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -285,8 +549,9 @@
 			};
 			name = Debug;
 		};
-		79238B571F82C26500686163 /* Release */ = {
+		79EF3A5C1F8FDF00008AEB9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405CFC4779E89FB70479255A /* Pods-nafta.messenger.ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,28 +565,112 @@
 			};
 			name = Release;
 		};
+		79EF3A5E1F8FDF00008AEB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3J3S3699E;
+				INFOPLIST_FILE = nafta.messenger.iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nafta.messenger.nafta-messenger-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nafta.messenger.ios.app/nafta.messenger.ios";
+			};
+			name = Debug;
+		};
+		79EF3A5F1F8FDF00008AEB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3J3S3699E;
+				INFOPLIST_FILE = nafta.messenger.iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nafta.messenger.nafta-messenger-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nafta.messenger.ios.app/nafta.messenger.ios";
+			};
+			name = Release;
+		};
+		79EF3A611F8FDF00008AEB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3J3S3699E;
+				INFOPLIST_FILE = nafta.messenger.iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nafta.messenger.nafta-messenger-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nafta.messenger.ios;
+			};
+			name = Debug;
+		};
+		79EF3A621F8FDF00008AEB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3J3S3699E;
+				INFOPLIST_FILE = nafta.messenger.iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nafta.messenger.nafta-messenger-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nafta.messenger.ios;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79238B3E1F82C26500686163 /* Build configuration list for PBXProject "nafta.messenger.ios" */ = {
+		79EF3A2D1F8FDEFF008AEB9E /* Build configuration list for PBXProject "nafta.messenger.ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79238B531F82C26500686163 /* Debug */,
-				79238B541F82C26500686163 /* Release */,
+				79EF3A581F8FDF00008AEB9E /* Debug */,
+				79EF3A591F8FDF00008AEB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79238B551F82C26500686163 /* Build configuration list for PBXNativeTarget "nafta.messenger.ios" */ = {
+		79EF3A5A1F8FDF00008AEB9E /* Build configuration list for PBXNativeTarget "nafta.messenger.ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79238B561F82C26500686163 /* Debug */,
-				79238B571F82C26500686163 /* Release */,
+				79EF3A5B1F8FDF00008AEB9E /* Debug */,
+				79EF3A5C1F8FDF00008AEB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EF3A5D1F8FDF00008AEB9E /* Build configuration list for PBXNativeTarget "nafta.messenger.iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EF3A5E1F8FDF00008AEB9E /* Debug */,
+				79EF3A5F1F8FDF00008AEB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EF3A601F8FDF00008AEB9E /* Build configuration list for PBXNativeTarget "nafta.messenger.iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EF3A611F8FDF00008AEB9E /* Debug */,
+				79EF3A621F8FDF00008AEB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 79238B3B1F82C26500686163 /* Project object */;
+	rootObject = 79EF3A2A1F8FDEFF008AEB9E /* Project object */;
 }
