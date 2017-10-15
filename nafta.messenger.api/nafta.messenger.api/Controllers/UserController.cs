@@ -1,6 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Nafta.Messenger.Api.Repository;
 using Nafta.Messenger.Api.Repository.Models;
 
@@ -14,6 +14,7 @@ namespace nafta.messenger.api.Controllers
         public UserController(DataContext dataContext)
         {
             _dataContext = dataContext;
+            _dataContext.Database.Migrate();
         }
 
         [HttpPost]
@@ -23,7 +24,7 @@ namespace nafta.messenger.api.Controllers
             if (string.IsNullOrEmpty(login.Trim()) || string.IsNullOrEmpty(password.Trim()))
                 return BadRequest();
 
-            if (_dataContext.Users.Select(u => u.Login.Equals(login)) != null)
+            if (_dataContext.Users.FirstOrDefault(u => u.Login.Equals(login)) != null)
                 return BadRequest();
 
             var user = new User

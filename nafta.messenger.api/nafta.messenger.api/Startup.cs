@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Nafta.Messenger.Api.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace Nafta.Messenger.Api
@@ -19,7 +20,7 @@ namespace Nafta.Messenger.Api
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {   
             services.AddMvc();
             services.AddDbContext<DataContext>(options => options.UseSqlite("Data Source=nafta.messenger.db"));
             services.AddScoped<DataContext>();
@@ -33,8 +34,8 @@ namespace Nafta.Messenger.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
+//            if (env.IsDevelopment())
+//            {
                 app.UseDeveloperExceptionPage();
 				app.UseSwagger();
 
@@ -42,7 +43,7 @@ namespace Nafta.Messenger.Api
 				{
 					c.SwaggerEndpoint("/swagger/v1/swagger.json", "nafta.messenger.api");
 				});
-            }
+//            }
 
             app.UseMvc();
         }
