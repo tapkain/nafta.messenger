@@ -1,7 +1,8 @@
-package com.naftamessenger
+package com.naftamessenger.view
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.naftamessenger.R
 
 class MainActivity : AppCompatActivity() {
 
