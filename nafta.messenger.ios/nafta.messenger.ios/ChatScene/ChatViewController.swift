@@ -13,7 +13,7 @@ protocol ChatDisplayLogic: class
   func displaySomething(viewModel: Chat.FetchChat.ViewModel)
 }
 
-class ChatViewController: UITableViewController, ChatDisplayLogic
+class ChatViewController: UIViewController, ChatDisplayLogic
 {
   var interactor: ChatBusinessLogic?
   var router: (NSObjectProtocol & ChatRoutingLogic & ChatDataPassing)?
