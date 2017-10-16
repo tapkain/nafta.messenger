@@ -1,4 +1,7 @@
 target 'nafta.messenger.ios' do
   use_frameworks!
   pod 'RealmSwift'
+  pod 'SwiftLint'
+  pod 'QMChatViewController'
+  pod 'ChameleonFramework'
 end
