@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/nav_dialogs"
+		android:icon="@drawable/ic_view_list_vector"
+		android:title="Dialogs"
+		app:showAsAction="always"/>
+	<item
+		android:id="@+id/nav_current_dialog"
+		android:icon="@drawable/ic_chat_vector"
+		android:title="Dialog"
+		app:showAsAction="always"/>
+	<item
+		android:id="@+id/nav_menu"
+		android:icon="@drawable/ic_menu_vector"
+		android:title="Menu"
+		app:showAsAction="always"/>
+</menu>
