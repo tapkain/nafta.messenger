@@ -8,48 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		07B264B75EFF499175A0620F /* Pods_nafta_messenger_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */; };
-		795931F61F933672005C45F6 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931F01F933672005C45F6 /* LoginInteractor.swift */; };
-		795931F71F933672005C45F6 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931F11F933672005C45F6 /* LoginModels.swift */; };
-		795931F81F933672005C45F6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931F21F933672005C45F6 /* LoginPresenter.swift */; };
-		795931F91F933672005C45F6 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931F31F933672005C45F6 /* LoginRouter.swift */; };
+		794D132C1FA6EF17002733B1 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D132B1FA6EF17002733B1 /* UserManager.swift */; };
+		794D132E1FA6F0A2002733B1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D132D1FA6F0A2002733B1 /* UserModel.swift */; };
+		794D13311FA6F7CA002733B1 /* UserApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D13301FA6F7CA002733B1 /* UserApiManager.swift */; };
+		794D13351FA6F92B002733B1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D13341FA6F92B002733B1 /* ApiManager.swift */; };
 		795931FA1F933672005C45F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931F41F933672005C45F6 /* LoginViewController.swift */; };
-		795931FB1F933672005C45F6 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931F51F933672005C45F6 /* LoginWorker.swift */; };
-		795932031F9349E8005C45F6 /* SignupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931FD1F9349E8005C45F6 /* SignupInteractor.swift */; };
-		795932041F9349E8005C45F6 /* SignupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931FE1F9349E8005C45F6 /* SignupModels.swift */; };
-		795932051F9349E8005C45F6 /* SignupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931FF1F9349E8005C45F6 /* SignupPresenter.swift */; };
-		795932061F9349E8005C45F6 /* SignupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932001F9349E8005C45F6 /* SignupRouter.swift */; };
 		795932071F9349E8005C45F6 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932011F9349E8005C45F6 /* SignupViewController.swift */; };
-		795932081F9349E8005C45F6 /* SignupWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932021F9349E8005C45F6 /* SignupWorker.swift */; };
-		795932111F951348005C45F6 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959320B1F951348005C45F6 /* SettingsInteractor.swift */; };
-		795932121F951348005C45F6 /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959320C1F951348005C45F6 /* SettingsModels.swift */; };
-		795932131F951348005C45F6 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959320D1F951348005C45F6 /* SettingsPresenter.swift */; };
-		795932141F951348005C45F6 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959320E1F951348005C45F6 /* SettingsRouter.swift */; };
 		795932151F951348005C45F6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959320F1F951348005C45F6 /* SettingsViewController.swift */; };
-		795932161F951348005C45F6 /* SettingsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932101F951348005C45F6 /* SettingsWorker.swift */; };
-		7959322A1F951A41005C45F6 /* ChatListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932241F951A41005C45F6 /* ChatListInteractor.swift */; };
-		7959322B1F951A41005C45F6 /* ChatListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932251F951A41005C45F6 /* ChatListModels.swift */; };
-		7959322C1F951A41005C45F6 /* ChatListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932261F951A41005C45F6 /* ChatListPresenter.swift */; };
-		7959322D1F951A41005C45F6 /* ChatListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932271F951A41005C45F6 /* ChatListRouter.swift */; };
 		7959322E1F951A41005C45F6 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932281F951A41005C45F6 /* ChatListViewController.swift */; };
-		7959322F1F951A41005C45F6 /* ChatListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932291F951A41005C45F6 /* ChatListWorker.swift */; };
-		795932371F951A91005C45F6 /* ContactsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932311F951A91005C45F6 /* ContactsInteractor.swift */; };
-		795932381F951A91005C45F6 /* ContactsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932321F951A91005C45F6 /* ContactsModels.swift */; };
-		795932391F951A91005C45F6 /* ContactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932331F951A91005C45F6 /* ContactsPresenter.swift */; };
-		7959323A1F951A91005C45F6 /* ContactsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932341F951A91005C45F6 /* ContactsRouter.swift */; };
 		7959323B1F951A91005C45F6 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932351F951A91005C45F6 /* ContactsViewController.swift */; };
-		7959323C1F951A91005C45F6 /* ContactsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932361F951A91005C45F6 /* ContactsWorker.swift */; };
+		7959323F1F952021005C45F6 /* nafta.messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7959323D1F952021005C45F6 /* nafta.messenger.xcdatamodeld */; };
 		79EF3A361F8FDEFF008AEB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */; };
 		79EF3A3B1F8FDEFF008AEB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A391F8FDEFF008AEB9E /* Main.storyboard */; };
 		79EF3A3D1F8FDEFF008AEB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */; };
 		79EF3A401F8FDEFF008AEB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A3E1F8FDEFF008AEB9E /* LaunchScreen.storyboard */; };
 		79EF3A4B1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A4A1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift */; };
 		79EF3A561F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A551F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift */; };
-		79EF3A761F8FE43F008AEB9E /* ChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A701F8FE43F008AEB9E /* ChatInteractor.swift */; };
-		79EF3A771F8FE43F008AEB9E /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A711F8FE43F008AEB9E /* ChatModels.swift */; };
-		79EF3A781F8FE43F008AEB9E /* ChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A721F8FE43F008AEB9E /* ChatPresenter.swift */; };
-		79EF3A791F8FE43F008AEB9E /* ChatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A731F8FE43F008AEB9E /* ChatRouter.swift */; };
 		79EF3A7A1F8FE43F008AEB9E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A741F8FE43F008AEB9E /* ChatViewController.swift */; };
-		79EF3A7B1F8FE43F008AEB9E /* ChatWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A751F8FE43F008AEB9E /* ChatWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,36 +47,16 @@
 /* Begin PBXFileReference section */
 		405CFC4779E89FB70479255A /* Pods-nafta.messenger.ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nafta.messenger.ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.release.xcconfig"; sourceTree = "<group>"; };
 		6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nafta_messenger_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		795931F01F933672005C45F6 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
-		795931F11F933672005C45F6 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
-		795931F21F933672005C45F6 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
-		795931F31F933672005C45F6 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		794D132B1FA6EF17002733B1 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserManager.swift; path = nafta.messenger.ios/Shared/UserManager.swift; sourceTree = SOURCE_ROOT; };
+		794D132D1FA6F0A2002733B1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = nafta.messenger.ios/Shared/UserModel.swift; sourceTree = SOURCE_ROOT; };
+		794D13301FA6F7CA002733B1 /* UserApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiManager.swift; sourceTree = "<group>"; };
+		794D13341FA6F92B002733B1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		795931F41F933672005C45F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		795931F51F933672005C45F6 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
-		795931FD1F9349E8005C45F6 /* SignupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupInteractor.swift; sourceTree = "<group>"; };
-		795931FE1F9349E8005C45F6 /* SignupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModels.swift; sourceTree = "<group>"; };
-		795931FF1F9349E8005C45F6 /* SignupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
-		795932001F9349E8005C45F6 /* SignupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupRouter.swift; sourceTree = "<group>"; };
 		795932011F9349E8005C45F6 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		795932021F9349E8005C45F6 /* SignupWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWorker.swift; sourceTree = "<group>"; };
-		7959320B1F951348005C45F6 /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
-		7959320C1F951348005C45F6 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
-		7959320D1F951348005C45F6 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
-		7959320E1F951348005C45F6 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
 		7959320F1F951348005C45F6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		795932101F951348005C45F6 /* SettingsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWorker.swift; sourceTree = "<group>"; };
-		795932241F951A41005C45F6 /* ChatListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListInteractor.swift; sourceTree = "<group>"; };
-		795932251F951A41005C45F6 /* ChatListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListModels.swift; sourceTree = "<group>"; };
-		795932261F951A41005C45F6 /* ChatListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListPresenter.swift; sourceTree = "<group>"; };
-		795932271F951A41005C45F6 /* ChatListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListRouter.swift; sourceTree = "<group>"; };
 		795932281F951A41005C45F6 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
-		795932291F951A41005C45F6 /* ChatListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListWorker.swift; sourceTree = "<group>"; };
-		795932311F951A91005C45F6 /* ContactsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInteractor.swift; sourceTree = "<group>"; };
-		795932321F951A91005C45F6 /* ContactsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModels.swift; sourceTree = "<group>"; };
-		795932331F951A91005C45F6 /* ContactsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsPresenter.swift; sourceTree = "<group>"; };
-		795932341F951A91005C45F6 /* ContactsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRouter.swift; sourceTree = "<group>"; };
 		795932351F951A91005C45F6 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		795932361F951A91005C45F6 /* ContactsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsWorker.swift; sourceTree = "<group>"; };
+		7959323E1F952021005C45F6 /* nafta.messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nafta.messenger.xcdatamodel; sourceTree = "<group>"; };
 		79EF3A321F8FDEFF008AEB9E /* nafta.messenger.ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nafta.messenger.ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79EF3A3A1F8FDEFF008AEB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,12 +69,7 @@
 		79EF3A511F8FDEFF008AEB9E /* nafta.messenger.iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nafta.messenger.iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EF3A551F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nafta_messenger_iosUITests.swift; sourceTree = "<group>"; };
 		79EF3A571F8FDF00008AEB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79EF3A701F8FE43F008AEB9E /* ChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractor.swift; sourceTree = "<group>"; };
-		79EF3A711F8FE43F008AEB9E /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
-		79EF3A721F8FE43F008AEB9E /* ChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPresenter.swift; sourceTree = "<group>"; };
-		79EF3A731F8FE43F008AEB9E /* ChatRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRouter.swift; sourceTree = "<group>"; };
 		79EF3A741F8FE43F008AEB9E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		79EF3A751F8FE43F008AEB9E /* ChatWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWorker.swift; sourceTree = "<group>"; };
 		A3CEDA866D688EBA018F8031 /* Pods-nafta.messenger.ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nafta.messenger.ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,15 +116,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		794D132A1FA6EEE1002733B1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				794D132B1FA6EF17002733B1 /* UserManager.swift */,
+				794D132D1FA6F0A2002733B1 /* UserModel.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		794D132F1FA6F7AF002733B1 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
+				794D13301FA6F7CA002733B1 /* UserApiManager.swift */,
+				794D13341FA6F92B002733B1 /* ApiManager.swift */,
+			);
+			path = WebApi;
+			sourceTree = "<group>";
+		};
 		795931EF1F933638005C45F6 /* LoginScene */ = {
 			isa = PBXGroup;
 			children = (
-				795931F01F933672005C45F6 /* LoginInteractor.swift */,
-				795931F11F933672005C45F6 /* LoginModels.swift */,
-				795931F21F933672005C45F6 /* LoginPresenter.swift */,
-				795931F31F933672005C45F6 /* LoginRouter.swift */,
 				795931F41F933672005C45F6 /* LoginViewController.swift */,
-				795931F51F933672005C45F6 /* LoginWorker.swift */,
 			);
 			path = LoginScene;
 			sourceTree = "<group>";
@@ -182,12 +145,7 @@
 		795931FC1F9349D5005C45F6 /* SignupScene */ = {
 			isa = PBXGroup;
 			children = (
-				795931FD1F9349E8005C45F6 /* SignupInteractor.swift */,
-				795931FE1F9349E8005C45F6 /* SignupModels.swift */,
-				795931FF1F9349E8005C45F6 /* SignupPresenter.swift */,
-				795932001F9349E8005C45F6 /* SignupRouter.swift */,
 				795932011F9349E8005C45F6 /* SignupViewController.swift */,
-				795932021F9349E8005C45F6 /* SignupWorker.swift */,
 			);
 			path = SignupScene;
 			sourceTree = "<group>";
@@ -195,12 +153,7 @@
 		7959320A1F95132A005C45F6 /* SettingsScene */ = {
 			isa = PBXGroup;
 			children = (
-				7959320B1F951348005C45F6 /* SettingsInteractor.swift */,
-				7959320C1F951348005C45F6 /* SettingsModels.swift */,
-				7959320D1F951348005C45F6 /* SettingsPresenter.swift */,
-				7959320E1F951348005C45F6 /* SettingsRouter.swift */,
 				7959320F1F951348005C45F6 /* SettingsViewController.swift */,
-				795932101F951348005C45F6 /* SettingsWorker.swift */,
 			);
 			path = SettingsScene;
 			sourceTree = "<group>";
@@ -208,12 +161,7 @@
 		795932171F951856005C45F6 /* ChatListScene */ = {
 			isa = PBXGroup;
 			children = (
-				795932241F951A41005C45F6 /* ChatListInteractor.swift */,
-				795932251F951A41005C45F6 /* ChatListModels.swift */,
-				795932261F951A41005C45F6 /* ChatListPresenter.swift */,
-				795932271F951A41005C45F6 /* ChatListRouter.swift */,
 				795932281F951A41005C45F6 /* ChatListViewController.swift */,
-				795932291F951A41005C45F6 /* ChatListWorker.swift */,
 			);
 			path = ChatListScene;
 			sourceTree = "<group>";
@@ -221,12 +169,7 @@
 		795932301F951A79005C45F6 /* ContactsScene */ = {
 			isa = PBXGroup;
 			children = (
-				795932311F951A91005C45F6 /* ContactsInteractor.swift */,
-				795932321F951A91005C45F6 /* ContactsModels.swift */,
-				795932331F951A91005C45F6 /* ContactsPresenter.swift */,
-				795932341F951A91005C45F6 /* ContactsRouter.swift */,
 				795932351F951A91005C45F6 /* ContactsViewController.swift */,
-				795932361F951A91005C45F6 /* ContactsWorker.swift */,
 			);
 			path = ContactsScene;
 			sourceTree = "<group>";
@@ -256,6 +199,8 @@
 		79EF3A341F8FDEFF008AEB9E /* nafta.messenger.ios */ = {
 			isa = PBXGroup;
 			children = (
+				794D132F1FA6F7AF002733B1 /* WebApi */,
+				794D132A1FA6EEE1002733B1 /* Shared */,
 				795932301F951A79005C45F6 /* ContactsScene */,
 				7959320A1F95132A005C45F6 /* SettingsScene */,
 				795931FC1F9349D5005C45F6 /* SignupScene */,
@@ -267,6 +212,7 @@
 				79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */,
 				79EF3A3E1F8FDEFF008AEB9E /* LaunchScreen.storyboard */,
 				79EF3A411F8FDEFF008AEB9E /* Info.plist */,
+				7959323D1F952021005C45F6 /* nafta.messenger.xcdatamodeld */,
 			);
 			path = nafta.messenger.ios;
 			sourceTree = "<group>";
@@ -292,12 +238,7 @@
 		79EF3A631F8FE344008AEB9E /* ChatScene */ = {
 			isa = PBXGroup;
 			children = (
-				79EF3A701F8FE43F008AEB9E /* ChatInteractor.swift */,
-				79EF3A711F8FE43F008AEB9E /* ChatModels.swift */,
-				79EF3A721F8FE43F008AEB9E /* ChatPresenter.swift */,
-				79EF3A731F8FE43F008AEB9E /* ChatRouter.swift */,
 				79EF3A741F8FE43F008AEB9E /* ChatViewController.swift */,
-				79EF3A751F8FE43F008AEB9E /* ChatWorker.swift */,
 			);
 			path = ChatScene;
 			sourceTree = "<group>";
@@ -489,6 +430,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/FFCircularProgressView/FFCircularProgressView.framework",
 				"${BUILT_PRODUCTS_DIR}/QMChatViewController/QMChatViewController.framework",
@@ -496,10 +439,13 @@
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFCircularProgressView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMChatViewController.framework",
@@ -507,6 +453,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,43 +468,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				795932381F951A91005C45F6 /* ContactsModels.swift in Sources */,
-				7959322F1F951A41005C45F6 /* ChatListWorker.swift in Sources */,
-				7959322A1F951A41005C45F6 /* ChatListInteractor.swift in Sources */,
+				794D132C1FA6EF17002733B1 /* UserManager.swift in Sources */,
 				795932071F9349E8005C45F6 /* SignupViewController.swift in Sources */,
-				795932121F951348005C45F6 /* SettingsModels.swift in Sources */,
 				7959323B1F951A91005C45F6 /* ContactsViewController.swift in Sources */,
 				795931FA1F933672005C45F6 /* LoginViewController.swift in Sources */,
-				795932081F9349E8005C45F6 /* SignupWorker.swift in Sources */,
-				795932391F951A91005C45F6 /* ContactsPresenter.swift in Sources */,
-				795932111F951348005C45F6 /* SettingsInteractor.swift in Sources */,
-				7959323A1F951A91005C45F6 /* ContactsRouter.swift in Sources */,
-				795932041F9349E8005C45F6 /* SignupModels.swift in Sources */,
-				79EF3A771F8FE43F008AEB9E /* ChatModels.swift in Sources */,
-				795932161F951348005C45F6 /* SettingsWorker.swift in Sources */,
-				795932131F951348005C45F6 /* SettingsPresenter.swift in Sources */,
-				795931FB1F933672005C45F6 /* LoginWorker.swift in Sources */,
-				79EF3A761F8FE43F008AEB9E /* ChatInteractor.swift in Sources */,
-				795932371F951A91005C45F6 /* ContactsInteractor.swift in Sources */,
-				79EF3A781F8FE43F008AEB9E /* ChatPresenter.swift in Sources */,
 				79EF3A361F8FDEFF008AEB9E /* AppDelegate.swift in Sources */,
-				795931F81F933672005C45F6 /* LoginPresenter.swift in Sources */,
-				795931F61F933672005C45F6 /* LoginInteractor.swift in Sources */,
-				7959323C1F951A91005C45F6 /* ContactsWorker.swift in Sources */,
 				79EF3A7A1F8FE43F008AEB9E /* ChatViewController.swift in Sources */,
-				795931F71F933672005C45F6 /* LoginModels.swift in Sources */,
-				7959322C1F951A41005C45F6 /* ChatListPresenter.swift in Sources */,
-				795931F91F933672005C45F6 /* LoginRouter.swift in Sources */,
-				79EF3A7B1F8FE43F008AEB9E /* ChatWorker.swift in Sources */,
-				795932061F9349E8005C45F6 /* SignupRouter.swift in Sources */,
-				795932031F9349E8005C45F6 /* SignupInteractor.swift in Sources */,
-				795932051F9349E8005C45F6 /* SignupPresenter.swift in Sources */,
 				7959322E1F951A41005C45F6 /* ChatListViewController.swift in Sources */,
-				7959322B1F951A41005C45F6 /* ChatListModels.swift in Sources */,
-				795932141F951348005C45F6 /* SettingsRouter.swift in Sources */,
-				7959322D1F951A41005C45F6 /* ChatListRouter.swift in Sources */,
-				79EF3A791F8FE43F008AEB9E /* ChatRouter.swift in Sources */,
+				7959323F1F952021005C45F6 /* nafta.messenger.xcdatamodeld in Sources */,
+				794D13351FA6F92B002733B1 /* ApiManager.swift in Sources */,
+				794D132E1FA6F0A2002733B1 /* UserModel.swift in Sources */,
 				795932151F951348005C45F6 /* SettingsViewController.swift in Sources */,
+				794D13311FA6F7CA002733B1 /* UserApiManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -857,6 +779,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7959323D1F952021005C45F6 /* nafta.messenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7959323E1F952021005C45F6 /* nafta.messenger.xcdatamodel */,
+			);
+			currentVersion = 7959323E1F952021005C45F6 /* nafta.messenger.xcdatamodel */;
+			path = nafta.messenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 79EF3A2A1F8FDEFF008AEB9E /* Project object */;
 }

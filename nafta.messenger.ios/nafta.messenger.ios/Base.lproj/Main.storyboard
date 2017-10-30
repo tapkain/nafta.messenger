@@ -103,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="1852" y="-538"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--Chat-->
         <scene sceneID="ATT-Hq-64E">
             <objects>
-                <viewController id="WCY-oi-h18" customClass="ChatViewController" customModule="nafta_messenger_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Chat" hidesBottomBarWhenPushed="YES" id="WCY-oi-h18" customClass="ChatViewController" customModule="nafta_messenger_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C3S-3p-875">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,7 +209,6 @@
                                     <color key="titleColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="onSignUpButtonPressed:" destination="i13-H2-R4f" eventType="touchUpInside" id="JDC-CV-bZq"/>
                                     <segue destination="bIU-xJ-ReT" kind="presentation" id="djL-Mb-MBO"/>
                                 </connections>
                             </button>
@@ -354,6 +353,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AlA-fb-lIw"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="4Us-2w-E8H" id="yBq-8T-QaK"/>
+                        <outlet property="passwordTextField" destination="qsq-Qe-Hsz" id="aEq-Io-lQi"/>
+                        <outlet property="usernameTextField" destination="ejO-Ag-jPC" id="WVQ-iO-UWf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pj7-nm-Hfs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -390,7 +394,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bwx-iD-MkP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1334631741" green="0.1823148429" blue="0.25190103050000001" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="yYw-M8-r2g">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -471,7 +475,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ueI-5F-2Z2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1334631741" green="0.1823148429" blue="0.25190103050000001" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mak-eu-VVY">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
