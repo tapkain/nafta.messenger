@@ -92,6 +92,9 @@
                         <rightBarButtonItems>
                             <barButtonItem systemItem="compose" id="az8-Zk-SQ9">
                                 <color key="tintColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="createChat:" destination="h7q-PU-yn8" id="mNV-1q-MBG"/>
+                                </connections>
                             </barButtonItem>
                             <barButtonItem systemItem="search" id="cnO-SX-vDL">
                                 <color key="tintColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>

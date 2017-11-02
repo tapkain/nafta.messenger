@@ -6,10 +6,11 @@
 //  Copyright © 2017 Yevhen Velizhenkov. All rights reserved.
 //
 
-import Foundation
+import RealmSwift
 
 class ApiManager {
   static let users = UserApiManager()
+  static let messages = MessageApiManager()
 }
 
 extension ApiManager {

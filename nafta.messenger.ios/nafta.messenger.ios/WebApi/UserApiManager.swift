@@ -47,4 +47,41 @@ class UserApiManager {
       }
     }
   }
+  
+  func getUser(userId: Int, completion: @escaping (UserModel?) -> Void) {
+    let url = "\(ApiManager.api)/user/getLogin"
+    let params = ["userId": userId]
+    
+    Alamofire.request(url, method: .get, parameters: params)
+      .validate()
+      .responseString { response in
+        switch response.result {
+        case .success(let login):
+          let user = UserModel()
+          user.id = userId
+          user.username = login
+          completion(user)
+          
+        case .failure(_):
+          completion(nil)
+        }
+    }
+  }
+  
+  func checkUsername(username: String, completion: @escaping (Bool) -> Void) {
+    let url = "\(ApiManager.api)/user/checkUsername"
+    let params = ["username": username]
+    
+    Alamofire.request(url, method: .get, parameters: params)
+      .validate()
+      .responseString { response in
+        switch response.result {
+        case .success(_):
+          completion(true)
+          
+        case .failure(_):
+          completion(false)
+        }
+    }
+  }
 }

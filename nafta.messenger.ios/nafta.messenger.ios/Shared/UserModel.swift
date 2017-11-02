@@ -21,6 +21,7 @@ extension UserModel {
     user.id = json["userId"].int!
     user.username = json["login"].string!
     user.password = json["password"].string!
+    
     return user
   }
 }
