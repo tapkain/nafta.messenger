@@ -69,8 +69,8 @@ namespace nafta.messenger.api.Controllers
         }
 
         [HttpGet]
-        [Route("checkUsername")]
-        public IActionResult CheckUsername(string username)
+        [Route("getUserId")]
+        public IActionResult GetUserIdByLogin(string username)
         {
             var user = _dataContext.Users
             .FirstOrDefault(u => u.Login == username);
@@ -78,7 +78,7 @@ namespace nafta.messenger.api.Controllers
             if (user == null)
                 return NotFound();
 
-            return Ok(user.Login);
+            return Ok(user.UserId);
         }
     }
 }
