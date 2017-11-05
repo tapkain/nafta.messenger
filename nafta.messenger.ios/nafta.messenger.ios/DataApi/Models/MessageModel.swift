@@ -28,4 +28,15 @@ extension MessageModel {
     
     return message
   }
+  
+  func toJson() -> [String: Any] {
+    var json = [String: Any]()
+    json["messageId"] = self.id
+    json["userSenderId"] = self.senderId
+    json["userReceiverId"] = self.receiverId
+    json["textContent"] = self.textContent
+    json["sendTimestamp"] = self.sendTimestamp
+    
+    return json;
+  }
 }
