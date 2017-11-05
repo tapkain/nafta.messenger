@@ -38,19 +38,14 @@ class SignupViewController: UIViewController
     }
     
     activityIndicator.startAnimating()
-    UserManager.sharedInstance.signup(username: username, password: password) { user in
-      defer {
-        self.activityIndicator.stopAnimating()
-      }
-      
-      guard let _ = user else {
-        self.showError(title: "Signup failed", message: "Please, change login or try later")
-        return
-      }
-      
+    UserManager.sharedInstance.signup(username: username, password: password).then { user -> Void in
       let appDelegate = UIApplication.shared.delegate
       let viewController = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateInitialViewController()
       appDelegate?.window??.rootViewController = viewController
+    }.always {
+      self.activityIndicator.stopAnimating()
+    }.catch { error in
+      self.showError(title: "Signup failed", message: "Please, change login or try later")
     }
   }
   

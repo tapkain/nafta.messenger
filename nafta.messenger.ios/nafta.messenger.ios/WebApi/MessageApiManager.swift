@@ -8,33 +8,34 @@
 
 import Alamofire
 import SwiftyJSON
+import PromiseKit
 
 class MessageApiManager {
-  func getMessages(timestamp: Int, completion: @escaping ([MessageModel]?) -> Void) {
+  func sendMessage(message: MessageModel) -> Promise<String> {
+    let url = "\(ApiManager.api)/messages"
+    let body = message.toJson()
+    
+    return Alamofire.request(url, method: .post, parameters: body, encoding: JSONEncoding.default).validate().responseString()
+  }
+  
+  func getMessages(timestamp: Int) -> Promise<[MessageModel]> {
+    let q = DispatchQueue.global()
     let url = "\(ApiManager.api)/messages"
     let userId = UserManager.sharedInstance.currentUser.id
     let params = ["userId": userId, "timestamp": timestamp]
     
-    Alamofire.request(url, method: .get, parameters: params)
-      .validate()
-      .responseString { response in
-        switch response.result {
-        case .success(let value):
-          let json = JSON(parseJSON: value)
-          var messages = [MessageModel]()
-          
-          for (_, messageJSON) in json {
-            let message = MessageModel.fromJson(messageJSON)
-            messages.append(message)
-          }
-          
-          completion(messages)
-          
-        case .failure(_):
-          completion(nil)
-        }
+    return firstly {
+      Alamofire.request(url, method: .get, parameters: params).validate().responseString()
+    }.then(on: q) {
+      let json = JSON(parseJSON: $0)
+      var messages = [MessageModel]()
+      
+      for (_, messageJSON) in json {
+        let message = MessageModel.fromJson(messageJSON)
+        messages.append(message)
+      }
+      
+      return Promise(value: messages)
     }
   }
-  
-  //func sendMessage()
 }

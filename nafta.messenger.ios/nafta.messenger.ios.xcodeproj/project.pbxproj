@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		07B264B75EFF499175A0620F /* Pods_nafta_messenger_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */; };
-		794D132C1FA6EF17002733B1 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D132B1FA6EF17002733B1 /* UserManager.swift */; };
-		794D132E1FA6F0A2002733B1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D132D1FA6F0A2002733B1 /* UserModel.swift */; };
 		794D13311FA6F7CA002733B1 /* UserApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D13301FA6F7CA002733B1 /* UserApiManager.swift */; };
 		794D13351FA6F92B002733B1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D13341FA6F92B002733B1 /* ApiManager.swift */; };
 		795931FA1F933672005C45F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931F41F933672005C45F6 /* LoginViewController.swift */; };
@@ -17,12 +15,13 @@
 		795932151F951348005C45F6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959320F1F951348005C45F6 /* SettingsViewController.swift */; };
 		7959322E1F951A41005C45F6 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932281F951A41005C45F6 /* ChatListViewController.swift */; };
 		7959323B1F951A91005C45F6 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932351F951A91005C45F6 /* ContactsViewController.swift */; };
-		7959323F1F952021005C45F6 /* nafta.messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7959323D1F952021005C45F6 /* nafta.messenger.xcdatamodeld */; };
 		798962A41FA9103000E88447 /* MessageApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798962A31FA9103000E88447 /* MessageApiManager.swift */; };
 		798962A61FA9105400E88447 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798962A51FA9105400E88447 /* MessageModel.swift */; };
 		79BC4C641FAA28EE00C8E137 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC4C631FAA28EE00C8E137 /* ChatModel.swift */; };
 		79BC4C661FAA2ACC00C8E137 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC4C651FAA2ACC00C8E137 /* MessageManager.swift */; };
 		79BC4C681FAA40F600C8E137 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC4C671FAA40F600C8E137 /* ChatManager.swift */; };
+		79DCBFD71FAF86EE0062BA13 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCBFD51FAF86ED0062BA13 /* UserManager.swift */; };
+		79DCBFD81FAF86EE0062BA13 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCBFD61FAF86ED0062BA13 /* UserModel.swift */; };
 		79EF3A361F8FDEFF008AEB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */; };
 		79EF3A3B1F8FDEFF008AEB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A391F8FDEFF008AEB9E /* Main.storyboard */; };
 		79EF3A3D1F8FDEFF008AEB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */; };
@@ -52,8 +51,6 @@
 /* Begin PBXFileReference section */
 		405CFC4779E89FB70479255A /* Pods-nafta.messenger.ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nafta.messenger.ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.release.xcconfig"; sourceTree = "<group>"; };
 		6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nafta_messenger_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		794D132B1FA6EF17002733B1 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserManager.swift; path = nafta.messenger.ios/Shared/UserManager.swift; sourceTree = SOURCE_ROOT; };
-		794D132D1FA6F0A2002733B1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = nafta.messenger.ios/Shared/UserModel.swift; sourceTree = SOURCE_ROOT; };
 		794D13301FA6F7CA002733B1 /* UserApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiManager.swift; sourceTree = "<group>"; };
 		794D13341FA6F92B002733B1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		795931F41F933672005C45F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -61,12 +58,13 @@
 		7959320F1F951348005C45F6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		795932281F951A41005C45F6 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		795932351F951A91005C45F6 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		7959323E1F952021005C45F6 /* nafta.messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nafta.messenger.xcdatamodel; sourceTree = "<group>"; };
 		798962A31FA9103000E88447 /* MessageApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageApiManager.swift; sourceTree = "<group>"; };
 		798962A51FA9105400E88447 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		79BC4C631FAA28EE00C8E137 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		79BC4C651FAA2ACC00C8E137 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
 		79BC4C671FAA40F600C8E137 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		79DCBFD51FAF86ED0062BA13 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		79DCBFD61FAF86ED0062BA13 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		79EF3A321F8FDEFF008AEB9E /* nafta.messenger.ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nafta.messenger.ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79EF3A3A1F8FDEFF008AEB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,17 +124,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		794D132A1FA6EEE1002733B1 /* Shared */ = {
+		794D132A1FA6EEE1002733B1 /* DataApi */ = {
 			isa = PBXGroup;
 			children = (
-				794D132B1FA6EF17002733B1 /* UserManager.swift */,
-				79BC4C651FAA2ACC00C8E137 /* MessageManager.swift */,
-				79BC4C671FAA40F600C8E137 /* ChatManager.swift */,
-				794D132D1FA6F0A2002733B1 /* UserModel.swift */,
-				798962A51FA9105400E88447 /* MessageModel.swift */,
-				79BC4C631FAA28EE00C8E137 /* ChatModel.swift */,
+				79DCBFDA1FAF870E0062BA13 /* Managers */,
+				79DCBFD91FAF86FC0062BA13 /* Models */,
 			);
-			path = Shared;
+			path = DataApi;
 			sourceTree = "<group>";
 		};
 		794D132F1FA6F7AF002733B1 /* WebApi */ = {
@@ -189,6 +183,26 @@
 			path = ContactsScene;
 			sourceTree = "<group>";
 		};
+		79DCBFD91FAF86FC0062BA13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79DCBFD61FAF86ED0062BA13 /* UserModel.swift */,
+				798962A51FA9105400E88447 /* MessageModel.swift */,
+				79BC4C631FAA28EE00C8E137 /* ChatModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79DCBFDA1FAF870E0062BA13 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				79BC4C651FAA2ACC00C8E137 /* MessageManager.swift */,
+				79BC4C671FAA40F600C8E137 /* ChatManager.swift */,
+				79DCBFD51FAF86ED0062BA13 /* UserManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		79EF3A291F8FDEFF008AEB9E = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				794D132F1FA6F7AF002733B1 /* WebApi */,
-				794D132A1FA6EEE1002733B1 /* Shared */,
+				794D132A1FA6EEE1002733B1 /* DataApi */,
 				795932301F951A79005C45F6 /* ContactsScene */,
 				7959320A1F95132A005C45F6 /* SettingsScene */,
 				795931FC1F9349D5005C45F6 /* SignupScene */,
@@ -227,7 +241,6 @@
 				79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */,
 				79EF3A3E1F8FDEFF008AEB9E /* LaunchScreen.storyboard */,
 				79EF3A411F8FDEFF008AEB9E /* Info.plist */,
-				7959323D1F952021005C45F6 /* nafta.messenger.xcdatamodeld */,
 			);
 			path = nafta.messenger.ios;
 			sourceTree = "<group>";
@@ -449,6 +462,7 @@
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/FFCircularProgressView/FFCircularProgressView.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/QMChatViewController/QMChatViewController.framework",
 				"${PODS_ROOT}/QuickBlox/Quickblox.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -463,6 +477,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFCircularProgressView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMChatViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quickblox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -484,7 +499,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				79BC4C681FAA40F600C8E137 /* ChatManager.swift in Sources */,
-				794D132C1FA6EF17002733B1 /* UserManager.swift in Sources */,
 				795932071F9349E8005C45F6 /* SignupViewController.swift in Sources */,
 				7959323B1F951A91005C45F6 /* ContactsViewController.swift in Sources */,
 				795931FA1F933672005C45F6 /* LoginViewController.swift in Sources */,
@@ -492,14 +506,14 @@
 				79BC4C641FAA28EE00C8E137 /* ChatModel.swift in Sources */,
 				79EF3A7A1F8FE43F008AEB9E /* ChatViewController.swift in Sources */,
 				7959322E1F951A41005C45F6 /* ChatListViewController.swift in Sources */,
-				7959323F1F952021005C45F6 /* nafta.messenger.xcdatamodeld in Sources */,
 				794D13351FA6F92B002733B1 /* ApiManager.swift in Sources */,
 				798962A61FA9105400E88447 /* MessageModel.swift in Sources */,
-				794D132E1FA6F0A2002733B1 /* UserModel.swift in Sources */,
 				795932151F951348005C45F6 /* SettingsViewController.swift in Sources */,
 				798962A41FA9103000E88447 /* MessageApiManager.swift in Sources */,
 				794D13311FA6F7CA002733B1 /* UserApiManager.swift in Sources */,
 				79BC4C661FAA2ACC00C8E137 /* MessageManager.swift in Sources */,
+				79DCBFD81FAF86EE0062BA13 /* UserModel.swift in Sources */,
+				79DCBFD71FAF86EE0062BA13 /* UserManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,19 +813,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7959323D1F952021005C45F6 /* nafta.messenger.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7959323E1F952021005C45F6 /* nafta.messenger.xcdatamodel */,
-			);
-			currentVersion = 7959323E1F952021005C45F6 /* nafta.messenger.xcdatamodel */;
-			path = nafta.messenger.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 79EF3A2A1F8FDEFF008AEB9E /* Project object */;
 }

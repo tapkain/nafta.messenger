@@ -7,4 +7,6 @@ target 'nafta.messenger.ios' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'AlamofireNetworkActivityLogger'
+  pod 'PromiseKit'
+  pod 'PromiseKit/Alamofire'
 end

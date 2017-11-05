@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VUp-wB-BgF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VUp-wB-BgF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -113,13 +113,24 @@
                     <view key="view" contentMode="scaleToFill" id="C3S-3p-875">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="epI-ld-FdS">
+                                <rect key="frame" x="0.0" y="116" width="375" height="551"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="epI-ld-FdS" firstAttribute="trailing" secondItem="Uh2-98-h3M" secondAttribute="trailing" id="8Vc-lj-zQO"/>
+                            <constraint firstItem="epI-ld-FdS" firstAttribute="top" secondItem="Uh2-98-h3M" secondAttribute="top" id="FZT-OE-E4E"/>
+                            <constraint firstItem="epI-ld-FdS" firstAttribute="leading" secondItem="Uh2-98-h3M" secondAttribute="leading" id="PWz-l2-sR5"/>
+                            <constraint firstItem="epI-ld-FdS" firstAttribute="bottom" secondItem="Uh2-98-h3M" secondAttribute="bottom" id="Zad-vI-LXa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Uh2-98-h3M"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9oX-HP-RJy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2671" y="-538"/>
+            <point key="canvasLocation" x="2669.5999999999999" y="-538.38080959520244"/>
         </scene>
         <!--Login-->
         <scene sceneID="uRt-4w-q19">
@@ -529,5 +540,6 @@
     </scenes>
     <resources>
         <image name="AppleLogo" width="1000" height="1049"/>
+        <image name="Background" width="1440" height="900"/>
     </resources>
 </document>

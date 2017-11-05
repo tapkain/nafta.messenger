@@ -34,19 +34,14 @@ class LoginViewController: UIViewController {
     let password = passwordTextField.text!
     activityIndicator.startAnimating()
     
-    UserManager.sharedInstance.login(username: username, password: password) { user in
-      defer {
-        self.activityIndicator.stopAnimating()
-      }
-      
-      guard let _ = user else {
-        self.showErrorDialog()
-        return
-      }
-      
+    UserManager.sharedInstance.login(username: username, password: password).then { user -> Void in
       let appDelegate = UIApplication.shared.delegate
       let viewController = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateInitialViewController()
       appDelegate?.window??.rootViewController = viewController
+    }.always {
+      self.activityIndicator.stopAnimating()
+    }.catch { error in
+      self.showErrorDialog()
     }
   }
   
