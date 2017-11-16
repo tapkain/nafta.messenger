@@ -12,40 +12,39 @@ import PromiseKit
 class MessageManager {
   static let sharedInstance = MessageManager()
   
-  func sendMessage(receiver: UserModel, text: String) -> Promise<String> {
-    let timestamp = Int(Date().timeIntervalSince1970)
+  func sendMessage(chat: ChatModel, text: String) -> Promise<Void> {
+    let timestamp = Date().timeIntervalSince1970
     let senderId = UserManager.sharedInstance.currentUser.id
-    let receiverId = receiver.id
     
     let message = MessageModel()
-    message.sendTimestamp = timestamp
-    message.senderId = senderId
-    message.receiverId = receiverId
-    message.textContent = text
+    message.time = timestamp
+    message.userId = senderId
+    message.chatId = chat.id
+    message.text = text
     
-    return ApiManager.messages.sendMessage(message: message)
+    return ApiManager.messages.sendMessage(message: message).asVoid()
   }
   
-//  func updateMessages(completion: @escaping (Bool) -> Void) {
-//    let timestamp = Int((Calendar.current.date(byAdding: .day, value: -7, to: Date())?.timeIntervalSince1970)!)
-//    var result = true
-//
-//    ApiManager.messages.getMessages(timestamp: timestamp) { messages in
-//      defer {
-//        completion(result)
-//      }
-//
-//      guard let messages = messages else {
-//        result = false
-//        return
-//      }
-//
-//      let realm = try! Realm()
-//      try! realm.write {
-//        let allMessages = realm.objects(MessageModel.self)
-//        realm.delete(allMessages)
-//        realm.add(messages)
-//      }
-//    }
-//  }
+  func getMessagesFor(user: UserModel) -> Results<MessageModel> {
+    let realm = try! Realm()
+    let messages = realm.objects(MessageModel.self).filter("self.receiverId == %@", user.id)
+
+    return messages
+  }
+  
+  func updateMessages() -> Promise<[MessageModel]> {
+    let timestamp = Int((Calendar.current.date(byAdding: .day, value: -7, to: Date())?.timeIntervalSince1970)!)
+    let q = DispatchQueue.global()
+    
+    return ApiManager.messages.getMessages(timestamp: timestamp).then(on: q) { messages in
+      let realm = try! Realm()
+      try! realm.write {
+        let allMessages = realm.objects(MessageModel.self)
+        realm.delete(allMessages)
+        realm.add(messages)
+      }
+      
+      return Promise(value: messages)
+    }
+  }
 }

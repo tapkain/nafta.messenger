@@ -13,11 +13,11 @@ import PromiseKit
 class UserApiManager {
   func login(username: String, password: String) -> Promise<UserModel> {
     let q = DispatchQueue.global()
-    let url = "\(ApiManager.api)/user/login"
-    let params = ["login": username, "password": password]
+    let url = "\(ApiManager.api)/account"
+    let headers = ["grant_type": "password", "username": username, "password": password]
     
     return firstly {
-      Alamofire.request(url, method: .post, parameters: params).validate().responseString()
+      Alamofire.request(url, method: .post, headers: headers).validate().responseString()
     }.then(on: q) {
       let json = JSON(parseJSON: $0)
       let user = UserModel.fromJson(json)

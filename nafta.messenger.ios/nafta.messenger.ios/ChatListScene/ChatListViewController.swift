@@ -8,44 +8,37 @@
 import UIKit
 
 class ChatListViewController: UITableViewController {
+  var chats = [ChatModel]()
+  
   @IBAction func createChat(_ sender: Any) {
-    let alertController = UIAlertController(title: "New Chat", message: nil, preferredStyle: .alert)
-    var receiver: UserModel! = nil
     
-    let createAction = UIAlertAction(title: "Create", style: .default) { [weak alertController] _ in
-      if let _ = alertController {
-        MessageManager.sharedInstance.sendMessage(receiver: receiver, text: "Hello!").then {_ -> Void in
-          let chatViewController = ChatViewController()
-          chatViewController.receiver = receiver
-          self.navigationController?.pushViewController(chatViewController, animated: true)
-        }
-      }
-    }
-    createAction.isEnabled = false
-    let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
-   
-    alertController.addTextField { textField in
-      textField.placeholder = "Username"
-      NotificationCenter.default.addObserver(forName: Notification.Name.UITextFieldTextDidChange, object: textField, queue: OperationQueue.main) { notification in
-        UserManager.sharedInstance.getUser(username: textField.text!).then { user -> Void in
-          receiver = user
-          createAction.isEnabled = true
-        }.catch { _ in
-          createAction.isEnabled = false
-        }
-      }
-    }
-    
-    alertController.addAction(createAction)
-    alertController.addAction(cancelAction)
-    
-    present(alertController, animated: true)
   }
   
   override func viewDidLoad() {
-//    ChatManager.sharedInstance.updateChats {_ in
-//      self.tableView.reloadData()
-//    }
+   // updateChats()
+    tableView.register(ChatListTableViewCell.self, forCellReuseIdentifier: ChatListTableViewCell.cellIdentifier)
     super.viewDidLoad()
+  }
+}
+
+
+extension ChatListViewController {
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    
+  }
+  
+  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return chats.count
+  }
+  
+  override func numberOfSections(in tableView: UITableView) -> Int {
+    return 1
+  }
+  
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: ChatListTableViewCell.cellIdentifier) as! ChatListTableViewCell
+    let chat = chats[indexPath.row]
+    //cell.configure(user: chat.receiver!, message: chat.messages.last)
+    return cell
   }
 }

@@ -10,3 +10,17 @@ target 'nafta.messenger.ios' do
   pod 'PromiseKit'
   pod 'PromiseKit/Alamofire'
 end
+
+target 'nafta.messenger.iosTests' do
+  inherit! :search_paths
+  use_frameworks!
+  pod 'SwiftLint'
+  pod 'QMChatViewController'
+  pod 'ChameleonFramework'
+  pod 'RealmSwift'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'AlamofireNetworkActivityLogger'
+  pod 'PromiseKit'
+  pod 'PromiseKit/Alamofire'
+end

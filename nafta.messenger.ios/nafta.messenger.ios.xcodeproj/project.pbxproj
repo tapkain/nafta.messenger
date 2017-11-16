@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		07B264B75EFF499175A0620F /* Pods_nafta_messenger_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */; };
+		791C5CBB1FBA273E00609582 /* AccountApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CBA1FBA273E00609582 /* AccountApiManager.swift */; };
+		791C5CC01FBA2CAB00609582 /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CBF1FBA2CAB00609582 /* RegistrationModel.swift */; };
+		791C5CC31FBA2DAB00609582 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CC21FBA2DAB00609582 /* Formatter.swift */; };
+		791C5CC51FBAA07100609582 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CC41FBAA07100609582 /* SessionManager.swift */; };
+		791C5CC71FBAA12600609582 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CC61FBAA12600609582 /* TokenModel.swift */; };
+		791C5CCA1FBAA91E00609582 /* AccessTokenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CC91FBAA91E00609582 /* AccessTokenAdapter.swift */; };
+		791C5CCD1FBAB18900609582 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CCC1FBAB18900609582 /* RealmManager.swift */; };
+		791C5CCF1FBAB77000609582 /* ChatApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CCE1FBAB77000609582 /* ChatApiManager.swift */; };
+		791C5CD31FBCBCBE00609582 /* AccountManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CD21FBCBCBE00609582 /* AccountManagerTests.swift */; };
+		791C5CD51FBCC22E00609582 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C5CD41FBCC22E00609582 /* Helper.swift */; };
 		794D13311FA6F7CA002733B1 /* UserApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D13301FA6F7CA002733B1 /* UserApiManager.swift */; };
 		794D13351FA6F92B002733B1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D13341FA6F92B002733B1 /* ApiManager.swift */; };
 		795931FA1F933672005C45F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795931F41F933672005C45F6 /* LoginViewController.swift */; };
@@ -22,6 +32,7 @@
 		79BC4C681FAA40F600C8E137 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC4C671FAA40F600C8E137 /* ChatManager.swift */; };
 		79DCBFD71FAF86EE0062BA13 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCBFD51FAF86ED0062BA13 /* UserManager.swift */; };
 		79DCBFD81FAF86EE0062BA13 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCBFD61FAF86ED0062BA13 /* UserModel.swift */; };
+		79DCBFDC1FAFA1220062BA13 /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCBFDB1FAFA1220062BA13 /* ChatListTableViewCell.swift */; };
 		79EF3A361F8FDEFF008AEB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */; };
 		79EF3A3B1F8FDEFF008AEB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A391F8FDEFF008AEB9E /* Main.storyboard */; };
 		79EF3A3D1F8FDEFF008AEB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */; };
@@ -29,6 +40,7 @@
 		79EF3A4B1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A4A1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift */; };
 		79EF3A561F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A551F8FDEFF008AEB9E /* nafta_messenger_iosUITests.swift */; };
 		79EF3A7A1F8FE43F008AEB9E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EF3A741F8FE43F008AEB9E /* ChatViewController.swift */; };
+		C58A3442B2071A0B8180E245 /* Pods_nafta_messenger_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049031F2E84218423A190367 /* Pods_nafta_messenger_iosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +61,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049031F2E84218423A190367 /* Pods_nafta_messenger_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nafta_messenger_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23776E383CAC9C694BC305B1 /* Pods-nafta.messenger.iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nafta.messenger.iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nafta.messenger.iosTests/Pods-nafta.messenger.iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		405CFC4779E89FB70479255A /* Pods-nafta.messenger.ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nafta.messenger.ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.release.xcconfig"; sourceTree = "<group>"; };
 		6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nafta_messenger_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7080115156726093B85A2B4C /* Pods-nafta.messenger.iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nafta.messenger.iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nafta.messenger.iosTests/Pods-nafta.messenger.iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		791C5CBA1FBA273E00609582 /* AccountApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountApiManager.swift; sourceTree = "<group>"; };
+		791C5CBF1FBA2CAB00609582 /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
+		791C5CC21FBA2DAB00609582 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		791C5CC41FBAA07100609582 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		791C5CC61FBAA12600609582 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		791C5CC91FBAA91E00609582 /* AccessTokenAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenAdapter.swift; sourceTree = "<group>"; };
+		791C5CCC1FBAB18900609582 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		791C5CCE1FBAB77000609582 /* ChatApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatApiManager.swift; sourceTree = "<group>"; };
+		791C5CD21FBCBCBE00609582 /* AccountManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagerTests.swift; sourceTree = "<group>"; };
+		791C5CD41FBCC22E00609582 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		794D13301FA6F7CA002733B1 /* UserApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiManager.swift; sourceTree = "<group>"; };
 		794D13341FA6F92B002733B1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		795931F41F933672005C45F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +90,7 @@
 		79BC4C671FAA40F600C8E137 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 		79DCBFD51FAF86ED0062BA13 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		79DCBFD61FAF86ED0062BA13 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		79DCBFDB1FAFA1220062BA13 /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
 		79EF3A321F8FDEFF008AEB9E /* nafta.messenger.ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nafta.messenger.ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79EF3A3A1F8FDEFF008AEB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58A3442B2071A0B8180E245 /* Pods_nafta_messenger_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				6B6B18E3F6CE846C030B756C /* Pods_nafta_messenger_ios.framework */,
+				049031F2E84218423A190367 /* Pods_nafta_messenger_iosTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,8 +148,46 @@
 			children = (
 				A3CEDA866D688EBA018F8031 /* Pods-nafta.messenger.ios.debug.xcconfig */,
 				405CFC4779E89FB70479255A /* Pods-nafta.messenger.ios.release.xcconfig */,
+				7080115156726093B85A2B4C /* Pods-nafta.messenger.iosTests.debug.xcconfig */,
+				23776E383CAC9C694BC305B1 /* Pods-nafta.messenger.iosTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		791C5CBE1FBA2C9500609582 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				791C5CBF1FBA2CAB00609582 /* RegistrationModel.swift */,
+				791C5CC61FBAA12600609582 /* TokenModel.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		791C5CC11FBA2D9900609582 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				791C5CC21FBA2DAB00609582 /* Formatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		791C5CC81FBAA90400609582 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				791C5CC41FBAA07100609582 /* SessionManager.swift */,
+				791C5CC91FBAA91E00609582 /* AccessTokenAdapter.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		791C5CCB1FBAB0C000609582 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				79BC4C631FAA28EE00C8E137 /* ChatModel.swift */,
+				798962A51FA9105400E88447 /* MessageModel.swift */,
+				79DCBFD61FAF86ED0062BA13 /* UserModel.swift */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 		794D132A1FA6EEE1002733B1 /* DataApi */ = {
@@ -136,9 +202,12 @@
 		794D132F1FA6F7AF002733B1 /* WebApi */ = {
 			isa = PBXGroup;
 			children = (
+				791C5CC81FBAA90400609582 /* Session */,
 				794D13301FA6F7CA002733B1 /* UserApiManager.swift */,
 				794D13341FA6F92B002733B1 /* ApiManager.swift */,
 				798962A31FA9103000E88447 /* MessageApiManager.swift */,
+				791C5CBA1FBA273E00609582 /* AccountApiManager.swift */,
+				791C5CCE1FBAB77000609582 /* ChatApiManager.swift */,
 			);
 			path = WebApi;
 			sourceTree = "<group>";
@@ -171,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				795932281F951A41005C45F6 /* ChatListViewController.swift */,
+				79DCBFDB1FAFA1220062BA13 /* ChatListTableViewCell.swift */,
 			);
 			path = ChatListScene;
 			sourceTree = "<group>";
@@ -186,9 +256,8 @@
 		79DCBFD91FAF86FC0062BA13 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				79DCBFD61FAF86ED0062BA13 /* UserModel.swift */,
-				798962A51FA9105400E88447 /* MessageModel.swift */,
-				79BC4C631FAA28EE00C8E137 /* ChatModel.swift */,
+				791C5CCB1FBAB0C000609582 /* Realm */,
+				791C5CBE1FBA2C9500609582 /* DTO */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +268,7 @@
 				79BC4C651FAA2ACC00C8E137 /* MessageManager.swift */,
 				79BC4C671FAA40F600C8E137 /* ChatManager.swift */,
 				79DCBFD51FAF86ED0062BA13 /* UserManager.swift */,
+				791C5CCC1FBAB18900609582 /* RealmManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -228,6 +298,7 @@
 		79EF3A341F8FDEFF008AEB9E /* nafta.messenger.ios */ = {
 			isa = PBXGroup;
 			children = (
+				791C5CC11FBA2D9900609582 /* Utils */,
 				794D132F1FA6F7AF002733B1 /* WebApi */,
 				794D132A1FA6EEE1002733B1 /* DataApi */,
 				795932301F951A79005C45F6 /* ContactsScene */,
@@ -250,6 +321,8 @@
 			children = (
 				79EF3A4A1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift */,
 				79EF3A4C1F8FDEFF008AEB9E /* Info.plist */,
+				791C5CD21FBCBCBE00609582 /* AccountManagerTests.swift */,
+				791C5CD41FBCC22E00609582 /* Helper.swift */,
 			);
 			path = nafta.messenger.iosTests;
 			sourceTree = "<group>";
@@ -299,9 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79EF3A5D1F8FDF00008AEB9E /* Build configuration list for PBXNativeTarget "nafta.messenger.iosTests" */;
 			buildPhases = (
+				2B9CEEDEB1D408F3263D50BC /* [CP] Check Pods Manifest.lock */,
 				79EF3A421F8FDEFF008AEB9E /* Sources */,
 				79EF3A431F8FDEFF008AEB9E /* Frameworks */,
 				79EF3A441F8FDEFF008AEB9E /* Resources */,
+				695CA939635219EF2260DAC9 /* [CP] Embed Pods Frameworks */,
+				0DEB883F0DDC2D07DA843F68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -405,6 +481,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0DEB883F0DDC2D07DA843F68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nafta.messenger.iosTests/Pods-nafta.messenger.iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9CEEDEB1D408F3263D50BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nafta.messenger.iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4D42710DF1DD5C2EF06F3C87 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,6 +527,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		695CA939635219EF2260DAC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nafta.messenger.iosTests/Pods-nafta.messenger.iosTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/FFCircularProgressView/FFCircularProgressView.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/QMChatViewController/QMChatViewController.framework",
+				"${PODS_ROOT}/QuickBlox/Quickblox.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFCircularProgressView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMChatViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quickblox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nafta.messenger.iosTests/Pods-nafta.messenger.iosTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		795932091F935B01005C45F6 /* ShellScript */ = {
@@ -499,21 +648,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				79BC4C681FAA40F600C8E137 /* ChatManager.swift in Sources */,
+				791C5CC71FBAA12600609582 /* TokenModel.swift in Sources */,
 				795932071F9349E8005C45F6 /* SignupViewController.swift in Sources */,
+				791C5CC31FBA2DAB00609582 /* Formatter.swift in Sources */,
 				7959323B1F951A91005C45F6 /* ContactsViewController.swift in Sources */,
 				795931FA1F933672005C45F6 /* LoginViewController.swift in Sources */,
 				79EF3A361F8FDEFF008AEB9E /* AppDelegate.swift in Sources */,
+				791C5CCF1FBAB77000609582 /* ChatApiManager.swift in Sources */,
 				79BC4C641FAA28EE00C8E137 /* ChatModel.swift in Sources */,
 				79EF3A7A1F8FE43F008AEB9E /* ChatViewController.swift in Sources */,
 				7959322E1F951A41005C45F6 /* ChatListViewController.swift in Sources */,
+				791C5CBB1FBA273E00609582 /* AccountApiManager.swift in Sources */,
+				79DCBFDC1FAFA1220062BA13 /* ChatListTableViewCell.swift in Sources */,
 				794D13351FA6F92B002733B1 /* ApiManager.swift in Sources */,
 				798962A61FA9105400E88447 /* MessageModel.swift in Sources */,
 				795932151F951348005C45F6 /* SettingsViewController.swift in Sources */,
+				791C5CCA1FBAA91E00609582 /* AccessTokenAdapter.swift in Sources */,
 				798962A41FA9103000E88447 /* MessageApiManager.swift in Sources */,
+				791C5CCD1FBAB18900609582 /* RealmManager.swift in Sources */,
 				794D13311FA6F7CA002733B1 /* UserApiManager.swift in Sources */,
 				79BC4C661FAA2ACC00C8E137 /* MessageManager.swift in Sources */,
 				79DCBFD81FAF86EE0062BA13 /* UserModel.swift in Sources */,
+				791C5CC01FBA2CAB00609582 /* RegistrationModel.swift in Sources */,
 				79DCBFD71FAF86EE0062BA13 /* UserManager.swift in Sources */,
+				791C5CC51FBAA07100609582 /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +679,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791C5CD31FBCBCBE00609582 /* AccountManagerTests.swift in Sources */,
 				79EF3A4B1F8FDEFF008AEB9E /* nafta_messenger_iosTests.swift in Sources */,
+				791C5CD51FBCC22E00609582 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,6 +841,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A3J3S3699E;
 				INFOPLIST_FILE = nafta.messenger.ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -697,6 +858,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A3J3S3699E;
 				INFOPLIST_FILE = nafta.messenger.ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -709,6 +871,7 @@
 		};
 		79EF3A5E1F8FDF00008AEB9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7080115156726093B85A2B4C /* Pods-nafta.messenger.iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -726,6 +889,7 @@
 		};
 		79EF3A5F1F8FDF00008AEB9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23776E383CAC9C694BC305B1 /* Pods-nafta.messenger.iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

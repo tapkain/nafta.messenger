@@ -22,7 +22,7 @@ class ChatViewController: QMChatViewController {
   override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: UInt, senderDisplayName: String!, date: Date!) {
     //add message to data source
 //    MessageManager.sharedInstance.sendMessage(receiverId: receiver.id, text: text) { result in
-//      
+//
 //    }
   }
   

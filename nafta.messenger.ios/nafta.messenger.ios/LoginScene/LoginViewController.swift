@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PromiseKit
 
 class LoginViewController: UIViewController {
   @IBOutlet weak var usernameTextField: UITextField!
@@ -25,19 +26,36 @@ class LoginViewController: UIViewController {
     
     let verticalConstraint = NSLayoutConstraint(item: activityIndicator, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: view, attribute: NSLayoutAttribute.centerY, multiplier: 1, constant: 0)
     view.addConstraint(verticalConstraint)
+    
+    if try! SessionManager.sharedInstance.restoreSession() {
+      translateToMainView()
+    }
+    
+    #if DEBUG
+      usernameTextField.text = "admin@gmail.com"
+      passwordTextField.text = "!@#qwe456RTY"
+    #endif
   }
   
   // MARK: Actions
   
+  func translateToMainView() {
+    let appDelegate = UIApplication.shared.delegate
+    let viewController = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateInitialViewController()
+    appDelegate?.window??.rootViewController = viewController
+  }
+  
   @IBAction func onLoginButtonPressed(_ sender: UIButton) {
     let username = usernameTextField.text!
     let password = passwordTextField.text!
+    let remember = rememberAccountSwitch.isOn
     activityIndicator.startAnimating()
     
-    UserManager.sharedInstance.login(username: username, password: password).then { user -> Void in
-      let appDelegate = UIApplication.shared.delegate
-      let viewController = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateInitialViewController()
-      appDelegate?.window??.rootViewController = viewController
+    firstly {
+      ApiManager.account.login(email: username, password: password)
+    }.then { token -> Void in
+      try! SessionManager.sharedInstance.setSession(token: token, remember: remember)
+      self.translateToMainView()
     }.always {
       self.activityIndicator.stopAnimating()
     }.catch { error in

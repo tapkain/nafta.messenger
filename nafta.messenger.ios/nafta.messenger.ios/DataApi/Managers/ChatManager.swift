@@ -7,26 +7,16 @@
 //
 
 import RealmSwift
+import PromiseKit
 
 class ChatManager {
   static let sharedInstance = ChatManager()
-//  
-//  func updateChats(completion: @escaping (Bool) -> Void) {
-//    var result = true
-//    MessageManager.sharedInstance.updateMessages {
-//      result = result && $0
-//      
-//      UserManager.sharedInstance.updateUsers {
-//        result = result && $0
-//        self.updateChatData {
-//          result = result && $0
-//          completion(result)
-//        }
-//      }
-//    }
-//  }
-//  
-//  func updateChatData(completion: @escaping (Bool) -> Void) {
-//    
-//  }
+  
+  func deleteAll() {
+    let realm = try! Realm()
+    try! realm.write {
+      let allChats = realm.objects(ChatModel.self)
+      realm.delete(allChats)
+    }
+  }
 }

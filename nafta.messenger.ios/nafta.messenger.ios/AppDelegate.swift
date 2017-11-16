@@ -19,9 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     setAppearance()
     setLogging()
     
-    var config = Realm.Configuration()
-    //config.
-    
     let loginController = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: String(describing: LoginViewController.self)) as! LoginViewController
     
     self.window?.rootViewController = loginController

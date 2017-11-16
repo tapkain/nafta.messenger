@@ -68,6 +68,7 @@
 		198A07C11BFDC12D0F144603E9ADCD84 /* FFCircularProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D1A7F792207BC309BCEA55BABD3EB5 /* FFCircularProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19CFE814C2AB936DD75EA70DE181CE83 /* QMAudioRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 056869A577AB5590BAAB03F629786ACD /* QMAudioRecordView.m */; };
 		19D33F09B758CD008915687CD28A4478 /* QBChatMessage+QBDateDivider.m in Sources */ = {isa = PBXBuildFile; fileRef = F601A801004D7E5B647744C812E71913 /* QBChatMessage+QBDateDivider.m */; };
+		19F19DC73EF33FBEC82A2F231148A404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A9F64BCAA82FAA689B71476240F5E0 /* Foundation.framework */; };
 		1A12E3104D8920AD3F649ECA9E3EF18C /* RLMSyncSession.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E06547B8D9A03E807395971E0D11AA /* RLMSyncSession.h */; };
 		1B9BCCF82C339DD0BAF2D046B15AC335 /* QMAudioIncomingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE5C2321C55074E042CA85987DE835 /* QMAudioIncomingCell.xib */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D14C7C9F0AB2F5B04FCDC28F5002528 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -101,12 +102,12 @@
 		2A373AB87737B468AA86D8EDB20D7CB5 /* RLMConstants.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7094166B60BC6AED7A7BB8B94395D88D /* RLMConstants.h */; };
 		2A7A00E116C77C277328913EFF6E8F3E /* QMChatIncomingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 075641469C8C59339591F8763B413109 /* QMChatIncomingCell.m */; };
 		2BE8F81DC658CD97C1B98172E92CFCFF /* QMChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1EC4A8DF7425AF9D930BCB93FBD553 /* QMChatViewController.xib */; };
-		2BFFDFB3D1C1D6D920F10B25F61FCCC5 /* Pods-nafta.messenger.ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BDEAEED05691F5CEC6DA63AB9F48E /* Pods-nafta.messenger.ios-dummy.m */; };
+		2BFFDFB3D1C1D6D920F10B25F61FCCC5 /* Pods-nafta.messenger.ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54602E465148F21251F651AA0CBF6CAD /* Pods-nafta.messenger.ios-dummy.m */; };
 		2C6CD0D90C3FDD86A15CA585329D733F /* RLMThreadSafeReference.mm in Sources */ = {isa = PBXBuildFile; fileRef = EBE3432853E6031367E75DF5E5919DF7 /* RLMThreadSafeReference.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.0.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		2D093AB4520270F31260076E106C5655 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713B40EF9B78160EBF096F49F850C8DF /* SwiftyJSON.swift */; };
 		2DC004241633599693DA17D7AA47A417 /* RLMSyncManager_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 9838771B4E3559D8ED72CF9AF11B42D5 /* RLMSyncManager_Private.h */; };
 		2DEE1604D5970027A94A74D2D48314E4 /* RLMSyncPermissionResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = E7BD896DFF05D9F3837978E5EA781528 /* RLMSyncPermissionResults.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.0.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		2E3F96DE7BD8940ECC1EB3BB0AC4C045 /* QMChatViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A49BEA1759207BCE4FD91D8511593A9C /* QMChatViewController.bundle */; };
+		2E3F96DE7BD8940ECC1EB3BB0AC4C045 /* QMChatViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42DC67AE267EA0370A08C4AF7DB9412F /* QMChatViewController.bundle */; };
 		2E67B01CB1B3F0AA9CEE6B3611F90DB5 /* NSDate+ChatDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 30526ABE5EBFA9C52F51ACDBA6D22ABC /* NSDate+ChatDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E9B58768099BF8C5AE776B32073AF4B /* RLMRealm_Dynamic.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 252F8A49ED8B33EFBC94F8ADB31E69A7 /* RLMRealm_Dynamic.h */; };
 		2F5DE71006FC78ED6AA20D6F1DDDEFC9 /* network_reachability_observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD1C86AC0F6262106772F1DFAE8A2A4C /* network_reachability_observer.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.0.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -265,6 +266,7 @@
 		7A6B980ED11FB27C703B0F132BF7ABC6 /* RLMCollection.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 951BBB80D0AFA995FF8ADAE49B567E44 /* RLMCollection.h */; };
 		7ACBD275F7DCAC8120F3D0F4959FDA33 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 950970FA12052FB729D064A18F9F280F /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8424AF5D353309877D5994A533F4BA /* SessionDelegate.swift */; };
+		7BBF5EAEFC42597CA2EAC58F0E269CB4 /* Pods-nafta.messenger.iosTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1C993BB921A36819A5A590F888A56D /* Pods-nafta.messenger.iosTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2B54BB8C73881D5A9CB0B4E6CE093B /* FFCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2BB2A3661EA9D1EE1AE44449F3937A /* FFCircularProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7CB20F09A56B901785EA4BCCEBFD1ED2 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A171C2FED50107F518C339EB2A2E6 /* Util.swift */; };
 		7D680EBF66B13F7AC285CEA6DD38FB7A /* QMChatContactRequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0AB36B47FF755AF1D2A5EA53B30062 /* QMChatContactRequestCell.xib */; };
@@ -289,6 +291,7 @@
 		88176CB2BE8C3394531A812CA0097FA7 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2E9B52D281343A70E30CBB568D844 /* Property.swift */; };
 		884C467FE7A8370D90D2B173B262A80A /* QMToolbarContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E5FB7AFFDCE2C908640E29A00C8C7AE7 /* QMToolbarContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AFCA885E2763500715918460ED480B7 /* NetworkActivityLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF700819A56E63D92D36FF07AD286648 /* NetworkActivityLogger.swift */; };
+		8B77599C4B444B2871763AB57CEE23E3 /* Pods-nafta.messenger.iosTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CB78AE6BE94588D9B2DA9E807721A7 /* Pods-nafta.messenger.iosTests-dummy.m */; };
 		8C7D01DCEF10A387DBF8ABD2831E5B49 /* QMVideoIncomingCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5146842F5698A2DF05D5CD1AA50F85DE /* QMVideoIncomingCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CC995C287231766ED5058B6BE6B1AB9 /* RLMProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 121DB7AFFB26D9A08EB0BCF4565D239F /* RLMProperty.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.0.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		8D687350BB6002A871604120248D0941 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA3141C1EFB37FD5B185D545AC1D79 /* Alamofire.framework */; };
@@ -519,7 +522,7 @@
 		FC0ACBC14D6D42295349C346DA5BFBBC /* QMVideoOutgoingCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 77090CF8F66ADA8335C849A31225C1ED /* QMVideoOutgoingCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC5A9FD9D917AF72128556B70E3673CB /* QMChatCellLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0899AC06EECCEAAEA95180D25DA62DBD /* QMChatCellLayoutAttributes.m */; };
 		FC9CEC95923C4CED40DF5FA552D6B204 /* ic_retry-grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C2E312C6CC1216C015BA247BA0F2A5 /* ic_retry-grey@2x.png */; };
-		FCFA772174A182676C3BF8A96A92EB0B /* Pods-nafta.messenger.ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0F65B5679BCB2636367303809E2170 /* Pods-nafta.messenger.ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA772174A182676C3BF8A96A92EB0B /* Pods-nafta.messenger.ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D7172F9B1F5C4E19DA8FB4F2449D5B /* Pods-nafta.messenger.ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD4593889185277F323A610582DE8E95 /* Realm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D400519D959EE1C9D61C026603A04669 /* Realm-dummy.m */; };
 		FD5698E9F741C750482AF70588AD3AA2 /* QMMediaViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2DD86181D752A188B5978F372C225E /* QMMediaViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDEAA29D36D62CE92DC2D0152DF0FD0D /* NSString+QM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F56AB29449EB19BEEF5D44657D8BBA7 /* NSString+QM.m */; };
@@ -538,6 +541,13 @@
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
+		12EDFBC13583C90D61CFB9A9F36CD6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647D07D52C7759736E26CBB77AD7234E;
+			remoteInfo = PromiseKit;
+		};
 		144418C88874359E7D30DCC1527F3F6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -545,12 +555,26 @@
 			remoteGlobalIDString = 0C507C82B332BA025F51E7BDB6126D8B;
 			remoteInfo = AlamofireNetworkActivityLogger;
 		};
+		2FE9AA347EE722D334BDE39ECC4611EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22985AF09AAEB6562EE3408AB94BD173;
+			remoteInfo = SDWebImage;
+		};
 		35BDF924609AFCCE3A922047E10C8295 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A267660E1AD4832DE75665F2F87AEA3;
 			remoteInfo = ChameleonFramework;
+		};
+		365F760E6E72E8EAC8ACA5C69CDA73E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C507C82B332BA025F51E7BDB6126D8B;
+			remoteInfo = AlamofireNetworkActivityLogger;
 		};
 		478E55B9C86D232956CBBD6CF965B133 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -580,6 +604,13 @@
 			remoteGlobalIDString = 93D333A52F6FA490CFF205D3F3A0C23F;
 			remoteInfo = TTTAttributedLabel;
 		};
+		5A9D2FD10C003A7CEBF328DFB2EFF6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0CAD6CD4B3FBACB6698FC255C997CA4;
+			remoteInfo = FFCircularProgressView;
+		};
 		5E9C5E4F729BB4BEC0CF94E571AC4B49 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -588,6 +619,20 @@
 			remoteInfo = QMChatViewController;
 		};
 		77875F0E5C5B3FDF35CE0156B5BC0DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A893E70243858F443DF4DE9DAFAC80E6;
+			remoteInfo = Realm;
+		};
+		925DA416849A0F399E38BD20164B4106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAE9128DB7DFABB30C221B6B019D9A3;
+			remoteInfo = QMChatViewController;
+		};
+		96CC2664DC081FFDB25185369E4FFBC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -615,6 +660,20 @@
 			remoteGlobalIDString = E0CAD6CD4B3FBACB6698FC255C997CA4;
 			remoteInfo = FFCircularProgressView;
 		};
+		C1504B6675BBEAB543E586279BC79AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D333A52F6FA490CFF205D3F3A0C23F;
+			remoteInfo = TTTAttributedLabel;
+		};
+		CA0C4BB348E87D000A37E7E5CC33A319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A267660E1AD4832DE75665F2F87AEA3;
+			remoteInfo = ChameleonFramework;
+		};
 		D054BCEBA339D302C50E03556FBEEDCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -636,12 +695,33 @@
 			remoteGlobalIDString = 647D07D52C7759736E26CBB77AD7234E;
 			remoteInfo = PromiseKit;
 		};
+		DCE18925BEEF2AB6BEAD171E7253A123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		DFFB38B05001C038E1EAA19A2439D894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059095AE6C5EB0C8FCD0A1BD697F9F6F;
+			remoteInfo = SwiftyJSON;
+		};
 		E8336404FAF19A87A5A2770461BA98C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A893E70243858F443DF4DE9DAFAC80E6;
 			remoteInfo = Realm;
+		};
+		F005C5E6945A5F9136990B0E32F1273A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFCC522B783DED1B6C70B0206D7898E;
+			remoteInfo = RealmSwift;
 		};
 		FA68FF55778E6438A6F14A1D51260546 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -733,12 +813,9 @@
 		001D47C3760B8FC5C99D13FDEC4D2CDC /* QMToolbarContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMToolbarContentView.m; path = QMChatViewController/Views/CustomUI/InputToolBar/QMToolbarContentView.m; sourceTree = "<group>"; };
 		003EB19FC0CDCBB07AC4FA30CAA27815 /* QMChatOutgoingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatOutgoingCell.h; path = QMChatViewController/Views/Cells/QMChatOutgoingCell/QMChatOutgoingCell.h; sourceTree = "<group>"; };
 		009B2E4DE2A83F4F8B277557DDA7B34C /* RLMOptionalBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMOptionalBase.h; path = include/RLMOptionalBase.h; sourceTree = "<group>"; };
-		00C37F78732D4DC2A95868B01050B13F /* FFCircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFCircularProgressView.framework; path = FFCircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00EB5B6F1A96BA5F00DDFFE7C5B8EAE2 /* placeholder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = placeholder.cpp; path = Realm/ObjectStore/src/placeholder.cpp; sourceTree = "<group>"; };
 		01179E6968FDECBD94F3C83D48494008 /* RLMSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema.h; path = include/RLMSchema.h; sourceTree = "<group>"; };
-		0155BD1E4C776AD6B8AD2FA4A1FDBE99 /* AlamofireNetworkActivityLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireNetworkActivityLogger.framework; path = AlamofireNetworkActivityLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		01C0BBDD70713A658438E04DE1E17E6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02818F03475D85BC62E9747493F1A0B6 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		049EE9F5D84CDA7912722D0E95ADAA20 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		056869A577AB5590BAAB03F629786ACD /* QMAudioRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMAudioRecordView.m; path = QMChatViewController/Views/CustomUI/QMAudioRecordView/QMAudioRecordView.m; sourceTree = "<group>"; };
 		05FD5582DFB0BDC6F758752C3D55E99B /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
 		06C2C4B55E43951988AE289828ED9731 /* RLMRealmConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration.h; path = include/RLMRealmConfiguration.h; sourceTree = "<group>"; };
@@ -757,7 +834,6 @@
 		0D6EA8E3CEA52250B9773ABF47684112 /* RLMRealmConfiguration+Sync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RLMRealmConfiguration+Sync.h"; path = "include/RLMRealmConfiguration+Sync.h"; sourceTree = "<group>"; };
 		0D7D1DE6A3E38705FB36A701B423DA8D /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0A9071CDA03B3F786E2FC5E52530ED /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		0ECB8ACEED0768E593D681AA7A31323D /* Pods_nafta_messenger_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_nafta_messenger_ios.framework; path = "Pods-nafta.messenger.ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA877A48658B6C0EDFDB9A7D8004F6F /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
 		0FF5816EA213E7520BD7281917B00A63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		103B90EF453DB2AC8AC966338A637BAF /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
@@ -777,14 +853,15 @@
 		165BACFA72FB57C47A4809CF060CA551 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
 		16DE6680CE1CB71980CCB4F152867571 /* LinkingObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkingObjects.swift; path = RealmSwift/LinkingObjects.swift; sourceTree = "<group>"; };
 		17574BAA1315C8559BC74A402CFEE977 /* RLMRealmConfiguration+Sync.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "RLMRealmConfiguration+Sync.mm"; path = "Realm/RLMRealmConfiguration+Sync.mm"; sourceTree = "<group>"; };
+		19CB78AE6BE94588D9B2DA9E807721A7 /* Pods-nafta.messenger.iosTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nafta.messenger.iosTests-dummy.m"; sourceTree = "<group>"; };
 		1A61D65E22654880A894171D55AB562F /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = RealmSwift/Migration.swift; sourceTree = "<group>"; };
 		1BDC9CE422748F1EDDC2C2FAF2F7EFAB /* RLMSyncConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration_Private.h; path = include/RLMSyncConfiguration_Private.h; sourceTree = "<group>"; };
 		1BE018D091DC39715797DF5B5962D1D8 /* schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = schema.cpp; path = Realm/ObjectStore/src/schema.cpp; sourceTree = "<group>"; };
 		1C23786C0486FC3533E87235FA29C57C /* QMChatContactRequestCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatContactRequestCell.h; path = QMChatViewController/Views/Cells/QMChatContactRequestCell/QMChatContactRequestCell.h; sourceTree = "<group>"; };
-		1C6BDEAEED05691F5CEC6DA63AB9F48E /* Pods-nafta.messenger.ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nafta.messenger.ios-dummy.m"; sourceTree = "<group>"; };
 		1C826D1586B83BFFB9929155BAD83FAC /* QMChatLocationSnapshotter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMChatLocationSnapshotter.m; path = QMChatViewController/QMChatLocationSnapshotter/QMChatLocationSnapshotter.m; sourceTree = "<group>"; };
 		1D272053A35A72E52B71523047458A3B /* RLMSyncUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUtil.mm; path = Realm/RLMSyncUtil.mm; sourceTree = "<group>"; };
 		1D511B19E02EC555A28C84BA4AF801DE /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		1D9E214E4E78C5396EB0B27E8E283758 /* Pods_nafta_messenger_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_nafta_messenger_ios.framework; path = "Pods-nafta.messenger.ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD0714FFCD68E732A974A549DBE52AD /* QMChatNotificationCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatNotificationCell.h; path = QMChatViewController/Views/Cells/QMChatNotificationCell/QMChatNotificationCell.h; sourceTree = "<group>"; };
 		1EE685B76FD7599F245BDD9AD124E941 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		1F05814E3BA33A7C79094A25978C8029 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
@@ -824,17 +901,18 @@
 		2B9CB9D1048E4B461FDE9F56A89C84C1 /* QMChatLocationOutgoingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMChatLocationOutgoingCell.xib; path = QMChatViewController/Views/Cells/QMChatLocationOutgoingCell/QMChatLocationOutgoingCell.xib; sourceTree = "<group>"; };
 		2C550AB2092F4850FCE85B9314B5CB1D /* Results.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Results.swift; path = RealmSwift/Results.swift; sourceTree = "<group>"; };
 		2C8096B1F00F883446680E48A6F1FF6C /* QMChatCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatCell.h; path = QMChatViewController/Views/Cells/QMChatCell/QMChatCell.h; sourceTree = "<group>"; };
+		2CA791566A9477FC05D9962646761044 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTTAttributedLabel.framework; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2DD86181D752A188B5978F372C225E /* QMMediaViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMMediaViewDelegate.h; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMMediaViewDelegate/QMMediaViewDelegate.h; sourceTree = "<group>"; };
-		2D5BFDB03C7035ED8E52EBFD89CCD9D4 /* Pods-nafta.messenger.ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nafta.messenger.ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D384E54A95E52A6D3357E25647A07F0 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF9BDECEF5D4F7EBE255CCB969DCCFC /* QMLinkPreviewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMLinkPreviewDelegate.h; path = QMChatViewController/Views/Cells/QMLinkPreviewCell/QMLinkPreviewDelegate.h; sourceTree = "<group>"; };
 		2E683CA3EC5A331A0DDF97BF86CA2550 /* QMChatCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatCollectionViewFlowLayout.h; path = QMChatViewController/Views/CollectionView/Layout/QMChatCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		2F0F65B5679BCB2636367303809E2170 /* Pods-nafta.messenger.ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nafta.messenger.ios-umbrella.h"; sourceTree = "<group>"; };
 		2FA9DF9991C28D8F323D87CB5957C2DC /* RLMObjectSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema.h; path = include/RLMObjectSchema.h; sourceTree = "<group>"; };
 		2FF2271805D9C9F69BB7072F4A79C527 /* video-thumbnail.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video-thumbnail.png"; path = "QMChatViewController/Icons/video-thumbnail.png"; sourceTree = "<group>"; };
 		3024D14E4F01FA1FA3F8111FB3F65E95 /* QMAudioRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMAudioRecordView.h; path = QMChatViewController/Views/CustomUI/QMAudioRecordView/QMAudioRecordView.h; sourceTree = "<group>"; };
 		303D02CFA05D16877B18342B6DFD5B81 /* QMChatIncomingLinkPreviewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMChatIncomingLinkPreviewCell.xib; path = QMChatViewController/Views/Cells/QMLinkPreviewCell/QMChatIncomingLinkPreviewCell/QMChatIncomingLinkPreviewCell.xib; sourceTree = "<group>"; };
 		30526ABE5EBFA9C52F51ACDBA6D22ABC /* NSDate+ChatDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ChatDataSource.h"; path = "QMChatViewController/QMChatDataSource/NSDate+ChatDataSource.h"; sourceTree = "<group>"; };
 		30FA9F64457601248438ED5FC005E86A /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		31118C560BFE638EB268519A7D0A7446 /* Pods-nafta.messenger.iosTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-nafta.messenger.iosTests.modulemap"; sourceTree = "<group>"; };
 		320C2AC31CAF8CB366CF5A782F8B3CF7 /* QMChatCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMChatCollectionView.m; path = QMChatViewController/Views/CollectionView/QMChatCollectionView.m; sourceTree = "<group>"; };
 		3246A956C7A643A2E1BED98B7D54A58C /* play_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = play_icon.png; path = QMChatViewController/Icons/play_icon.png; sourceTree = "<group>"; };
 		32649678B6575B7A7623AF8117EFCE29 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
@@ -865,7 +943,6 @@
 		3E57E5FB766FB896B248DFEC82D8E2C9 /* RLMQueryUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMQueryUtil.mm; path = Realm/RLMQueryUtil.mm; sourceTree = "<group>"; };
 		3ED6DAEE4BB7310C39CE77FFBA5BB72F /* QMChatDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatDataSource.h; path = QMChatViewController/QMChatDataSource/QMChatDataSource.h; sourceTree = "<group>"; };
 		3F87071B74740AB309F67DEE036157B6 /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Object.swift; path = RealmSwift/Object.swift; sourceTree = "<group>"; };
-		3FAAB73719E94561FB439487D6B2D4B7 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4000AB83F7C2D49673B748E2DC267D0B /* RLMSyncConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncConfiguration.mm; path = Realm/RLMSyncConfiguration.mm; sourceTree = "<group>"; };
 		40881FB02833711B72035FFAFE1E9D5E /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
 		40A82611AE42169D00E40C7B08CA8BEB /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
@@ -876,9 +953,11 @@
 		4181366E2910A1BA06766E71A83A5109 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
 		42B14D5E3EFF0A0BBC9071E438CB188E /* thread_safe_reference.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = thread_safe_reference.cpp; path = Realm/ObjectStore/src/thread_safe_reference.cpp; sourceTree = "<group>"; };
 		42D119ED0D6A90ACB9A3B8BF8F2379C9 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		42DC67AE267EA0370A08C4AF7DB9412F /* QMChatViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QMChatViewController.bundle; path = QMChatViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A204FD2A67D9D8E9EB96AF6FEFCC34 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
 		4458A07D763E327F0261EBBEEADDB217 /* RLMSyncUser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUser.mm; path = Realm/RLMSyncUser.mm; sourceTree = "<group>"; };
 		44642AA45FA63A2B83D7B621DDEF7362 /* QMMediaIncomingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMMediaIncomingCell.m; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMMediaIncomingCell/QMMediaIncomingCell.m; sourceTree = "<group>"; };
+		454D40186C1D0357849DFB5084F0ACDA /* Pods-nafta.messenger.ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nafta.messenger.ios-resources.sh"; sourceTree = "<group>"; };
 		4566406729C3BF90FD89FCA989666DAA /* Realm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Realm.modulemap; sourceTree = "<group>"; };
 		45FC39ABD23DB7D0A53BD4E8DF7546F5 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
 		465E59309F3DCA123CF7CF12B99BF3B0 /* Alamofire+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Alamofire+Promise.swift"; path = "Extensions/Alamofire/Sources/Alamofire+Promise.swift"; sourceTree = "<group>"; };
@@ -889,7 +968,6 @@
 		4B3CE72E882E0A75B2CC8D1A04D18FE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B4E02003E244D56E798C77FE0143A76 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RealmSwift/Optional.swift; sourceTree = "<group>"; };
 		4C7629A24CF9161AE953532CCDC761DF /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PromiseKit.modulemap; sourceTree = "<group>"; };
-		4C7D7F35F51FC1E88A5889F049247B78 /* Pods-nafta.messenger.ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nafta.messenger.ios-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D3D4039C8A5E6467F87A390A1070669 /* RLMObjectBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectBase.mm; path = Realm/RLMObjectBase.mm; sourceTree = "<group>"; };
 		4DBED8A9D3CF55CFB67C992C32BB614D /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		4DF3A9463AEF0CD520DA40129821CE1B /* join.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = join.swift; path = Sources/join.swift; sourceTree = "<group>"; };
@@ -907,6 +985,7 @@
 		52D4B2A1ABBB37B98B1594A88EC7C9AB /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		540AC3FF3475E306D53BC144139107CD /* QMAudioIncomingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMAudioIncomingCell.h; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMAudioIncomingCell/QMAudioIncomingCell.h; sourceTree = "<group>"; };
 		541F5D5900369D2EC65F0DC531CCB2D2 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		54602E465148F21251F651AA0CBF6CAD /* Pods-nafta.messenger.ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nafta.messenger.ios-dummy.m"; sourceTree = "<group>"; };
 		547D3DBB5C6EB2671388A83AA411BAAD /* pause_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = pause_icon.png; path = QMChatViewController/Icons/pause_icon.png; sourceTree = "<group>"; };
 		5515087D9A4C308AB80A2A25CEB3EE79 /* QMToolbarContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMToolbarContainer.m; path = QMChatViewController/Views/CustomUI/InputToolBar/QMToolbarContainer.m; sourceTree = "<group>"; };
 		552291F1A0A5AC060C9A0DD8EC47C465 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
@@ -922,10 +1001,13 @@
 		5A578960CA30DB6E33CE9E0FE8473041 /* RLMObject_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject_Private.h; path = include/RLMObject_Private.h; sourceTree = "<group>"; };
 		5B043BF4A988D86D3D3E32656319749C /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		5BDECB0A2AABE0745D0FF1124C8B5EF6 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		5C0041FF5759DC18A83CA701DBB7F7C2 /* Pods-nafta.messenger.iosTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nafta.messenger.iosTests-resources.sh"; sourceTree = "<group>"; };
 		5C0B5CD50D574E6C28D84B50CE97EAF3 /* results.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results.cpp; path = Realm/ObjectStore/src/results.cpp; sourceTree = "<group>"; };
+		5CD521048A0CABF8F2AE4A71542E701E /* Pods-nafta.messenger.ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-nafta.messenger.ios.modulemap"; sourceTree = "<group>"; };
 		5F6F1F032D73095F89E51A2A8BE6FCDE /* QMChatViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMChatViewController-prefix.pch"; sourceTree = "<group>"; };
 		6035EF958535724D053DDA87A476E9CD /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		605C1293BE075C5F4DE7C869175F4B7C /* QMChatLocationIncomingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatLocationIncomingCell.h; path = QMChatViewController/Views/Cells/QMChatLocationIncomingCell/QMChatLocationIncomingCell.h; sourceTree = "<group>"; };
+		6121AFF542D039AA7B7A8995C16F811C /* Pods-nafta.messenger.iosTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nafta.messenger.iosTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		612DF7B1D7713E43F5962E3580FB2666 /* QMChatOutgoingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMChatOutgoingCell.m; path = QMChatViewController/Views/Cells/QMChatOutgoingCell/QMChatOutgoingCell.m; sourceTree = "<group>"; };
 		61C8B4BE5D3E8A1E2EE83830BB6F5116 /* RLMClassInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMClassInfo.mm; path = Realm/RLMClassInfo.mm; sourceTree = "<group>"; };
 		62B732265D73533C082FA5AFBAFB6511 /* RLMSyncPermission.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermission.mm; path = Realm/RLMSyncPermission.mm; sourceTree = "<group>"; };
@@ -937,6 +1019,7 @@
 		66635D48FB0708D058FA184CB0DE491C /* QMBaseMediaCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMBaseMediaCell.m; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMBaseChatMediaAttachmentCell/QMBaseMediaCell.m; sourceTree = "<group>"; };
 		66E6754E8E2ACE807D68046F203C0056 /* QMChatViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatViewController.h; path = QMChatViewController/QMChatViewController.h; sourceTree = "<group>"; };
 		672A6BDE67A81A74D799EFA7620DA73F /* QMChatOutgoingLinkPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMChatOutgoingLinkPreviewCell.m; path = QMChatViewController/Views/Cells/QMLinkPreviewCell/QMChatOutgoingLinkPreviewCell/QMChatOutgoingLinkPreviewCell.m; sourceTree = "<group>"; };
+		673965CCE7C15F46E55AFF3BA616BC1E /* QMChatViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMChatViewController.framework; path = QMChatViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67AF633E173A549FDB6C91273DD7BA04 /* FFCircularProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FFCircularProgressView.modulemap; sourceTree = "<group>"; };
 		68409AE2EDD0BCB997859E3A5FB9E334 /* PromiseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.xcconfig; sourceTree = "<group>"; };
 		68C9369F6E6B35E58BCD75C4070A5202 /* RLMSyncUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUser.h; path = include/RLMSyncUser.h; sourceTree = "<group>"; };
@@ -946,12 +1029,13 @@
 		6B0AB36B47FF755AF1D2A5EA53B30062 /* QMChatContactRequestCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMChatContactRequestCell.xib; path = QMChatViewController/Views/Cells/QMChatContactRequestCell/QMChatContactRequestCell.xib; sourceTree = "<group>"; };
 		6B1D59E7ED1834482525B8496CCA2C1D /* RealmConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmConfiguration.swift; path = RealmSwift/RealmConfiguration.swift; sourceTree = "<group>"; };
 		6BD8A07F924D8CEE2C6C1C327EBC2628 /* NSError+RLMSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+RLMSync.m"; path = "Realm/NSError+RLMSync.m"; sourceTree = "<group>"; };
+		6BDD9B28557C49F6215842C337D172B2 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5B05481EB6A77DA3494C4CF76F2E3F /* realm_coordinator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = realm_coordinator.cpp; path = Realm/ObjectStore/src/impl/realm_coordinator.cpp; sourceTree = "<group>"; };
 		6D14C7C9F0AB2F5B04FCDC28F5002528 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		6D194A6FB69706E203B95578B1D5AA40 /* QMCollectionViewFlowLayoutInvalidationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMCollectionViewFlowLayoutInvalidationContext.h; path = QMChatViewController/Views/CollectionView/Layout/QMCollectionViewFlowLayoutInvalidationContext.h; sourceTree = "<group>"; };
+		6D500FCDA9BB89342433CC50946429EC /* Pods-nafta.messenger.ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nafta.messenger.ios-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D8098D7CC1BBDEE6996BCB5D92231B9 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		6DF7719A9E4F57ADDBE805625AC0F4B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E784369C11C441590467189B38A1A19 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTTAttributedLabel.framework; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECE5C2321C55074E042CA85987DE835 /* QMAudioIncomingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMAudioIncomingCell.xib; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMAudioIncomingCell/QMAudioIncomingCell.xib; sourceTree = "<group>"; };
 		6EF8447EA77D3821AE1B826D5193B78A /* FFCircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFCircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F08F8253F4C28AAB06718AC931921A2 /* QMChatCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMChatCell.m; path = QMChatViewController/Views/Cells/QMChatCell/QMChatCell.m; sourceTree = "<group>"; };
@@ -967,10 +1051,10 @@
 		72DE52FE3F1099F6B8910181BD9B1BDF /* NSDate+ChatDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ChatDataSource.m"; path = "QMChatViewController/QMChatDataSource/NSDate+ChatDataSource.m"; sourceTree = "<group>"; };
 		73553380F7787DA7633DFF3AB6961BCB /* UIImage+QM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+QM.h"; path = "QMChatViewController/Categories/UIImage+QM.h"; sourceTree = "<group>"; };
 		73653527F6EAD1037A632345800AEB8F /* RLMUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUtil.mm; path = Realm/RLMUtil.mm; sourceTree = "<group>"; };
+		73E69855DD31744316474E11DB6A77DE /* AlamofireNetworkActivityLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireNetworkActivityLogger.framework; path = AlamofireNetworkActivityLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7407A1FBAE7209EF35B8D708FF76C9BD /* RealmSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-umbrella.h"; sourceTree = "<group>"; };
 		748777F4C92660BB071A9742B6868028 /* QMImageIncomingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMImageIncomingCell.xib; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMImageIncomingCell/QMImageIncomingCell.xib; sourceTree = "<group>"; };
 		7490E034BF57D69678DFEC453AA478DA /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
-		74E11A78B7685DFB91FCE222E5B32872 /* Pods-nafta.messenger.ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nafta.messenger.ios.release.xcconfig"; sourceTree = "<group>"; };
 		7586F09D80C9861BACB20BF54EEFD76F /* results_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results_notifier.cpp; path = Realm/ObjectStore/src/impl/results_notifier.cpp; sourceTree = "<group>"; };
 		7624A9B6DC03018C29E758AB62538F01 /* RLMManagedArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMManagedArray.mm; path = Realm/RLMManagedArray.mm; sourceTree = "<group>"; };
 		77090CF8F66ADA8335C849A31225C1ED /* QMVideoOutgoingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMVideoOutgoingCell.h; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMVideoOutgoingCell/QMVideoOutgoingCell.h; sourceTree = "<group>"; };
@@ -999,18 +1083,18 @@
 		852DBCC822A0C8C1877275D6EA84B681 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A428F4118543CA763CF1B33F347BED /* QMVideoIncomingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMVideoIncomingCell.xib; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMVideoIncomingCell/QMVideoIncomingCell.xib; sourceTree = "<group>"; };
 		86F96F359AAB0DD1CA12F2BD586500B1 /* format.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = format.cpp; path = Realm/ObjectStore/src/util/format.cpp; sourceTree = "<group>"; };
-		879CD84EEE29F366EEF7371B463663E1 /* Pods-nafta.messenger.ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nafta.messenger.ios-frameworks.sh"; sourceTree = "<group>"; };
 		87A9F64BCAA82FAA689B71476240F5E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88066DAB467CE7FA27AD71D288D66B31 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88453856075F987BD2AAD10682E841CA /* ic_retry-grey@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_retry-grey@3x.png"; path = "QMChatViewController/Icons/ic_retry-grey@3x.png"; sourceTree = "<group>"; };
 		88BAE8F705B02D009F0A3E710CCC6259 /* QMBaseMediaCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMBaseMediaCell.h; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMBaseChatMediaAttachmentCell/QMBaseMediaCell.h; sourceTree = "<group>"; };
 		88E595D956F60D170BBE03F91538AFD2 /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema_Private.h; path = include/RLMObjectSchema_Private.h; sourceTree = "<group>"; };
-		8921B47BB587B740A4EB436F4A82A1FA /* Pods-nafta.messenger.ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-nafta.messenger.ios.modulemap"; sourceTree = "<group>"; };
 		897F34CC93AC2F2F26B847F5AA23FBD3 /* UIViewController+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewController+Promise.swift"; sourceTree = "<group>"; };
 		89BE93019720389D7FE87159BC76BDE6 /* RLMListBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMListBase.h; path = include/RLMListBase.h; sourceTree = "<group>"; };
 		8B289EF15F2B9AD9A8251CC902F8C331 /* sync_metadata.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_metadata.cpp; path = Realm/ObjectStore/src/sync/impl/sync_metadata.cpp; sourceTree = "<group>"; };
 		8B4FF7919FA597DE0FFACCC4CA3C1954 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
-		8BBE5E4C0C135CFF91CE4073C02EF5C0 /* Pods-nafta.messenger.ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nafta.messenger.ios.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0230269745ED92FC938D01D53A9A76 /* Pods-nafta.messenger.iosTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nafta.messenger.iosTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C36ADB17F2B5C06E848046AD3D4D94D /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		8CD9401EFC8C3D8914806EA0B654D08C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF012F47A98E14FC8A80812696D10B0 /* QMAudioIncomingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMAudioIncomingCell.m; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMAudioIncomingCell/QMAudioIncomingCell.m; sourceTree = "<group>"; };
 		8D31DC111B2E2BE6790F09E32C0AB822 /* RLMRealm_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Private.h; path = include/RLMRealm_Private.h; sourceTree = "<group>"; };
 		8E0A171C2FED50107F518C339EB2A2E6 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = RealmSwift/Util.swift; sourceTree = "<group>"; };
@@ -1018,7 +1102,8 @@
 		8E637F95765C25810870085F08B6636B /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		8E881F05633F1813DA08789CCA15C020 /* sync_config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_config.cpp; path = Realm/ObjectStore/src/sync/sync_config.cpp; sourceTree = "<group>"; };
 		8F56AB29449EB19BEEF5D44657D8BBA7 /* NSString+QM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QM.m"; path = "QMChatViewController/Categories/NSString+QM.m"; sourceTree = "<group>"; };
-		90826C9D0715B615862F2F052DA7275D /* Pods-nafta.messenger.ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nafta.messenger.ios-resources.sh"; sourceTree = "<group>"; };
+		8FD8DAE0CD7B983ECD0082D2FA412DB2 /* Pods-nafta.messenger.ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nafta.messenger.ios-frameworks.sh"; sourceTree = "<group>"; };
+		900BBCFA9D9A761C21C0F0DB18CBFBBF /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		909DCECC9568904EA1726C7F3C9AD57C /* QMPlaceHolderTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMPlaceHolderTextView.m; path = QMChatViewController/Views/CustomUI/PlaceHolderTextView/QMPlaceHolderTextView.m; sourceTree = "<group>"; };
 		92718A8F1DE1B4906F79389F95CB6389 /* QMChatAttachmentOutgoingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatAttachmentOutgoingCell.h; path = QMChatViewController/Views/Cells/QMChatAttachmentOutgoingCell/QMChatAttachmentOutgoingCell.h; sourceTree = "<group>"; };
 		92C5FC7F59E7AC6FC4A3A66054BD2F53 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
@@ -1059,17 +1144,18 @@
 		A253015287A63CC2219A23FA92C1CB4F /* QMCollectionViewFlowLayoutInvalidationContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMCollectionViewFlowLayoutInvalidationContext.m; path = QMChatViewController/Views/CollectionView/Layout/QMCollectionViewFlowLayoutInvalidationContext.m; sourceTree = "<group>"; };
 		A41A9B765AD7EFBEA80D8601072C07F1 /* UIColor+iOS7.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+iOS7.m"; path = "FFCircularProgressView/FFCircularProgressView/UIColor+iOS7.m"; sourceTree = "<group>"; };
 		A4438486D39F088C32779F237BCD1ACC /* external_commit_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = external_commit_helper.cpp; path = Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp; sourceTree = "<group>"; };
-		A49BEA1759207BCE4FD91D8511593A9C /* QMChatViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QMChatViewController.bundle; path = QMChatViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56154A470AA6CF166CAE3C7B397BD4D /* QMImageIncomingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMImageIncomingCell.m; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMImageIncomingCell/QMImageIncomingCell.m; sourceTree = "<group>"; };
 		A56231D35A6D7D53EC15ECACB32CD18A /* QMPlaceHolderTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMPlaceHolderTextView.h; path = QMChatViewController/Views/CustomUI/PlaceHolderTextView/QMPlaceHolderTextView.h; sourceTree = "<group>"; };
 		A5ADDBCA541C7D31847928E3A648ADA8 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		A612422950A23CE51AE150B2916CCBBF /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65D8A20C005FD55F5299B84A47CC65D /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
 		A69ABCEF28943E6CB07FB9504F3CE200 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
+		A7BC067185927D1B99353AB59510E5B0 /* Pods-nafta.messenger.iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nafta.messenger.iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		A96F365EDDF38EB4878BE5816C8D8CD4 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
 		AAEF21F630F71500C0CE71EF71DF0415 /* SwiftVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftVersion.swift; path = RealmSwift/SwiftVersion.swift; sourceTree = "<group>"; };
+		AB106A9E3642D95860FD93952A051C53 /* Pods-nafta.messenger.ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nafta.messenger.ios.release.xcconfig"; sourceTree = "<group>"; };
 		ABC8BDE60E54B84C18CB60353448F78F /* List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = List.swift; path = RealmSwift/List.swift; sourceTree = "<group>"; };
 		AC3F3D06F5ED01183D25CF1A1C1DB96E /* RLMObjectStore.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectStore.mm; path = Realm/RLMObjectStore.mm; sourceTree = "<group>"; };
+		AD3E2A6CEB0116BBF89D79E896370FDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8CF5D72D4B1886212F26543DF7F5F7 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
 		AE316C564CBF8E8558D2645D3500BE81 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		AE653F3906FB082D4CB586D424D3B01D /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
@@ -1077,6 +1163,7 @@
 		B1011282B6A3329A5B323221D9C2F7CC /* uuid.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = uuid.cpp; path = Realm/ObjectStore/src/util/uuid.cpp; sourceTree = "<group>"; };
 		B19AE9F90AAD89F1419585C07A671C50 /* QMChatContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMChatContainerView.m; path = QMChatViewController/Views/QMChatContainerView.m; sourceTree = "<group>"; };
 		B1C7130091D2EAAAD538516F8534FF2A /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		B2D7172F9B1F5C4E19DA8FB4F2449D5B /* Pods-nafta.messenger.ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nafta.messenger.ios-umbrella.h"; sourceTree = "<group>"; };
 		B361C25E2CBFD29958ED133FCE9F1702 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		B364ED2196B21FEBE04A9DACAE97DD21 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
 		B379F415BF1865B7905CF9FF49C80A0E /* collection_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifier.cpp; path = Realm/ObjectStore/src/impl/collection_notifier.cpp; sourceTree = "<group>"; };
@@ -1092,15 +1179,14 @@
 		BB1E21224FBFFA51643380D8BC238751 /* QMMediaOutgoingCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMMediaOutgoingCell.h; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMMediaOutgoingCell/QMMediaOutgoingCell.h; sourceTree = "<group>"; };
 		BB7EDBE053CB9BAA776199133F0CBF03 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
 		BB8238FE2AE9FBCA14E4A6BFD4AEB709 /* Promise+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Properties.swift"; path = "Sources/Promise+Properties.swift"; sourceTree = "<group>"; };
-		BC7EC2748D4EA2802E04AFDD1383012F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE49BB08DCA258A70FD0CD3D7A2AC58 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		BD6F5041D334C4CB2DFCF3D04BDEE943 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
 		BDCC44995189534DA09532300E4E41A8 /* QMVideoOutgoingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMVideoOutgoingCell.xib; path = QMChatViewController/Views/Cells/QMChatMediaAttachmentCell/QMVideoOutgoingCell/QMVideoOutgoingCell.xib; sourceTree = "<group>"; };
-		BDCE2DEB2CEFBF26C186FF3797447027 /* QMChatViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMChatViewController.framework; path = QMChatViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE163F8CCE3EDA49889DB0A6E5CAB225 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
 		BE1C45C0666B675B9DF9D68B724F36B4 /* RLMSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema_Private.h; path = include/RLMSchema_Private.h; sourceTree = "<group>"; };
 		BED99AB0F72D35AEB84F42C05B23F7F1 /* RLMAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMAccessor.h; path = include/RLMAccessor.h; sourceTree = "<group>"; };
 		C0157A0F559A7929FB9EDA3957222A45 /* transact_log_handler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transact_log_handler.cpp; path = Realm/ObjectStore/src/impl/transact_log_handler.cpp; sourceTree = "<group>"; };
+		C0335334969EB011BBB01448D1A8F72E /* Pods-nafta.messenger.ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nafta.messenger.ios-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0829FCDC92A3038FA055929C303E269 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		C0AB0C2007A913876905583A8DC7FCB6 /* sync_manager.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_manager.cpp; path = Realm/ObjectStore/src/sync/sync_manager.cpp; sourceTree = "<group>"; };
 		C14E1837EA2F0E5E9CB91E729237AFAA /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
@@ -1134,6 +1220,7 @@
 		C9FF0F8F786C4F101822F78E07846A3C /* QMChatAttachmentOutgoingCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMChatAttachmentOutgoingCell.m; path = QMChatViewController/Views/Cells/QMChatAttachmentOutgoingCell/QMChatAttachmentOutgoingCell.m; sourceTree = "<group>"; };
 		CC2BB2A3661EA9D1EE1AE44449F3937A /* FFCircularProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFCircularProgressView.m; path = FFCircularProgressView/FFCircularProgressView/FFCircularProgressView.m; sourceTree = "<group>"; };
 		CC57AC5D7CC6AFF117483F0CE79C0CE9 /* QMChatOutgoingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMChatOutgoingCell.xib; path = QMChatViewController/Views/Cells/QMChatOutgoingCell/QMChatOutgoingCell.xib; sourceTree = "<group>"; };
+		CC6A3C98DCA2EF21A96D99EB062A1165 /* Pods-nafta.messenger.iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nafta.messenger.iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCD910F79F597E51D13EC0AF04DBFBDB /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		CD799A54C0AB5C0DF74E7F599602311F /* QMDateUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMDateUtils.h; path = QMChatViewController/Utils/QMDateUtils/QMDateUtils.h; sourceTree = "<group>"; };
 		CE7E494F84DAC86F94BB5C7C9258BF31 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
@@ -1141,15 +1228,14 @@
 		CF700819A56E63D92D36FF07AD286648 /* NetworkActivityLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityLogger.swift; path = Source/NetworkActivityLogger.swift; sourceTree = "<group>"; };
 		D06C959089B0953CCBCD385F2A3D4368 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
 		D09DA4C560228C3B51E7F1015E69E729 /* RLMArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArray.mm; path = Realm/RLMArray.mm; sourceTree = "<group>"; };
-		D09F163EE5151FB5E8B781FE8E73DA55 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D72169D1548D31EDDEBDB40257692E /* attachment_ic@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "attachment_ic@3x.png"; path = "QMChatViewController/Icons/attachment_ic@3x.png"; sourceTree = "<group>"; };
 		D11EB0E9661DD3AECB8443D32614B076 /* QMChatAttachmentOutgoingCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QMChatAttachmentOutgoingCell.xib; path = QMChatViewController/Views/Cells/QMChatAttachmentOutgoingCell/QMChatAttachmentOutgoingCell.xib; sourceTree = "<group>"; };
 		D15EF29690BBEB2567232D22367E8910 /* RLMPredicateUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMPredicateUtil.mm; path = Realm/RLMPredicateUtil.mm; sourceTree = "<group>"; };
 		D1E06547B8D9A03E807395971E0D11AA /* RLMSyncSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncSession.h; path = include/RLMSyncSession.h; sourceTree = "<group>"; };
+		D1E07BBC7D42C45A65D22B15B7DAE06C /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27FE46EE307A9EEFF96846FFA26B1DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D34F333EFB29706D5EFC4F1056799553 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		D37FEB2990A532727855E4A1EACF8C78 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		D3F53F5485A40E4ED4AF63678A516029 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FB06EAC4000CE12A9076FD30157479 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
 		D400519D959EE1C9D61C026603A04669 /* Realm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Realm-dummy.m"; sourceTree = "<group>"; };
 		D49D8506A56F9B32D0322DEB355624E4 /* RLMObjectBase_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Private.h; path = include/RLMObjectBase_Private.h; sourceTree = "<group>"; };
@@ -1178,7 +1264,7 @@
 		E0B9FDA9D394207FA55605AE2782D8C6 /* RLMRealm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm.h; path = include/RLMRealm.h; sourceTree = "<group>"; };
 		E0E6BEF1DCDD104BCABA06DB54040485 /* list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list_notifier.cpp; path = Realm/ObjectStore/src/impl/list_notifier.cpp; sourceTree = "<group>"; };
 		E13334A5D8BA6D876D12CE0C8BE9FA09 /* cancel_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = cancel_icon.png; path = QMChatViewController/Icons/cancel_icon.png; sourceTree = "<group>"; };
-		E190F2D38D4248490B336FE76628B6F7 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13940BF03D2E7E1C8B58575442B940B /* Pods_nafta_messenger_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_nafta_messenger_iosTests.framework; path = "Pods-nafta.messenger.iosTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DBD111EF6DEABB01321AE575B74D26 /* QMKVOView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMKVOView.h; path = QMChatViewController/Views/QMKVOView.h; sourceTree = "<group>"; };
 		E241BC1FC3086FEFE8FF25A74ACD79F7 /* QMChatDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMChatDataSource.m; path = QMChatViewController/QMChatDataSource/QMChatDataSource.m; sourceTree = "<group>"; };
 		E2EE960CE29CA08E19765D7B0AC354B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1209,6 +1295,7 @@
 		ECC38566AB07052408E4F39322A0B265 /* index_set.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = index_set.cpp; path = Realm/ObjectStore/src/index_set.cpp; sourceTree = "<group>"; };
 		ED6C9D439A73897B2924A92B63DAE08C /* RLMResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults.h; path = include/RLMResults.h; sourceTree = "<group>"; };
 		EE5B12C0D06D9C9C6BE23D4E4B16F063 /* UIImageView+QMLocationSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+QMLocationSnapshot.m"; path = "QMChatViewController/QMChatLocationSnapshotter/UIImageView+QMLocationSnapshot.m"; sourceTree = "<group>"; };
+		EE990140E5BDC29A231785E4C3986F88 /* FFCircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFCircularProgressView.framework; path = FFCircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF08E0C83D4F526ECDEEDE01EC4F5DC3 /* attachment_ic@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "attachment_ic@2x.png"; path = "QMChatViewController/Icons/attachment_ic@2x.png"; sourceTree = "<group>"; };
 		EF10F649FA99472C0FA4F0B682B0F9C9 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
 		EF7DE29F8E8C0D24E4C3F092208EF115 /* attachment_ic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = attachment_ic.png; path = QMChatViewController/Icons/attachment_ic.png; sourceTree = "<group>"; };
@@ -1221,6 +1308,7 @@
 		F19B0DFCF41464FB804F913B042FD4C6 /* ic_retry-grey.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_retry-grey.png"; path = "QMChatViewController/Icons/ic_retry-grey.png"; sourceTree = "<group>"; };
 		F1B94C47F0FFFB64EB08FDC5C550BAD9 /* QMChatContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMChatContainerView.h; path = QMChatViewController/Views/QMChatContainerView.h; sourceTree = "<group>"; };
 		F1EBF197908FF03E85D57B8182A771D7 /* Zalgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zalgo.swift; path = Sources/Zalgo.swift; sourceTree = "<group>"; };
+		F1FE1426606F9D69470FD7AAFCB7C9FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2041707FFDED3576D34A22920E7A193 /* RLMCollection.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMCollection.mm; path = Realm/RLMCollection.mm; sourceTree = "<group>"; };
 		F23A830D6F18FA0FDE9F8EC81BE80F1C /* Realm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Realm-prefix.pch"; sourceTree = "<group>"; };
 		F2498BF44954AD44DAA821A6A10C6957 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
@@ -1241,6 +1329,7 @@
 		F7508049979EB8B3E679A25537CB7D96 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
 		F8302F74AFDE45A4DE379FFF8C4B6695 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
 		F86ADE6F717B8FD490C6D0491AE155CF /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		F87E4DAF70B84022C574D51726B0BB3F /* Pods-nafta.messenger.ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nafta.messenger.ios.debug.xcconfig"; sourceTree = "<group>"; };
 		F9364C45E3C521C83C02AC1A8997A99D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		F95957DE441232E539F81CF1647FB385 /* NSError+RLMSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+RLMSync.h"; path = "include/NSError+RLMSync.h"; sourceTree = "<group>"; };
 		F9E1AD1DFBED4E2BA6606D7D094CDE5F /* RLMOptionalBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMOptionalBase.mm; path = Realm/RLMOptionalBase.mm; sourceTree = "<group>"; };
@@ -1252,6 +1341,8 @@
 		FD1C86AC0F6262106772F1DFAE8A2A4C /* network_reachability_observer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = network_reachability_observer.cpp; path = Realm/ObjectStore/src/sync/impl/apple/network_reachability_observer.cpp; sourceTree = "<group>"; };
 		FD768B5C36F0F6C86F82BDA991357232 /* TTTAttributedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-umbrella.h"; sourceTree = "<group>"; };
 		FDEF67C23EBE47593FAB14C03BACC07F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		FE21DDD056AF56BFA3499519A154BA71 /* Pods-nafta.messenger.iosTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nafta.messenger.iosTests-frameworks.sh"; sourceTree = "<group>"; };
+		FF1C993BB921A36819A5A590F888A56D /* Pods-nafta.messenger.iosTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nafta.messenger.iosTests-umbrella.h"; sourceTree = "<group>"; };
 		FFCD7D091F1DCF58566BAF323D46CE69 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1330,6 +1421,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED1557EF9ADB46F1136EB682554B440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F19DC73EF33FBEC82A2F231148A404 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1416,6 +1515,24 @@
 			);
 			name = SDWebImage;
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		049A57D1D1810FBA468E678D202352D0 /* Pods-nafta.messenger.ios */ = {
+			isa = PBXGroup;
+			children = (
+				F1FE1426606F9D69470FD7AAFCB7C9FF /* Info.plist */,
+				5CD521048A0CABF8F2AE4A71542E701E /* Pods-nafta.messenger.ios.modulemap */,
+				6D500FCDA9BB89342433CC50946429EC /* Pods-nafta.messenger.ios-acknowledgements.markdown */,
+				C0335334969EB011BBB01448D1A8F72E /* Pods-nafta.messenger.ios-acknowledgements.plist */,
+				54602E465148F21251F651AA0CBF6CAD /* Pods-nafta.messenger.ios-dummy.m */,
+				8FD8DAE0CD7B983ECD0082D2FA412DB2 /* Pods-nafta.messenger.ios-frameworks.sh */,
+				454D40186C1D0357849DFB5084F0ACDA /* Pods-nafta.messenger.ios-resources.sh */,
+				B2D7172F9B1F5C4E19DA8FB4F2449D5B /* Pods-nafta.messenger.ios-umbrella.h */,
+				F87E4DAF70B84022C574D51726B0BB3F /* Pods-nafta.messenger.ios.debug.xcconfig */,
+				AB106A9E3642D95860FD93952A051C53 /* Pods-nafta.messenger.ios.release.xcconfig */,
+			);
+			name = "Pods-nafta.messenger.ios";
+			path = "Target Support Files/Pods-nafta.messenger.ios";
 			sourceTree = "<group>";
 		};
 		0B8C6CAFBC98DE8062F5C0D9067D0748 /* AlamofireNetworkActivityLogger */ = {
@@ -1558,14 +1675,6 @@
 			path = "../Target Support Files/AlamofireNetworkActivityLogger";
 			sourceTree = "<group>";
 		};
-		2126F9504D7BC160E03C7686EA0C36D8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2EEC890BC0769B59D160174C90218205 /* Pods-nafta.messenger.ios */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		258487D044C10358EA6F6ABC44C912F4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1608,24 +1717,6 @@
 				F1EBF197908FF03E85D57B8182A771D7 /* Zalgo.swift */,
 			);
 			name = CorePromise;
-			sourceTree = "<group>";
-		};
-		2EEC890BC0769B59D160174C90218205 /* Pods-nafta.messenger.ios */ = {
-			isa = PBXGroup;
-			children = (
-				01C0BBDD70713A658438E04DE1E17E6E /* Info.plist */,
-				8921B47BB587B740A4EB436F4A82A1FA /* Pods-nafta.messenger.ios.modulemap */,
-				2D5BFDB03C7035ED8E52EBFD89CCD9D4 /* Pods-nafta.messenger.ios-acknowledgements.markdown */,
-				4C7D7F35F51FC1E88A5889F049247B78 /* Pods-nafta.messenger.ios-acknowledgements.plist */,
-				1C6BDEAEED05691F5CEC6DA63AB9F48E /* Pods-nafta.messenger.ios-dummy.m */,
-				879CD84EEE29F366EEF7371B463663E1 /* Pods-nafta.messenger.ios-frameworks.sh */,
-				90826C9D0715B615862F2F052DA7275D /* Pods-nafta.messenger.ios-resources.sh */,
-				2F0F65B5679BCB2636367303809E2170 /* Pods-nafta.messenger.ios-umbrella.h */,
-				8BBE5E4C0C135CFF91CE4073C02EF5C0 /* Pods-nafta.messenger.ios.debug.xcconfig */,
-				74E11A78B7685DFB91FCE222E5B32872 /* Pods-nafta.messenger.ios.release.xcconfig */,
-			);
-			name = "Pods-nafta.messenger.ios";
-			path = "Target Support Files/Pods-nafta.messenger.ios";
 			sourceTree = "<group>";
 		};
 		3A6CF9E250576DD74E270AE2A90A8C2C /* UIKit */ = {
@@ -1696,6 +1787,24 @@
 				E1E2B223141CC7F0BD4586C5AEE9DD39 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A4A8CB23D4FAD3ECD128447AB0607AC /* Pods-nafta.messenger.iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD3E2A6CEB0116BBF89D79E896370FDB /* Info.plist */,
+				31118C560BFE638EB268519A7D0A7446 /* Pods-nafta.messenger.iosTests.modulemap */,
+				6121AFF542D039AA7B7A8995C16F811C /* Pods-nafta.messenger.iosTests-acknowledgements.markdown */,
+				8C0230269745ED92FC938D01D53A9A76 /* Pods-nafta.messenger.iosTests-acknowledgements.plist */,
+				19CB78AE6BE94588D9B2DA9E807721A7 /* Pods-nafta.messenger.iosTests-dummy.m */,
+				FE21DDD056AF56BFA3499519A154BA71 /* Pods-nafta.messenger.iosTests-frameworks.sh */,
+				5C0041FF5759DC18A83CA701DBB7F7C2 /* Pods-nafta.messenger.iosTests-resources.sh */,
+				FF1C993BB921A36819A5A590F888A56D /* Pods-nafta.messenger.iosTests-umbrella.h */,
+				CC6A3C98DCA2EF21A96D99EB062A1165 /* Pods-nafta.messenger.iosTests.debug.xcconfig */,
+				A7BC067185927D1B99353AB59510E5B0 /* Pods-nafta.messenger.iosTests.release.xcconfig */,
+			);
+			name = "Pods-nafta.messenger.iosTests";
+			path = "Target Support Files/Pods-nafta.messenger.iosTests";
 			sourceTree = "<group>";
 		};
 		4A919E6F57EED01395AA7BA85309C9D1 /* Views */ = {
@@ -1784,6 +1893,27 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		502BA6C8C74C58B490740E9D426C2145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049EE9F5D84CDA7912722D0E95ADAA20 /* Alamofire.framework */,
+				73E69855DD31744316474E11DB6A77DE /* AlamofireNetworkActivityLogger.framework */,
+				900BBCFA9D9A761C21C0F0DB18CBFBBF /* ChameleonFramework.framework */,
+				EE990140E5BDC29A231785E4C3986F88 /* FFCircularProgressView.framework */,
+				1D9E214E4E78C5396EB0B27E8E283758 /* Pods_nafta_messenger_ios.framework */,
+				E13940BF03D2E7E1C8B58575442B940B /* Pods_nafta_messenger_iosTests.framework */,
+				88066DAB467CE7FA27AD71D288D66B31 /* PromiseKit.framework */,
+				42DC67AE267EA0370A08C4AF7DB9412F /* QMChatViewController.bundle */,
+				673965CCE7C15F46E55AFF3BA616BC1E /* QMChatViewController.framework */,
+				6BDD9B28557C49F6215842C337D172B2 /* Realm.framework */,
+				2D384E54A95E52A6D3357E25647A07F0 /* RealmSwift.framework */,
+				D1E07BBC7D42C45A65D22B15B7DAE06C /* SDWebImage.framework */,
+				8CD9401EFC8C3D8914806EA0B654D08C /* SwiftyJSON.framework */,
+				2CA791566A9477FC05D9962646761044 /* TTTAttributedLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5883123118DD9F134E38AC9A873084BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1816,6 +1946,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FFCircularProgressView";
+			sourceTree = "<group>";
+		};
+		5C8203A60543C8FF95CCEEB1F397D534 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				049A57D1D1810FBA468E678D202352D0 /* Pods-nafta.messenger.ios */,
+				4A4A8CB23D4FAD3ECD128447AB0607AC /* Pods-nafta.messenger.iosTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		62D15B3C26A0067F678A25FCEF1A55AA /* QMChatLocationSnapshotter */ = {
@@ -1884,8 +2023,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				47E8F88376F6E933FE73B50D2054A7C1 /* Frameworks */,
 				5883123118DD9F134E38AC9A873084BE /* Pods */,
-				A37A2E5162932F713130E5C63BDF3C77 /* Products */,
-				2126F9504D7BC160E03C7686EA0C36D8 /* Targets Support Files */,
+				502BA6C8C74C58B490740E9D426C2145 /* Products */,
+				5C8203A60543C8FF95CCEEB1F397D534 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1995,26 +2134,6 @@
 				3BF794DF1FB4A8E56D6FCA98F4F1EC74 /* QMChatCollectionViewDelegateFlowLayout.h */,
 			);
 			name = Protocols;
-			sourceTree = "<group>";
-		};
-		A37A2E5162932F713130E5C63BDF3C77 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BC7EC2748D4EA2802E04AFDD1383012F /* Alamofire.framework */,
-				0155BD1E4C776AD6B8AD2FA4A1FDBE99 /* AlamofireNetworkActivityLogger.framework */,
-				A612422950A23CE51AE150B2916CCBBF /* ChameleonFramework.framework */,
-				00C37F78732D4DC2A95868B01050B13F /* FFCircularProgressView.framework */,
-				0ECB8ACEED0768E593D681AA7A31323D /* Pods_nafta_messenger_ios.framework */,
-				3FAAB73719E94561FB439487D6B2D4B7 /* PromiseKit.framework */,
-				A49BEA1759207BCE4FD91D8511593A9C /* QMChatViewController.bundle */,
-				BDCE2DEB2CEFBF26C186FF3797447027 /* QMChatViewController.framework */,
-				02818F03475D85BC62E9747493F1A0B6 /* Realm.framework */,
-				E190F2D38D4248490B336FE76628B6F7 /* RealmSwift.framework */,
-				D3F53F5485A40E4ED4AF63678A516029 /* SDWebImage.framework */,
-				D09F163EE5151FB5E8B781FE8E73DA55 /* SwiftyJSON.framework */,
-				6E784369C11C441590467189B38A1A19 /* TTTAttributedLabel.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B1FA2B6141A98892EEDF6A5960107921 /* Support Files */ = {
@@ -2527,6 +2646,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A15AE8A3D1CF2B75AFB63DD9ECF77213 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBF5EAEFC42597CA2EAC58F0E269CB4 /* Pods-nafta.messenger.iosTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2576,7 +2703,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = D09F163EE5151FB5E8B781FE8E73DA55 /* SwiftyJSON.framework */;
+			productReference = 8CD9401EFC8C3D8914806EA0B654D08C /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0C507C82B332BA025F51E7BDB6126D8B /* AlamofireNetworkActivityLogger */ = {
@@ -2594,7 +2721,7 @@
 			);
 			name = AlamofireNetworkActivityLogger;
 			productName = AlamofireNetworkActivityLogger;
-			productReference = 0155BD1E4C776AD6B8AD2FA4A1FDBE99 /* AlamofireNetworkActivityLogger.framework */;
+			productReference = 73E69855DD31744316474E11DB6A77DE /* AlamofireNetworkActivityLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		22985AF09AAEB6562EE3408AB94BD173 /* SDWebImage */ = {
@@ -2611,7 +2738,7 @@
 			);
 			name = SDWebImage;
 			productName = SDWebImage;
-			productReference = D3F53F5485A40E4ED4AF63678A516029 /* SDWebImage.framework */;
+			productReference = D1E07BBC7D42C45A65D22B15B7DAE06C /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		25CD86164BDA4C0A65B2626D013B7337 /* QMChatViewController-QMChatViewController */ = {
@@ -2628,7 +2755,7 @@
 			);
 			name = "QMChatViewController-QMChatViewController";
 			productName = "QMChatViewController-QMChatViewController";
-			productReference = A49BEA1759207BCE4FD91D8511593A9C /* QMChatViewController.bundle */;
+			productReference = 42DC67AE267EA0370A08C4AF7DB9412F /* QMChatViewController.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		647D07D52C7759736E26CBB77AD7234E /* PromiseKit */ = {
@@ -2646,7 +2773,7 @@
 			);
 			name = PromiseKit;
 			productName = PromiseKit;
-			productReference = 3FAAB73719E94561FB439487D6B2D4B7 /* PromiseKit.framework */;
+			productReference = 88066DAB467CE7FA27AD71D288D66B31 /* PromiseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -2663,7 +2790,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = BC7EC2748D4EA2802E04AFDD1383012F /* Alamofire.framework */;
+			productReference = 049EE9F5D84CDA7912722D0E95ADAA20 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8A267660E1AD4832DE75665F2F87AEA3 /* ChameleonFramework */ = {
@@ -2680,7 +2807,7 @@
 			);
 			name = ChameleonFramework;
 			productName = ChameleonFramework;
-			productReference = A612422950A23CE51AE150B2916CCBBF /* ChameleonFramework.framework */;
+			productReference = 900BBCFA9D9A761C21C0F0DB18CBFBBF /* ChameleonFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		93D333A52F6FA490CFF205D3F3A0C23F /* TTTAttributedLabel */ = {
@@ -2697,7 +2824,7 @@
 			);
 			name = TTTAttributedLabel;
 			productName = TTTAttributedLabel;
-			productReference = 6E784369C11C441590467189B38A1A19 /* TTTAttributedLabel.framework */;
+			productReference = 2CA791566A9477FC05D9962646761044 /* TTTAttributedLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A893E70243858F443DF4DE9DAFAC80E6 /* Realm */ = {
@@ -2716,7 +2843,7 @@
 			);
 			name = Realm;
 			productName = Realm;
-			productReference = 02818F03475D85BC62E9747493F1A0B6 /* Realm.framework */;
+			productReference = 6BDD9B28557C49F6215842C337D172B2 /* Realm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ABAE9128DB7DFABB30C221B6B019D9A3 /* QMChatViewController */ = {
@@ -2738,7 +2865,7 @@
 			);
 			name = QMChatViewController;
 			productName = QMChatViewController;
-			productReference = BDCE2DEB2CEFBF26C186FF3797447027 /* QMChatViewController.framework */;
+			productReference = 673965CCE7C15F46E55AFF3BA616BC1E /* QMChatViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ABFCC522B783DED1B6C70B0206D7898E /* RealmSwift */ = {
@@ -2756,7 +2883,7 @@
 			);
 			name = RealmSwift;
 			productName = RealmSwift;
-			productReference = E190F2D38D4248490B336FE76628B6F7 /* RealmSwift.framework */;
+			productReference = 2D384E54A95E52A6D3357E25647A07F0 /* RealmSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF9233B161DAC5EAFAAE16328501D122 /* Pods-nafta.messenger.ios */ = {
@@ -2784,7 +2911,35 @@
 			);
 			name = "Pods-nafta.messenger.ios";
 			productName = "Pods-nafta.messenger.ios";
-			productReference = 0ECB8ACEED0768E593D681AA7A31323D /* Pods_nafta_messenger_ios.framework */;
+			productReference = 1D9E214E4E78C5396EB0B27E8E283758 /* Pods_nafta_messenger_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D69B73192D2D699FB3FFE97261EA3FFA /* Pods-nafta.messenger.iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D46B64A65DD020164844402A8DCEF6 /* Build configuration list for PBXNativeTarget "Pods-nafta.messenger.iosTests" */;
+			buildPhases = (
+				D5114F06881E36C6ED7150FB9D3A376C /* Sources */,
+				9ED1557EF9ADB46F1136EB682554B440 /* Frameworks */,
+				A15AE8A3D1CF2B75AFB63DD9ECF77213 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DD49A4081ED711A371AB287E7ADCAB /* PBXTargetDependency */,
+				8F4CB0C5155E44D381AB081788A7DBB3 /* PBXTargetDependency */,
+				9CA8802286196478ED76484F56954653 /* PBXTargetDependency */,
+				A6235168C12173099E601368D93D9CF1 /* PBXTargetDependency */,
+				4051E23890F036BA1A37D20ED5D94634 /* PBXTargetDependency */,
+				D053CF4720636E25AF035DA84BC9BB2E /* PBXTargetDependency */,
+				9966DEA8CEAFDB9D06B555F610AFD72F /* PBXTargetDependency */,
+				49B5BD729C80327F1D97F6B75139A289 /* PBXTargetDependency */,
+				03913283E7EB42754560F1A2CC34B5B3 /* PBXTargetDependency */,
+				4D3A38165B2DB2A249AEBBF88ABCC60C /* PBXTargetDependency */,
+				9B84ED584DFA3117EA46612E8A182508 /* PBXTargetDependency */,
+			);
+			name = "Pods-nafta.messenger.iosTests";
+			productName = "Pods-nafta.messenger.iosTests";
+			productReference = E13940BF03D2E7E1C8B58575442B940B /* Pods_nafta_messenger_iosTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E0CAD6CD4B3FBACB6698FC255C997CA4 /* FFCircularProgressView */ = {
@@ -2801,7 +2956,7 @@
 			);
 			name = FFCircularProgressView;
 			productName = FFCircularProgressView;
-			productReference = 00C37F78732D4DC2A95868B01050B13F /* FFCircularProgressView.framework */;
+			productReference = EE990140E5BDC29A231785E4C3986F88 /* FFCircularProgressView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2821,7 +2976,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A37A2E5162932F713130E5C63BDF3C77 /* Products */;
+			productRefGroup = 502BA6C8C74C58B490740E9D426C2145 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2830,6 +2985,7 @@
 				8A267660E1AD4832DE75665F2F87AEA3 /* ChameleonFramework */,
 				E0CAD6CD4B3FBACB6698FC255C997CA4 /* FFCircularProgressView */,
 				AF9233B161DAC5EAFAAE16328501D122 /* Pods-nafta.messenger.ios */,
+				D69B73192D2D699FB3FFE97261EA3FFA /* Pods-nafta.messenger.iosTests */,
 				647D07D52C7759736E26CBB77AD7234E /* PromiseKit */,
 				ABAE9128DB7DFABB30C221B6B019D9A3 /* QMChatViewController */,
 				25CD86164BDA4C0A65B2626D013B7337 /* QMChatViewController-QMChatViewController */,
@@ -3233,9 +3389,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5114F06881E36C6ED7150FB9D3A376C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B77599C4B444B2871763AB57CEE23E3 /* Pods-nafta.messenger.iosTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		03913283E7EB42754560F1A2CC34B5B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 22985AF09AAEB6562EE3408AB94BD173 /* SDWebImage */;
+			targetProxy = 2FE9AA347EE722D334BDE39ECC4611EB /* PBXContainerItemProxy */;
+		};
 		149E1153D29FE05B118780FA1ED315C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
@@ -3247,6 +3417,24 @@
 			name = FFCircularProgressView;
 			target = E0CAD6CD4B3FBACB6698FC255C997CA4 /* FFCircularProgressView */;
 			targetProxy = FB5C4BFEB654848777D665A25691AFC8 /* PBXContainerItemProxy */;
+		};
+		4051E23890F036BA1A37D20ED5D94634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 647D07D52C7759736E26CBB77AD7234E /* PromiseKit */;
+			targetProxy = 12EDFBC13583C90D61CFB9A9F36CD6AB /* PBXContainerItemProxy */;
+		};
+		49B5BD729C80327F1D97F6B75139A289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealmSwift;
+			target = ABFCC522B783DED1B6C70B0206D7898E /* RealmSwift */;
+			targetProxy = F005C5E6945A5F9136990B0E32F1273A /* PBXContainerItemProxy */;
+		};
+		4D3A38165B2DB2A249AEBBF88ABCC60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 059095AE6C5EB0C8FCD0A1BD697F9F6F /* SwiftyJSON */;
+			targetProxy = DFFB38B05001C038E1EAA19A2439D894 /* PBXContainerItemProxy */;
 		};
 		5203574217CD972D8F04815F644BA542 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3278,6 +3466,12 @@
 			target = 93D333A52F6FA490CFF205D3F3A0C23F /* TTTAttributedLabel */;
 			targetProxy = D295E6CF0F83EEEB452A7B482A96F47A /* PBXContainerItemProxy */;
 		};
+		8F4CB0C5155E44D381AB081788A7DBB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireNetworkActivityLogger;
+			target = 0C507C82B332BA025F51E7BDB6126D8B /* AlamofireNetworkActivityLogger */;
+			targetProxy = 365F760E6E72E8EAC8ACA5C69CDA73E2 /* PBXContainerItemProxy */;
+		};
 		94E2993765AE60C5A40EC6637C1C3FC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RealmSwift;
@@ -3290,17 +3484,47 @@
 			target = ABAE9128DB7DFABB30C221B6B019D9A3 /* QMChatViewController */;
 			targetProxy = 5E9C5E4F729BB4BEC0CF94E571AC4B49 /* PBXContainerItemProxy */;
 		};
+		9966DEA8CEAFDB9D06B555F610AFD72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Realm;
+			target = A893E70243858F443DF4DE9DAFAC80E6 /* Realm */;
+			targetProxy = 96CC2664DC081FFDB25185369E4FFBC2 /* PBXContainerItemProxy */;
+		};
 		99A922C281E72CABC9A54E374A92115D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AlamofireNetworkActivityLogger;
 			target = 0C507C82B332BA025F51E7BDB6126D8B /* AlamofireNetworkActivityLogger */;
 			targetProxy = 144418C88874359E7D30DCC1527F3F6E /* PBXContainerItemProxy */;
 		};
+		99DD49A4081ED711A371AB287E7ADCAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = DCE18925BEEF2AB6BEAD171E7253A123 /* PBXContainerItemProxy */;
+		};
+		9B84ED584DFA3117EA46612E8A182508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTTAttributedLabel;
+			target = 93D333A52F6FA490CFF205D3F3A0C23F /* TTTAttributedLabel */;
+			targetProxy = C1504B6675BBEAB543E586279BC79AD4 /* PBXContainerItemProxy */;
+		};
+		9CA8802286196478ED76484F56954653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 8A267660E1AD4832DE75665F2F87AEA3 /* ChameleonFramework */;
+			targetProxy = CA0C4BB348E87D000A37E7E5CC33A319 /* PBXContainerItemProxy */;
+		};
 		9D37DFF61559ACFBBF2E37380BD0F283 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "QMChatViewController-QMChatViewController";
 			target = 25CD86164BDA4C0A65B2626D013B7337 /* QMChatViewController-QMChatViewController */;
 			targetProxy = 97CA7607C8A24927BBD9C22288031D0B /* PBXContainerItemProxy */;
+		};
+		A6235168C12173099E601368D93D9CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFCircularProgressView;
+			target = E0CAD6CD4B3FBACB6698FC255C997CA4 /* FFCircularProgressView */;
+			targetProxy = 5A9D2FD10C003A7CEBF328DFB2EFF6E7 /* PBXContainerItemProxy */;
 		};
 		A8DE22FB8B0852D6B5799640510FE69A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3332,6 +3556,12 @@
 			target = E0CAD6CD4B3FBACB6698FC255C997CA4 /* FFCircularProgressView */;
 			targetProxy = B5CFBA62142A12B9D8111196683FF9C8 /* PBXContainerItemProxy */;
 		};
+		D053CF4720636E25AF035DA84BC9BB2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QMChatViewController;
+			target = ABAE9128DB7DFABB30C221B6B019D9A3 /* QMChatViewController */;
+			targetProxy = 925DA416849A0F399E38BD20164B4106 /* PBXContainerItemProxy */;
+		};
 		E47843A11F4717CACA392BBBD7850F16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChameleonFramework;
@@ -3359,383 +3589,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0289F7E1C02567B5751E2F1113DE9906 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B513FDCB71D720B6DD23752595A4BBDD /* FFCircularProgressView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FFCircularProgressView/FFCircularProgressView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFCircularProgressView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFCircularProgressView/FFCircularProgressView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FFCircularProgressView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2B74F25E18A2DA33E6CB1C572B599313 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E52CAF84E8292F836355EC44F00838ED /* AlamofireNetworkActivityLogger.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlamofireNetworkActivityLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AlamofireNetworkActivityLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3329ED742FCD3AE4C8EA495ADE014835 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68409AE2EDD0BCB997859E3A5FB9E334 /* PromiseKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PromiseKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		383D6F6B582B36512022D7BBEBE343FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47A7ADE360230A56EE8D59AAC75A19C8 /* Realm.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Realm/Realm-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Realm/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Realm/Realm.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Realm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		39357F353850FE4D593B00874881A0A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C775C26420A03AD87262FE078AA558A2 /* QMChatViewController.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMChatViewController";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/QMChatViewController/ResourceBundle-QMChatViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QMChatViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		441300C5FC4B5A08DA02C97A98A9AC30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22B748FC53B8E781988082EA53F944D8 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		45E16CC84FAECB9A8BCED9A71CECA0E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74E11A78B7685DFB91FCE222E5B32872 /* Pods-nafta.messenger.ios.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nafta.messenger.ios/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_nafta_messenger_ios;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		534827B6354DC1E9F42BB21CC97EB0B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96F669C533CCF0A0BEC09F91C9A0110C /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		59D6935DD5AFC6AC3318DB28095E0331 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98DBA9EDF219833691778BF7D3AC17D1 /* SDWebImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SDWebImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6A86C1D7374FC2AEDDEE6351EC848A1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E52CAF84E8292F836355EC44F00838ED /* AlamofireNetworkActivityLogger.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlamofireNetworkActivityLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AlamofireNetworkActivityLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		763DB0F3660DBEA976AA60335A149F5D /* Debug */ = {
+		14545F0B7E60F98FBA022ED911B0B077 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29E61ACA7D06C2578033117DC59ED07A /* TTTAttributedLabel.xcconfig */;
 			buildSettings = {
@@ -3744,20 +3653,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TTTAttributedLabel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = TTTAttributedLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3769,7 +3674,199 @@
 			};
 			name = Debug;
 		};
-		7B9EE8D5F053D048CF99B8581AC666D1 /* Debug */ = {
+		1B1960AD0928F8BEFA4904708F24C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C775C26420A03AD87262FE078AA558A2 /* QMChatViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMChatViewController/QMChatViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMChatViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMChatViewController/QMChatViewController.modulemap";
+				PRODUCT_NAME = QMChatViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21E3855FBAD78152A4242586BE7AB405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E61ACA7D06C2578033117DC59ED07A /* TTTAttributedLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTTAttributedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel.modulemap";
+				PRODUCT_NAME = TTTAttributedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		309FCA2BEC835A7E14B58C4559C192E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68409AE2EDD0BCB997859E3A5FB9E334 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		397F655055D8A60BBB8482B6B480491F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A7ADE360230A56EE8D59AAC75A19C8 /* Realm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Realm/Realm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Realm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Realm/Realm.modulemap";
+				PRODUCT_NAME = Realm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C757EC4B4EB4CEA5226F7476C9A719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB106A9E3642D95860FD93952A051C53 /* Pods-nafta.messenger.ios.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nafta.messenger.ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_nafta_messenger_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45DE032013F50BB204636C567EC96910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6A3C98DCA2EF21A96D99EB062A1165 /* Pods-nafta.messenger.iosTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nafta.messenger.iosTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nafta.messenger.iosTests/Pods-nafta.messenger.iosTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_nafta_messenger_iosTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57519BBF4C00485DBBCC1CC08B435A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51F942D7CD1D60B956FD1C38A83CCA4A /* RealmSwift.xcconfig */;
 			buildSettings = {
@@ -3778,20 +3875,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/RealmSwift/RealmSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RealmSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RealmSwift/RealmSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = RealmSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3804,310 +3897,59 @@
 			};
 			name = Debug;
 		};
-		7C635D7BCB56FDBAA5FEC386076EC14C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B513FDCB71D720B6DD23752595A4BBDD /* FFCircularProgressView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FFCircularProgressView/FFCircularProgressView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFCircularProgressView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFCircularProgressView/FFCircularProgressView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FFCircularProgressView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7DA1084CF37282DA46945A6153479221 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68409AE2EDD0BCB997859E3A5FB9E334 /* PromiseKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PromiseKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7FD157A8B046B33EAE72781AF31AE442 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C775C26420A03AD87262FE078AA558A2 /* QMChatViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QMChatViewController/QMChatViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QMChatViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QMChatViewController/QMChatViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = QMChatViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		85429EDC62FBC9A26A4399F76ED13029 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BBE5E4C0C135CFF91CE4073C02EF5C0 /* Pods-nafta.messenger.ios.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nafta.messenger.ios/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_nafta_messenger_ios;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		97799C20796AA0D29BA36C6E38B5A8D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47A7ADE360230A56EE8D59AAC75A19C8 /* Realm.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Realm/Realm-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Realm/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Realm/Realm.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Realm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A516FB1A3CF0C0E38E6E12023BE62772 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22B748FC53B8E781988082EA53F944D8 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB3261DE8CCBFAA7E40F6F1BC994B8BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29E61ACA7D06C2578033117DC59ED07A /* TTTAttributedLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTTAttributedLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TTTAttributedLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B252C76A07A23AB1D732EA554145D66F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C775C26420A03AD87262FE078AA558A2 /* QMChatViewController.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMChatViewController";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/QMChatViewController/ResourceBundle-QMChatViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QMChatViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -4115,111 +3957,7 @@
 			};
 			name = Debug;
 		};
-		C40B11FA2C8AEA770D4D457D35D3CF0F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51F942D7CD1D60B956FD1C38A83CCA4A /* RealmSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RealmSwift/RealmSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RealmSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RealmSwift/RealmSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RealmSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C955CF17D70B6B7D8BC646FB44B1422E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 505B554ECF9FDD49761D7D007DE8689C /* ChameleonFramework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ChameleonFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E0F5B03A1026075CF9366586DCDD9596 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96F669C533CCF0A0BEC09F91C9A0110C /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EC25BF962A1A437CDDBF56CE72E27BD2 /* Debug */ = {
+		5D5368BB5C29ACB730460DDA51F82D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C775C26420A03AD87262FE078AA558A2 /* QMChatViewController.xcconfig */;
 			buildSettings = {
@@ -4228,20 +3966,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/QMChatViewController/QMChatViewController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/QMChatViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QMChatViewController/QMChatViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = QMChatViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -4253,7 +3987,146 @@
 			};
 			name = Debug;
 		};
-		F9F58A9676406C3D3BE99BBB59A9EA4F /* Release */ = {
+		66054C0F5943441F82749C9F755D83CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52CAF84E8292F836355EC44F00838ED /* AlamofireNetworkActivityLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireNetworkActivityLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.modulemap";
+				PRODUCT_NAME = AlamofireNetworkActivityLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C8B1A974E519B2E56A5718680435C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DBA9EDF219833691778BF7D3AC17D1 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CD6EFD8A8DE0BEB0A986971B3EB6151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B513FDCB71D720B6DD23752595A4BBDD /* FFCircularProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFCircularProgressView/FFCircularProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFCircularProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFCircularProgressView/FFCircularProgressView.modulemap";
+				PRODUCT_NAME = FFCircularProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76FA051DAEE843A84CC640601E540A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F942D7CD1D60B956FD1C38A83CCA4A /* RealmSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RealmSwift/RealmSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealmSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RealmSwift/RealmSwift.modulemap";
+				PRODUCT_NAME = RealmSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F061BB96F624C67D30D088DFC474C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C775C26420A03AD87262FE078AA558A2 /* QMChatViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMChatViewController";
+				INFOPLIST_FILE = "Target Support Files/QMChatViewController/ResourceBundle-QMChatViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QMChatViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		965D19A1BE2748D8170C39BB4CAAF1C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 505B554ECF9FDD49761D7D007DE8689C /* ChameleonFramework.xcconfig */;
 			buildSettings = {
@@ -4262,20 +4135,347 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8C6E310BE9930803E18199EBD2C2AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68409AE2EDD0BCB997859E3A5FB9E334 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA0C707F6C32BAA82730B9F2F79D2337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B513FDCB71D720B6DD23752595A4BBDD /* FFCircularProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFCircularProgressView/FFCircularProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFCircularProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFCircularProgressView/FFCircularProgressView.modulemap";
+				PRODUCT_NAME = FFCircularProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B09CAF076763ABA73AD135769FF3CA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52CAF84E8292F836355EC44F00838ED /* AlamofireNetworkActivityLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireNetworkActivityLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.modulemap";
+				PRODUCT_NAME = AlamofireNetworkActivityLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B748FC53B8E781988082EA53F944D8 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B63751C6FB255A410BBE7E889A313448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C775C26420A03AD87262FE078AA558A2 /* QMChatViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMChatViewController";
+				INFOPLIST_FILE = "Target Support Files/QMChatViewController/ResourceBundle-QMChatViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QMChatViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B748FC53B8E781988082EA53F944D8 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1AB3B9B7AF686F059FED23154164857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87E4DAF70B84022C574D51726B0BB3F /* Pods-nafta.messenger.ios.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nafta.messenger.ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nafta.messenger.ios/Pods-nafta.messenger.ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_nafta_messenger_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D569121D29D6B2271498D65CF97633CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F669C533CCF0A0BEC09F91C9A0110C /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE0A4F2BEAE13D2D38C7CF54731DC4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DBA9EDF219833691778BF7D3AC17D1 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1D1877AD593BC104FF462B8902B195D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A7ADE360230A56EE8D59AAC75A19C8 /* Realm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Realm/Realm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Realm/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Realm/Realm.modulemap";
+				PRODUCT_NAME = Realm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5974C55FDA5D01527BF508E62DA7304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505B554ECF9FDD49761D7D007DE8689C /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
 				PRODUCT_NAME = ChameleonFramework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -4285,37 +4485,69 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		FD7624C283EE446805A6C99EB4645255 /* Release */ = {
+		F5A7879320AA5E301B8E5D74278743EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98DBA9EDF219833691778BF7D3AC17D1 /* SDWebImage.xcconfig */;
+			baseConfigurationReference = 96F669C533CCF0A0BEC09F91C9A0110C /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SDWebImage;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE99194C666B2737CED409C2B7C52EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BC067185927D1B99353AB59510E5B0 /* Pods-nafta.messenger.iosTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-nafta.messenger.iosTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-nafta.messenger.iosTests/Pods-nafta.messenger.iosTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_nafta_messenger_iosTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -4327,8 +4559,8 @@
 		078C493459587583D9AE306A08F0B646 /* Build configuration list for PBXNativeTarget "Pods-nafta.messenger.ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85429EDC62FBC9A26A4399F76ED13029 /* Debug */,
-				45E16CC84FAECB9A8BCED9A71CECA0E3 /* Release */,
+				D1AB3B9B7AF686F059FED23154164857 /* Debug */,
+				3C757EC4B4EB4CEA5226F7476C9A719C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4336,8 +4568,8 @@
 		20F92F171610CEDDAF86937C97E37425 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C955CF17D70B6B7D8BC646FB44B1422E /* Debug */,
-				F9F58A9676406C3D3BE99BBB59A9EA4F /* Release */,
+				F5974C55FDA5D01527BF508E62DA7304 /* Debug */,
+				965D19A1BE2748D8170C39BB4CAAF1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4345,8 +4577,8 @@
 		2A5E7F1CDF449E78E85510F56AED8147 /* Build configuration list for PBXNativeTarget "FFCircularProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C635D7BCB56FDBAA5FEC386076EC14C /* Debug */,
-				0289F7E1C02567B5751E2F1113DE9906 /* Release */,
+				6CD6EFD8A8DE0BEB0A986971B3EB6151 /* Debug */,
+				AA0C707F6C32BAA82730B9F2F79D2337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4354,8 +4586,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
-				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4363,8 +4595,8 @@
 		3195A84D14EBD775500254703470A9A8 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				534827B6354DC1E9F42BB21CC97EB0B8 /* Debug */,
-				E0F5B03A1026075CF9366586DCDD9596 /* Release */,
+				D569121D29D6B2271498D65CF97633CC /* Debug */,
+				F5A7879320AA5E301B8E5D74278743EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4372,8 +4604,8 @@
 		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A516FB1A3CF0C0E38E6E12023BE62772 /* Debug */,
-				441300C5FC4B5A08DA02C97A98A9AC30 /* Release */,
+				B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */,
+				B8CA02655A4B738D82484691EE8CA58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4381,8 +4613,8 @@
 		4C5F90E80F9F75E18F2E5B38606B27C1 /* Build configuration list for PBXNativeTarget "QMChatViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC25BF962A1A437CDDBF56CE72E27BD2 /* Debug */,
-				7FD157A8B046B33EAE72781AF31AE442 /* Release */,
+				5D5368BB5C29ACB730460DDA51F82D03 /* Debug */,
+				1B1960AD0928F8BEFA4904708F24C325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4390,8 +4622,8 @@
 		5FFDA8B77A54D88133FFB980195D8788 /* Build configuration list for PBXNativeTarget "QMChatViewController-QMChatViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B252C76A07A23AB1D732EA554145D66F /* Debug */,
-				39357F353850FE4D593B00874881A0A4 /* Release */,
+				7F061BB96F624C67D30D088DFC474C4E /* Debug */,
+				B63751C6FB255A410BBE7E889A313448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4399,8 +4631,8 @@
 		605D0A7D418BCBEA73B4BAD3C4D4FB0B /* Build configuration list for PBXNativeTarget "RealmSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B9EE8D5F053D048CF99B8581AC666D1 /* Debug */,
-				C40B11FA2C8AEA770D4D457D35D3CF0F /* Release */,
+				57519BBF4C00485DBBCC1CC08B435A6B /* Debug */,
+				76FA051DAEE843A84CC640601E540A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4408,8 +4640,8 @@
 		8A20FF9FBE21B8C78FB3EB7678F47911 /* Build configuration list for PBXNativeTarget "Realm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				383D6F6B582B36512022D7BBEBE343FD /* Debug */,
-				97799C20796AA0D29BA36C6E38B5A8D9 /* Release */,
+				F1D1877AD593BC104FF462B8902B195D /* Debug */,
+				397F655055D8A60BBB8482B6B480491F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4417,8 +4649,8 @@
 		A7037234205EDCE63872E27F5DE7D87B /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59D6935DD5AFC6AC3318DB28095E0331 /* Debug */,
-				FD7624C283EE446805A6C99EB4645255 /* Release */,
+				6C8B1A974E519B2E56A5718680435C0A /* Debug */,
+				DE0A4F2BEAE13D2D38C7CF54731DC4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4426,8 +4658,8 @@
 		D3ED0CAFA16AB61FA3F6A34A92106A7B /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				763DB0F3660DBEA976AA60335A149F5D /* Debug */,
-				AB3261DE8CCBFAA7E40F6F1BC994B8BB /* Release */,
+				14545F0B7E60F98FBA022ED911B0B077 /* Debug */,
+				21E3855FBAD78152A4242586BE7AB405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4435,8 +4667,8 @@
 		DB196C9D3A756FF1D02E7C398F8035F9 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DA1084CF37282DA46945A6153479221 /* Debug */,
-				3329ED742FCD3AE4C8EA495ADE014835 /* Release */,
+				309FCA2BEC835A7E14B58C4559C192E0 /* Debug */,
+				A8C6E310BE9930803E18199EBD2C2AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4444,8 +4676,17 @@
 		E89791E2D5039670A6447D876576F7D4 /* Build configuration list for PBXNativeTarget "AlamofireNetworkActivityLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A86C1D7374FC2AEDDEE6351EC848A1B /* Debug */,
-				2B74F25E18A2DA33E6CB1C572B599313 /* Release */,
+				66054C0F5943441F82749C9F755D83CC /* Debug */,
+				B09CAF076763ABA73AD135769FF3CA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D46B64A65DD020164844402A8DCEF6 /* Build configuration list for PBXNativeTarget "Pods-nafta.messenger.iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DE032013F50BB204636C567EC96910 /* Debug */,
+				FE99194C666B2737CED409C2B7C52EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
