@@ -19,4 +19,10 @@ class RealmManager {
     config.fileURL = url
     Realm.Configuration.defaultConfiguration = config
   }
+  
+  func removeDatabase(name: String) {
+    let url = URL(string: "\((Bundle.main.resourceURL?.absoluteString)!)\(name).realm")
+    try! FileManager.default.removeItem(at: url!)
+    Realm.Configuration.defaultConfiguration = Realm.Configuration()
+  }
 }

@@ -19,7 +19,7 @@ class AccountManagerTests: XCTestCase {
     
     // when
     ApiManager.account.login(email: AccountManagerTests.email, password: AccountManagerTests.password).then { token -> Void in
-      SessionManager.sharedInstance.setSession(token: token, remember: false)
+      try! SessionManager.sharedInstance.setSession(token: token, remember: false)
       promise.fulfill()
       }.catch { error in
         // then

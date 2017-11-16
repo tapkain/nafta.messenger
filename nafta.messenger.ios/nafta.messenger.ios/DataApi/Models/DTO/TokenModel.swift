@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SwiftyJSON
 
 struct TokenModel: Codable {
   var accessToken = ""
@@ -17,14 +16,12 @@ struct TokenModel: Codable {
   var tokenType = ""
   var username = ""
   
-  static func fromJson(json: JSON) -> TokenModel {
-    var tokenModel = TokenModel()
-    tokenModel.accessToken = json["access_token"].string!
-    tokenModel.expiresAt = json[".expires"].string!
-    tokenModel.expiresIn = json["expires_in"].int!
-    tokenModel.issuedAt = json[".issued"].string!
-    tokenModel.tokenType = json["token_type"].string!
-    tokenModel.username = json["userName"].string!
-    return tokenModel
+  enum CodingKeys: String, CodingKey {
+    case accessToken = "access_token"
+    case expiresAt = ".expires"
+    case expiresIn = "expires_in"
+    case issuedAt = ".issued"
+    case tokenType = "token_type"
+    case username = "userName"
   }
 }

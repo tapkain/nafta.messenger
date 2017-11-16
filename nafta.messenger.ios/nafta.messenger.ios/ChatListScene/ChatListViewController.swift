@@ -11,7 +11,7 @@ class ChatListViewController: UITableViewController {
   var chats = [ChatModel]()
   
   @IBAction func createChat(_ sender: Any) {
-    
+    SessionManager.sharedInstance.logout()
   }
   
   override func viewDidLoad() {

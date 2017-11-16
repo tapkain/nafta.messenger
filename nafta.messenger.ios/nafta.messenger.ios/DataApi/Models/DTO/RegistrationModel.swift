@@ -7,9 +7,8 @@
 //
 
 import Foundation
-import SwiftyJSON
 
-struct RegistrationModel {
+struct RegistrationModel: Codable {
   var email = ""
   var password = ""
   var confirmPassword = ""
@@ -19,20 +18,4 @@ struct RegistrationModel {
   var bornDate: Date! = nil
   var phoneNumber = ""
   var registrationDate: Date! = nil
-  
-  func toJson() -> [String: String] {
-    var json = [String: String]()
-    json["Email"] = email
-    json["Password"] = password
-    json["ConfirmPassword"] = confirmPassword
-    json["Name"] = name
-    json["Surname"] = surname
-    json["Sex"] = sex
-    json["BornDate"] = Formatter.dateFormatter.string(from: bornDate)
-    json["PhoneNumber"] = phoneNumber
-    json["RegistrationDate"] = Formatter.dateFormatter.string(from: bornDate)
-    json["PhoneNumber"] = phoneNumber
-    
-    return json
-  }
 }

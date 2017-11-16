@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
     let verticalConstraint = NSLayoutConstraint(item: activityIndicator, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: view, attribute: NSLayoutAttribute.centerY, multiplier: 1, constant: 0)
     view.addConstraint(verticalConstraint)
     
-    if try! SessionManager.sharedInstance.restoreSession() {
+    if SessionManager.sharedInstance.restoreSession() {
       translateToMainView()
     }
     
