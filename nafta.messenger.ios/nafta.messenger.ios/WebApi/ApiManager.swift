@@ -13,6 +13,7 @@ class ApiManager {
   static let users = UserApiManager()
   static let messages = MessageApiManager()
   static let account = AccountApiManager()
+  static let chats = ChatApiManager()
 }
 
 extension ApiManager {

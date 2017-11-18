@@ -59,14 +59,7 @@ class LoginViewController: UIViewController {
     }.always {
       self.activityIndicator.stopAnimating()
     }.catch { error in
-      self.showErrorDialog()
+      self.showAlertWithOK(title: "Login failed", description: "Invalid username or password!")
     }
-  }
-  
-  func showErrorDialog() {
-    let alert = UIAlertController(title: "Login failed", message: "Invalid username or password!", preferredStyle: .alert)
-    let okAction = UIAlertAction(title: "OK", style: .default)
-    alert.addAction(okAction)
-    present(alert, animated: true)
   }
 }

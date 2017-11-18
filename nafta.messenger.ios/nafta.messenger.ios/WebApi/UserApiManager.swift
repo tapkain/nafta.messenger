@@ -10,6 +10,7 @@ import Alamofire
 import PromiseKit
 
 class UserApiManager {
+  
 //  func login(username: String, password: String) -> Promise<UserModel> {
 //    let q = DispatchQueue.global()
 //    let url = "\(ApiManager.api)/account"

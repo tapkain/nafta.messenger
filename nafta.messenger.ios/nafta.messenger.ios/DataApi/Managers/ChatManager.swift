@@ -19,4 +19,8 @@ class ChatManager {
       realm.delete(allChats)
     }
   }
+  
+  func insert(values: [ChatModel]) {
+    
+  }
 }

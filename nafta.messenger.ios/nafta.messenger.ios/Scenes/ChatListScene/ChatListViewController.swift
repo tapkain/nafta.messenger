@@ -15,18 +15,25 @@ class ChatListViewController: UITableViewController {
   }
   
   override func viewDidLoad() {
-   // updateChats()
-    tableView.register(ChatListTableViewCell.self, forCellReuseIdentifier: ChatListTableViewCell.cellIdentifier)
     super.viewDidLoad()
+    tableView.register(ChatListTableViewCell.self, forCellReuseIdentifier: ChatListTableViewCell.cellIdentifier)
+    //updateChats()
+  }
+  
+  func updateChats() {
+    ApiManager.chats.getChats().then { chats -> Void in
+      if RealmManager.sharedInstance.insert(entities: chats) {
+        self.chats = chats
+        self.tableView.reloadData()
+      }
+      }.catch {_ in 
+      self.showConnectionError()
+    }
   }
 }
 
 
 extension ChatListViewController {
-  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    
-  }
-  
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return chats.count
   }
@@ -38,7 +45,7 @@ extension ChatListViewController {
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: ChatListTableViewCell.cellIdentifier) as! ChatListTableViewCell
     let chat = chats[indexPath.row]
-    //cell.configure(user: chat.receiver!, message: chat.messages.last)
+    cell.configure(chat: chat)
     return cell
   }
 }

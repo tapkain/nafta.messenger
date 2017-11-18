@@ -18,8 +18,7 @@ class AccountApiManager {
     return firstly {
       Alamofire.request(url, method: .post, parameters: parameters, encoding: URLEncoding.httpBody, headers: headers).validate().responseData()
     }.then {
-      let token = try! JSONDecoder().decode(TokenModel.self, from: $0)
-      return Promise(value: token)
+      try! JSONDecoder().decode(TokenModel.self, from: $0)
     }
   }
   
@@ -30,20 +29,6 @@ class AccountApiManager {
     let data = try! encoder.encode(registrationModel)
     let body = try! JSONSerialization.jsonObject(with: data, options: .allowFragments) as! Parameters
     
-    return firstly {
-      Alamofire.request(url, method: .post, parameters: body, encoding: JSONEncoding.default, headers: [:]).validate().responseString()
-      }
+    return Alamofire.request(url, method: .post, parameters: body, encoding: JSONEncoding.default, headers: [:]).validate().responseString()
   }
-  
-  func logout() -> Promise<Void> {
-    let url = "\(ApiManager.api)/api/account/logout"
-    
-    return firstly {
-      Alamofire.request(url).validate().responseString()
-    }.then {_ in
-      return Promise()
-    }
-  }
-  
-  //func userInfo
 }

@@ -47,7 +47,7 @@ class SignupViewController: UIViewController
     let password = passwordTextField.text!
     
     if password != confirmPasswordTextField.text! {
-      self.showError(title: "Check fields", message: "Passwords aren't matching")
+      self.showAlertWithOK(title: "Validation", description: "Passwords aren't matching")
       return
     }
     
@@ -66,14 +66,7 @@ class SignupViewController: UIViewController
     }.always {
       self.activityIndicator.stopAnimating()
     }.catch { error in
-        self.showError(title: "Signup failed", message: "Please, change login or try later")
+      self.showAlertWithOK(title: "Signup failed", description: "Please, change login or try later")
     }
-  }
-  
-  func showError(title: String, message: String) {
-    let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-    let okAction = UIAlertAction(title: "OK", style: .default)
-    alert.addAction(okAction)
-    present(alert, animated: true)
   }
 }

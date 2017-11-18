@@ -26,6 +26,8 @@
 		795932151F951348005C45F6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959320F1F951348005C45F6 /* SettingsViewController.swift */; };
 		7959322E1F951A41005C45F6 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932281F951A41005C45F6 /* ChatListViewController.swift */; };
 		7959323B1F951A91005C45F6 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795932351F951A91005C45F6 /* ContactsViewController.swift */; };
+		79667D4F1FC0CDF800135842 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79667D4E1FC0CDF800135842 /* AlertManager.swift */; };
+		79667D541FC0D67500135842 /* NewMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79667D531FC0D67500135842 /* NewMessageViewController.swift */; };
 		798962A41FA9103000E88447 /* MessageApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798962A31FA9103000E88447 /* MessageApiManager.swift */; };
 		798962A61FA9105400E88447 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798962A51FA9105400E88447 /* MessageModel.swift */; };
 		79BC4C641FAA28EE00C8E137 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC4C631FAA28EE00C8E137 /* ChatModel.swift */; };
@@ -84,6 +86,8 @@
 		7959320F1F951348005C45F6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		795932281F951A41005C45F6 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		795932351F951A91005C45F6 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		79667D4E1FC0CDF800135842 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		79667D531FC0D67500135842 /* NewMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageViewController.swift; sourceTree = "<group>"; };
 		798962A31FA9103000E88447 /* MessageApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageApiManager.swift; sourceTree = "<group>"; };
 		798962A51FA9105400E88447 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		79BC4C631FAA28EE00C8E137 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
@@ -168,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				791C5CC21FBA2DAB00609582 /* Formatter.swift */,
+				79667D4E1FC0CDF800135842 /* AlertManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -254,6 +259,39 @@
 			path = ContactsScene;
 			sourceTree = "<group>";
 		};
+		79667D501FC0D3D300135842 /* NewMessageScene */ = {
+			isa = PBXGroup;
+			children = (
+				79667D531FC0D67500135842 /* NewMessageViewController.swift */,
+			);
+			path = NewMessageScene;
+			sourceTree = "<group>";
+		};
+		79667D511FC0D3DF00135842 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				795932171F951856005C45F6 /* ChatListScene */,
+				79EF3A631F8FE344008AEB9E /* ChatScene */,
+				795931EF1F933638005C45F6 /* LoginScene */,
+				795931FC1F9349D5005C45F6 /* SignupScene */,
+				7959320A1F95132A005C45F6 /* SettingsScene */,
+				795932301F951A79005C45F6 /* ContactsScene */,
+				79667D501FC0D3D300135842 /* NewMessageScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		79667D521FC0D4AB00135842 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				79EF3A3E1F8FDEFF008AEB9E /* LaunchScreen.storyboard */,
+				79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */,
+				79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */,
+				79EF3A391F8FDEFF008AEB9E /* Main.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		79DCBFD91FAF86FC0062BA13 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,20 +337,12 @@
 		79EF3A341F8FDEFF008AEB9E /* nafta.messenger.ios */ = {
 			isa = PBXGroup;
 			children = (
+				79EF3A411F8FDEFF008AEB9E /* Info.plist */,
+				79667D521FC0D4AB00135842 /* SupportingFiles */,
+				79667D511FC0D3DF00135842 /* Scenes */,
 				791C5CC11FBA2D9900609582 /* Utils */,
 				794D132F1FA6F7AF002733B1 /* WebApi */,
 				794D132A1FA6EEE1002733B1 /* DataApi */,
-				795932301F951A79005C45F6 /* ContactsScene */,
-				7959320A1F95132A005C45F6 /* SettingsScene */,
-				795931FC1F9349D5005C45F6 /* SignupScene */,
-				795931EF1F933638005C45F6 /* LoginScene */,
-				79EF3A631F8FE344008AEB9E /* ChatScene */,
-				795932171F951856005C45F6 /* ChatListScene */,
-				79EF3A391F8FDEFF008AEB9E /* Main.storyboard */,
-				79EF3A351F8FDEFF008AEB9E /* AppDelegate.swift */,
-				79EF3A3C1F8FDEFF008AEB9E /* Assets.xcassets */,
-				79EF3A3E1F8FDEFF008AEB9E /* LaunchScreen.storyboard */,
-				79EF3A411F8FDEFF008AEB9E /* Info.plist */,
 			);
 			path = nafta.messenger.ios;
 			sourceTree = "<group>";
@@ -651,6 +681,7 @@
 				795931FA1F933672005C45F6 /* LoginViewController.swift in Sources */,
 				79EF3A361F8FDEFF008AEB9E /* AppDelegate.swift in Sources */,
 				791C5CCF1FBAB77000609582 /* ChatApiManager.swift in Sources */,
+				79667D4F1FC0CDF800135842 /* AlertManager.swift in Sources */,
 				79BC4C641FAA28EE00C8E137 /* ChatModel.swift in Sources */,
 				79EF3A7A1F8FE43F008AEB9E /* ChatViewController.swift in Sources */,
 				7959322E1F951A41005C45F6 /* ChatListViewController.swift in Sources */,
@@ -669,6 +700,7 @@
 				791C5CC01FBA2CAB00609582 /* RegistrationModel.swift in Sources */,
 				79DCBFD71FAF86EE0062BA13 /* UserManager.swift in Sources */,
 				791C5CC51FBAA07100609582 /* SessionManager.swift in Sources */,
+				79667D541FC0D67500135842 /* NewMessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

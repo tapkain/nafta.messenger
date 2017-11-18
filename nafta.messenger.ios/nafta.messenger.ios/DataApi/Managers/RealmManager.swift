@@ -12,6 +12,39 @@ import RealmSwift
 class RealmManager {
   static let sharedInstance = RealmManager()
   
+  func insert<Entity: Object>(entity: Entity) -> Bool {
+    return insert(entities: [entity])
+  }
+  
+  func insert<Entity: Object>(entities: [Entity]) -> Bool {
+    do {
+      let realm = try Realm()
+      
+      try realm.write {
+        realm.add(entities)
+      }
+      
+      return true
+    } catch {
+      return false;
+    }
+  }
+  
+  func delete<Entity: Object>(_ entityType: Entity.Type) -> Bool {
+    do {
+      let realm = try Realm()
+      
+      try realm.write {
+        let entities = realm.objects(entityType)
+        realm.delete(entities)
+      }
+      
+      return true
+    } catch {
+      return false
+    }
+  }
+  
   func setDatabase(name: String) {
     let url = URL(string: "\((Bundle.main.resourceURL?.absoluteString)!)\(name).realm")
     
