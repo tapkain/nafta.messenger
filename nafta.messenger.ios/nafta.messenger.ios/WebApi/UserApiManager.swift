@@ -10,62 +10,43 @@ import Alamofire
 import PromiseKit
 
 class UserApiManager {
+  func getCurrent() -> Promise<UserModel> {
+    let url = "\(ApiManager.api)/api/users/current"
+    
+    return firstly {
+      Alamofire.request(url).responseData()
+    }.then {
+      try! JSONDecoder().decode(UserModel.self, from: $0)
+    }
+  }
   
-//  func login(username: String, password: String) -> Promise<UserModel> {
-//    let q = DispatchQueue.global()
-//    let url = "\(ApiManager.api)/account"
-//    let headers = ["grant_type": "password", "username": username, "password": password]
-//    
-//    return firstly {
-//      Alamofire.request(url, method: .post, headers: headers).validate().responseString()
-//    }.then(on: q) {
-//      let json = JSON(parseJSON: $0)
-//      let user = UserModel.fromJson(json)
-//      return Promise(value: user)
-//    }
-//  }
-//  
-//  func signup(username: String, password: String) -> Promise<UserModel> {
-//    let q = DispatchQueue.global()
-//    let url = "\(ApiManager.api)/user/register"
-//    let params = ["login": username, "password": password]
-//      
-//    return firstly {
-//      Alamofire.request(url, method: .post, parameters: params).validate().responseString()
-//    }.then(on: q) {
-//      let json = JSON(parseJSON: $0)
-//      let user = UserModel.fromJson(json)
-//      return Promise(value: user)
-//    }
-//  }
-//  
-//  func getUser(userId: Int) -> Promise<UserModel> {
-//    let q = DispatchQueue.global()
-//    let url = "\(ApiManager.api)/user/getLogin"
-//    let params = ["userId": userId]
-//    
-//    return firstly {
-//      Alamofire.request(url, method: .get, parameters: params).validate().responseString()
-//      }.then(on: q) {
-//        let user = UserModel()
-//        user.id = userId
-//        user.username = $0
-//        return Promise(value: user)
-//    }
-//  }
-//  
-//  func getUser(username: String) -> Promise<UserModel> {
-//    let q = DispatchQueue.global()
-//    let url = "\(ApiManager.api)/user/getUserId"
-//    let params = ["username": username]
-//    
-//    return firstly {
-//      Alamofire.request(url, method: .get, parameters: params).validate().responseString()
-//      }.then(on: q) {
-//        let user = UserModel()
-//        user.id = Int($0)!
-//        user.username = username
-//        return Promise(value: user)
-//    }
-//  }
+  func delete(friend: UserModel) -> Promise<Void> {
+    let url = "\(ApiManager.api)/api/friends/\(friend.id)"
+    return Alamofire.request(url, method: .delete).responseData().asVoid()
+  }
+  
+  func add(friend: UserModel) -> Promise<Void> {
+    let url = "\(ApiManager.api)/api/friends/\(friend.id)"
+    return Alamofire.request(url, method: .post).responseData().asVoid()
+  }
+  
+  func getFriends() -> Promise<[UserModel]> {
+    let url = "\(ApiManager.api)/api/friends"
+    
+    return firstly {
+      Alamofire.request(url).responseData()
+    }.then {
+      try! JSONDecoder().decode([UserModel].self, from: $0)
+    }
+  }
+  
+  func get(id: String) -> Promise<UserModel> {
+    let url = "\(ApiManager.api)/api/users/\(id)"
+    
+    return firstly {
+      Alamofire.request(url).responseData()
+    }.then {
+      try! JSONDecoder().decode(UserModel.self, from: $0)
+    }
+  }
 }

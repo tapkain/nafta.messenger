@@ -8,8 +8,8 @@
 
 import RealmSwift
 
-class MessageModel: Object {
-  @objc dynamic var id = 0
+class MessageModel: Object, Codable {
+  @objc dynamic var id = ""
   @objc dynamic var text = ""
   @objc dynamic var userId = 0
   @objc dynamic var chatId = 0

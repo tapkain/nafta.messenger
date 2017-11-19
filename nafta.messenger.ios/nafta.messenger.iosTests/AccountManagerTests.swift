@@ -7,11 +7,12 @@
 //
 
 import XCTest
+import RealmSwift
 @testable import nafta_messenger_ios
 
 class AccountManagerTests: XCTestCase {
-  static let email = Helper.generateEmail()
-  static let password = Helper.generatePassword()
+  static let email = Helper.email
+  static let password = Helper.password
   
   func test2Login() {
     // given
@@ -33,6 +34,7 @@ class AccountManagerTests: XCTestCase {
     // given
     let promise = expectation(description: "signed up")
     let registrationModel = RegistrationModel(email: AccountManagerTests.email, password: AccountManagerTests.password, confirmPassword: AccountManagerTests.password, name: "iOS Test", surname: "iOS Test", sex: "ios", bornDate: Date(), phoneNumber: "300300191919", registrationDate: Date())
+    RealmManager.sharedInstance.setInMemoryDatabase()
     
     // when
     ApiManager.account.signup(registrationModel: registrationModel).then { _ -> Void in

@@ -9,7 +9,7 @@
 import RealmSwift
 
 class ChatModel: Object, Codable {
-  @objc dynamic var id = 0
+  @objc dynamic var id = ""
   @objc dynamic var name = ""
   @objc dynamic var creationDate = ""
 }

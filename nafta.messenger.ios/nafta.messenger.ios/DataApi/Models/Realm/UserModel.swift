@@ -8,8 +8,8 @@
 
 import RealmSwift
 
-class UserModel: Object {
-  @objc dynamic var id = 0
+class UserModel: Object, Codable {
+  @objc dynamic var id = ""
   @objc dynamic var username = ""
   @objc dynamic var sex = ""
   @objc dynamic var name = ""

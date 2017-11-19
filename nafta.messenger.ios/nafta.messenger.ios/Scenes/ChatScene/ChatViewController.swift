@@ -14,8 +14,8 @@ class ChatViewController: QMChatViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    senderID = UInt(UserManager.sharedInstance.currentUser.id)
-    senderDisplayName = UserManager.sharedInstance.currentUser.username
+    //senderID = UInt(UserManager.sharedInstance.currentUser.id)
+    //senderDisplayName = UserManager.sharedInstance.currentUser.username
     
   }
   

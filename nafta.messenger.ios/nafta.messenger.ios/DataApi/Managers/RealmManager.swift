@@ -48,8 +48,14 @@ class RealmManager {
   func setDatabase(name: String) {
     let url = URL(string: "\((Bundle.main.resourceURL?.absoluteString)!)\(name).realm")
     
-    var config = Realm.Configuration()
+    var config = Realm.Configuration.defaultConfiguration
     config.fileURL = url
+    Realm.Configuration.defaultConfiguration = config
+  }
+  
+  func setInMemoryDatabase() {
+    var config = Realm.Configuration.defaultConfiguration
+    config.inMemoryIdentifier = "com.nafta.messenger"
     Realm.Configuration.defaultConfiguration = config
   }
   
