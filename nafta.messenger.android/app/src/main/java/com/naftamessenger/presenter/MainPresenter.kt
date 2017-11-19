@@ -9,10 +9,13 @@ import javax.inject.Inject
  */
 class MainPresenter @Inject constructor(private val mainUseCase: MainUseCase) : Presenter<MainView> {
 
-	lateinit var mainView: MainView
+	private lateinit var mainView: MainView
 
 	override fun onBind(view: MainView) {
 		mainView = view
+
+		if (!mainUseCase.isLoggedIn())
+			mainView.startLogin()
 	}
 
 	override fun onUnbind() {
