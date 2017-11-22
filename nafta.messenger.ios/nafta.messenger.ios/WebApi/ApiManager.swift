@@ -18,4 +18,5 @@ class ApiManager {
 
 extension ApiManager {
   static let api = "http://tapkain-001-site1.etempurl.com"
+  //static let api = "http://192.168.1.3:21229"
 }

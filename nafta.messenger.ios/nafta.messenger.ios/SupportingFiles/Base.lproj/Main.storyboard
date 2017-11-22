@@ -35,23 +35,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.1334631741" green="0.1823148429" blue="0.25190103050000001" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="dnc-wB-7ey" customClass="ChatListTableViewCell" customModule="nafta_messenger_ios" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="70"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatListTableViewCell" rowHeight="80" id="dnc-wB-7ey" customClass="ChatListTableViewCell" customModule="nafta_messenger_ios" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dnc-wB-7ey" id="eGP-8z-Jvf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppleLogo" translatesAutoresizingMaskIntoConstraints="NO" id="JUa-aH-9QR">
-                                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="70" id="8Gx-9X-zZ8"/>
-                                                <constraint firstAttribute="width" constant="70" id="NE4-2j-OJG"/>
-                                                <constraint firstAttribute="width" secondItem="JUa-aH-9QR" secondAttribute="height" multiplier="1:1" id="pfc-H4-0Ue"/>
-                                            </constraints>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:54 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQQ-7f-3gV">
-                                            <rect key="frame" x="296.5" y="0.0" width="65.5" height="21"/>
+                                            <rect key="frame" x="296.5" y="5" width="65.5" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="XQQ-7f-3gV" secondAttribute="height" multiplier="65:21" id="Sqe-1A-Haa"/>
                                             </constraints>
@@ -60,7 +52,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jessy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mlp-zk-Ovr">
-                                            <rect key="frame" x="78" y="0.0" width="210.5" height="23"/>
+                                            <rect key="frame" x="83" y="5" width="210.5" height="23"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="Mlp-zk-Ovr" secondAttribute="height" multiplier="64:7" id="Idn-EV-2eJ"/>
                                             </constraints>
@@ -68,25 +60,34 @@
                                             <color key="textColor" red="0.19376453757286072" green="0.50850099325180054" blue="0.85232251882553101" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20x-ON-GoR">
+                                            <rect key="frame" x="5" y="5" width="70" height="70"/>
+                                            <color key="backgroundColor" red="0.15101002156734467" green="0.56891876459121704" blue="0.43715286254882812" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="20x-ON-GoR" secondAttribute="height" multiplier="1:1" id="C0W-4M-HHv"/>
+                                                <constraint firstAttribute="width" constant="70" id="TrD-KR-X3z"/>
+                                                <constraint firstAttribute="height" constant="70" id="aeB-Tb-p2c"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" red="0.13346317410469055" green="0.18231484293937683" blue="0.25190103054046631" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="Mlp-zk-Ovr" firstAttribute="top" secondItem="eGP-8z-Jvf" secondAttribute="top" id="1rN-LM-pyU"/>
-                                        <constraint firstItem="XQQ-7f-3gV" firstAttribute="leading" secondItem="Mlp-zk-Ovr" secondAttribute="trailing" constant="8" id="3cn-LX-EBR"/>
-                                        <constraint firstItem="JUa-aH-9QR" firstAttribute="top" secondItem="eGP-8z-Jvf" secondAttribute="top" id="GbW-Cq-7rq"/>
-                                        <constraint firstItem="XQQ-7f-3gV" firstAttribute="leading" secondItem="Mlp-zk-Ovr" secondAttribute="trailing" constant="8" id="MI4-fK-MFO"/>
+                                        <constraint firstItem="Mlp-zk-Ovr" firstAttribute="top" secondItem="eGP-8z-Jvf" secondAttribute="top" constant="5" id="1rN-LM-pyU"/>
+                                        <constraint firstItem="XQQ-7f-3gV" firstAttribute="leading" secondItem="Mlp-zk-Ovr" secondAttribute="trailing" constant="3" id="3cn-LX-EBR"/>
+                                        <constraint firstItem="20x-ON-GoR" firstAttribute="top" secondItem="eGP-8z-Jvf" secondAttribute="top" constant="5" id="7A3-D5-Z1h"/>
+                                        <constraint firstItem="XQQ-7f-3gV" firstAttribute="leading" secondItem="Mlp-zk-Ovr" secondAttribute="trailing" constant="3" id="MI4-fK-MFO"/>
+                                        <constraint firstItem="20x-ON-GoR" firstAttribute="leading" secondItem="eGP-8z-Jvf" secondAttribute="leading" constant="5" id="Pr3-RA-bxM"/>
+                                        <constraint firstItem="Mlp-zk-Ovr" firstAttribute="leading" secondItem="20x-ON-GoR" secondAttribute="trailing" constant="8" id="S2N-tk-1rA"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XQQ-7f-3gV" secondAttribute="trailing" constant="13" id="ZC3-l1-rPn"/>
-                                        <constraint firstItem="JUa-aH-9QR" firstAttribute="leading" secondItem="eGP-8z-Jvf" secondAttribute="leading" id="gMt-I7-wYb"/>
-                                        <constraint firstItem="XQQ-7f-3gV" firstAttribute="top" secondItem="eGP-8z-Jvf" secondAttribute="top" id="gN5-zu-T0Y"/>
-                                        <constraint firstItem="Mlp-zk-Ovr" firstAttribute="leading" secondItem="JUa-aH-9QR" secondAttribute="trailing" constant="8" id="jjn-WL-hqX"/>
+                                        <constraint firstItem="XQQ-7f-3gV" firstAttribute="top" secondItem="eGP-8z-Jvf" secondAttribute="top" constant="5" id="gN5-zu-T0Y"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="chatIcon" destination="JUa-aH-9QR" id="cU1-6R-LkM"/>
-                                    <outlet property="chatName" destination="Mlp-zk-Ovr" id="qYj-OW-eFz"/>
-                                    <outlet property="lastMessageTime" destination="XQQ-7f-3gV" id="gFw-vY-SVh"/>
-                                    <outlet property="receiverName" destination="Mlp-zk-Ovr" id="9TP-2A-RNG"/>
-                                    <outlet property="userImage" destination="JUa-aH-9QR" id="vxy-RO-SEL"/>
+                                    <outlet property="chatIcon" destination="20x-ON-GoR" id="cWO-9o-YSd"/>
+                                    <outlet property="chatName" destination="Mlp-zk-Ovr" id="JYy-1I-qNu"/>
                                     <segue destination="WCY-oi-h18" kind="show" id="T7a-q7-PJ8"/>
                                 </connections>
                             </tableViewCell>
@@ -106,6 +107,9 @@
                             </barButtonItem>
                             <barButtonItem systemItem="search" id="cnO-SX-vDL">
                                 <color key="tintColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="onSearchButtonPressed:" destination="h7q-PU-yn8" id="SRk-aV-x2m"/>
+                                </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>

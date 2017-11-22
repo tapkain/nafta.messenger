@@ -27,7 +27,7 @@ class AccountManagerTests: XCTestCase {
         XCTFail(error.localizedDescription)
     }
     
-    waitForExpectations(timeout: 10, handler: nil)
+    waitForExpectations(timeout: Helper.timeout, handler: nil)
   }
   
   func test1SignUp() {
@@ -44,6 +44,6 @@ class AccountManagerTests: XCTestCase {
       XCTFail(error.localizedDescription)
     }
     
-    waitForExpectations(timeout: 10, handler: nil)
+    waitForExpectations(timeout: Helper.timeout, handler: nil)
   }
 }

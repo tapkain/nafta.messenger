@@ -23,10 +23,11 @@ class ChatApiManager {
   
   func sendMessage(to chat: ChatModel, textContent: String) -> Promise<Void> {
     let url = "\(ApiManager.api)/api/chats/\(chat.id)/send"
-    let headers = ["Content-Type": "application/x-www-form-urlencoded"]
-    let parameters = ["text": textContent]
+    let message = MessageViewModel(text: textContent)
+    let data = try! JSONEncoder().encode(message)
+    let body = try! JSONSerialization.jsonObject(with: data, options: .allowFragments) as! Parameters
     
-    return Alamofire.request(url, method: .post, parameters: parameters, encoding: URLEncoding.httpBody, headers: headers).validate().responseString().asVoid()
+    return Alamofire.request(url, method: .post, parameters: body, encoding: JSONEncoding.default, headers: [:]).validate().responseString().asVoid()
   }
   
   func getMessages(from chat: ChatModel) -> Promise<[MessageModel]> {
@@ -50,17 +51,12 @@ class ChatApiManager {
   }
   
   func add(user: UserModel, to chat: ChatModel) -> Promise<Void> {
-    let url = "\(ApiManager.api)/api/chats/\(chat.id)/member"
-    let body = ["userId": user.id]
-    
-    return Alamofire.request(url, method: .post, parameters: body, encoding: JSONEncoding.default, headers: [:]).validate().responseString().asVoid()
+    let url = "\(ApiManager.api)/api/chats/\(chat.id)/member/\(user.id)"
+    return Alamofire.request(url, method: .post).validate().responseString().asVoid()
   }
   
   func create(name: String, with user: UserModel) -> Promise<Void> {
-    let url = "\(ApiManager.api)/api/chats/create/\(name)"
-    let headers = ["Content-Type": "application/x-www-form-urlencoded"]
-    let body = ["friendId": user.id]
-    
-    return Alamofire.request(url, method: .post, parameters: body, encoding: URLEncoding.httpBody, headers: headers).validate().responseString().asVoid()
+    let url = "\(ApiManager.api)/api/chats/create/\(name)/\(user.id)"
+    return Alamofire.request(url, method: .post).validate().responseString().asVoid()
   }
 }

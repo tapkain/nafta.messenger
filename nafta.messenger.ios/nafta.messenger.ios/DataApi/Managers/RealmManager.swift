@@ -12,6 +12,15 @@ import RealmSwift
 class RealmManager {
   static let sharedInstance = RealmManager()
   
+  func get<Entity: Object>(_ entityType: Entity.Type) -> Results<Entity>? {
+    do {
+      let realm = try Realm()
+      return realm.objects(entityType)
+    } catch {
+      return nil
+    }
+  }
+  
   func insert<Entity: Object>(entity: Entity) -> Bool {
     return insert(entities: [entity])
   }
@@ -63,5 +72,12 @@ class RealmManager {
     let url = URL(string: "\((Bundle.main.resourceURL?.absoluteString)!)\(name).realm")
     try! FileManager.default.removeItem(at: url!)
     Realm.Configuration.defaultConfiguration = Realm.Configuration()
+  }
+}
+
+
+extension Results {
+  func toArray() -> [Element] {
+    return Array(self)
   }
 }

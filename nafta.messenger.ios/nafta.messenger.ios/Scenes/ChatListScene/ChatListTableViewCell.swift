@@ -9,15 +9,16 @@
 import UIKit
 
 class ChatListTableViewCell: UITableViewCell {
-  static let cellIdentifier = String(describing: ChatListViewController.self)
+  static let cellIdentifier = String(describing: ChatListTableViewCell.self)
   
   @IBOutlet weak var chatName: UILabel!
-  @IBOutlet weak var chatIcon: UIImageView!
+  @IBOutlet weak var chatIcon: UILabel!
   
   func configure(chat: ChatModel) {
     chatName.text = chat.name
     chatIcon.layer.cornerRadius = chatIcon.frame.size.width / 2
     chatIcon.clipsToBounds = true
-    chatIcon.tintColor = UIColor.randomFlat()
+    chatIcon.backgroundColor = UIColor.randomFlat()
+    chatIcon.text = chat.shortName
   }
 }

@@ -12,10 +12,17 @@ import Foundation
 class Helper {
   static let email = generateEmail()
   static let password = generatePassword()
+  static let timeout: TimeInterval = 30
+ 
   static var testUser1: UserModel {
     let user = UserModel()
-    //user.id = "f702f6e1-21f4-4c3a-8c9b-15a22ac1bf25"
     user.id = "27f493d1-b8f7-48ac-8c73-c483da4f3d63"
+    return user
+  }
+  
+  static var testUser2: UserModel {
+    let user = UserModel()
+    user.id = "f702f6e1-21f4-4c3a-8c9b-15a22ac1bf25"
     return user
   }
   
