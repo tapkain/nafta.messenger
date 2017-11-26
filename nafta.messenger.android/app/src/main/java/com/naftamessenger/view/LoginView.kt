@@ -6,4 +6,10 @@ package com.naftamessenger.view
 interface LoginView : View {
 
 	fun setLoginAction(loginAction: () -> Unit)
+
+	fun getMail(): String
+
+	fun getPassword(): String
+
+	fun onLoginSuccess()
 }

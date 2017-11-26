@@ -30,7 +30,13 @@ class LoginActivity : AppCompatActivity(), LoginView {
 		loginPresenter.onBind(this)
 	}
 
-	override fun setLoginAction(loginAction: () -> Unit) {
-		btnLogin.setOnClickListener { loginAction() }
+	override fun setLoginAction(loginAction: () -> Unit) = btnLogin.setOnClickListener { loginAction() }
+
+	override fun getMail(): String = etEmail.text.toString()
+
+	override fun getPassword(): String = etPassword.text.toString()
+
+	override fun onLoginSuccess() {
+		startActivity<MainActivity>()
 	}
 }

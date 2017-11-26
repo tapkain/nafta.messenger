@@ -15,7 +15,5 @@ class DatabaseModule {
 
 	@Provides
 	@Singleton
-	fun provideDatabase(context: Context): NaftaMessengerDatabase {
-		return Room.databaseBuilder(context, NaftaMessengerDatabase::class.java, NaftaMessengerDatabase.DATABASE_NAME).build()
-	}
+	fun provideDatabase(context: Context): NaftaMessengerDatabase = Room.databaseBuilder(context, NaftaMessengerDatabase::class.java, NaftaMessengerDatabase.DATABASE_NAME).build()
 }

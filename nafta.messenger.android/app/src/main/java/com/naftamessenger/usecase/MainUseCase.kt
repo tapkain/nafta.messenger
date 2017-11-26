@@ -8,5 +8,5 @@ import javax.inject.Inject
  */
 class MainUseCase @Inject constructor(private val sharedPreferencesManager: SharedPreferencesManager) {
 
-	fun isLoggedIn(): Boolean = sharedPreferencesManager.token.isEmpty()
+	fun isLoggedIn(): Boolean = !sharedPreferencesManager.token.isEmpty()
 }

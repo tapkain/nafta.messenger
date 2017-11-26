@@ -12,7 +12,7 @@ class RegistrationModel {
 	var name = ""
 	var surname = ""
 	var sex = ""
-	var bornDate: Date? = null
+	var bornDate: Date = Date()
 	var phoneNumber = ""
-	var registrationDate: Date? = null
+	var registrationDate: Date = Date()
 }

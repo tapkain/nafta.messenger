@@ -10,26 +10,26 @@ import javax.inject.Inject
  */
 class SharedPreferencesManager @Inject constructor() {
 
-	private val PREF_USERNAME = "PREF_USERNAME"
-	private val PREF_PASSWORD = "PREF_PASSWORD"
+	private val PREF_MAIL = "PREF_MAIL"
 	private val PREF_TOKEN = "PREF_TOKEN"
+	private val PREF_TOKEN_VALID_DATE = "PREF_TOKEN_VALID_DATE"
 
 	private lateinit var sharedPreferences: SharedPreferences
 
-	var username
-		get() = sharedPreferences.getString(PREF_USERNAME, "")
-		set(value) = sharedPreferences.edit().putString(PREF_USERNAME, value).apply()
-
-	var password
-		get() = sharedPreferences.getString(PREF_PASSWORD, "")
-		set(value) = sharedPreferences.edit().putString(PREF_PASSWORD, value).apply()
+	var mail
+		get() = sharedPreferences.getString(PREF_MAIL, "")
+		set(value) = sharedPreferences.edit().putString(PREF_MAIL, value).apply()
 
 	var token
 		get() = sharedPreferences.getString(PREF_TOKEN, "")
 		set(value) = sharedPreferences.edit().putString(PREF_TOKEN, value).apply()
 
+	var tokenValidDate
+		get() = sharedPreferences.getLong(PREF_TOKEN_VALID_DATE, 0)
+		set(value) = sharedPreferences.edit().putLong(PREF_TOKEN_VALID_DATE, value).apply()
+
 	@Inject
-	fun initSharedPreferences(context: Context) {
+	protected fun initSharedPreferences(context: Context) {
 		sharedPreferences = context.defaultSharedPreferences
 	}
 }
