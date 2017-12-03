@@ -3,14 +3,14 @@
 	  xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<item
-		android:id="@+id/nav_dialogs"
-		android:icon="@drawable/ic_view_list_vector"
-		android:title="Dialogs"
+		android:id="@+id/nav_users"
+		android:icon="@drawable/ic_users_vector"
+		android:title="Users"
 		app:showAsAction="always"/>
 	<item
-		android:id="@+id/nav_current_dialog"
+		android:id="@+id/nav_chats"
 		android:icon="@drawable/ic_chat_vector"
-		android:title="Dialog"
+		android:title="Chats"
 		app:showAsAction="always"/>
 	<item
 		android:id="@+id/nav_menu"

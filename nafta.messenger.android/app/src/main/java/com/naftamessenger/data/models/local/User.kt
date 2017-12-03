@@ -6,11 +6,11 @@ import android.arch.persistence.room.PrimaryKey
 /**
  * Created by Bohdan on 19.11.2017
  */
-@Entity
+@Entity(tableName = "users")
 class User {
 
 	@PrimaryKey
-	var id = 0
+	var id = ""
 	var username = ""
 	var sex = ""
 	var name = ""

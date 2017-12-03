@@ -15,4 +15,7 @@ abstract class NaftaMessengerDatabase : RoomDatabase() {
 	companion object {
 		const val DATABASE_NAME = "nafta_messenger_db"
 	}
+
+	abstract fun chatsDAO(): ChatsDAO
+	abstract fun usersDAO(): UsersDAO
 }

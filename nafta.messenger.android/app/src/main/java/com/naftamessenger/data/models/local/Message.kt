@@ -6,7 +6,7 @@ import android.arch.persistence.room.PrimaryKey
 /**
  * Created by Bohdan on 19.11.2017
  */
-@Entity
+@Entity(tableName = "messages")
 class Message {
 
 	@PrimaryKey

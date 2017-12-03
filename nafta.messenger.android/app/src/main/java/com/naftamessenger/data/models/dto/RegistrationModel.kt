@@ -1,5 +1,6 @@
 package com.naftamessenger.data.models.dto
 
+import com.naftamessenger.util.iso8601
 import java.util.*
 
 /**
@@ -11,8 +12,8 @@ class RegistrationModel {
 	var confirmPassword = ""
 	var name = ""
 	var surname = ""
-	var sex = ""
-	var bornDate: Date = Date()
-	var phoneNumber = ""
-	var registrationDate: Date = Date()
+	var sex = "sex"
+	var bornDate: String = Date().iso8601()
+	var phoneNumber = "number"
+	var registrationDate: String = Date().iso8601()
 }

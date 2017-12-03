@@ -5,5 +5,11 @@ package com.naftamessenger.view
  */
 interface MainView : View {
 
+	fun setLogoutAction(logoutAction: ViewAction)
+
+	fun setSyncAction(syncAction: ViewAction)
+
+	fun reloadView()
+
 	fun startLogin()
 }

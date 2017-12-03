@@ -30,19 +30,29 @@ class AccountUseCase @Inject constructor(private val webApi: WebApi, private val
 	}
 
 	fun register(email: String, password: String, confirmPassword: String, name: String, surname: String): Future<Boolean> = doAsyncResult {
-		val registrationModel = RegistrationModel().also {
-			it.email = email
-			it.password = password
-			it.confirmPassword = confirmPassword
-			it.name = name
-			it.surname = surname
+		val registrationModel = registerModel {
+			this.email = email
+			this.password = password
+			this.confirmPassword = confirmPassword
+			this.name = name
+			this.surname = surname
 		}
 
-		return@doAsyncResult webApi.register(registrationModel).execute().isSuccessful
+		val result = webApi.register(registrationModel).execute()
+
+		return@doAsyncResult result.isSuccessful
 	}
 
 	fun logout() {
 		sharedPreferencesManager.mail = null
 		sharedPreferencesManager.token = null
+	}
+
+	fun isLoggedIn(): Boolean = !sharedPreferencesManager.token.isEmpty()
+
+	private fun registerModel(initBlock: RegistrationModel.() -> Unit): RegistrationModel {
+		val registrationModel = RegistrationModel()
+		registrationModel.initBlock()
+		return registrationModel;
 	}
 }

@@ -13,3 +13,5 @@ fun isNetworkAvailable(): Boolean {
 	val activeNetworkInfo = connectivityManager.activeNetworkInfo
 	return activeNetworkInfo != null && activeNetworkInfo.isConnected
 }
+
+fun String.transformToken() = "Bearer " + this

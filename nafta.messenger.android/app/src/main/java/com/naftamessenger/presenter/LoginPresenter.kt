@@ -15,16 +15,18 @@ class LoginPresenter @Inject constructor(private val accountUseCase: AccountUseC
 	override fun onBind(view: LoginView) {
 		loginView = view
 
-		loginView.run { setLoginAction {
-			val mail = getMail()
-			val password = getPassword()
+		loginView.run {
+			setLoginAction {
+				val mail = getMail()
+				val password = getPassword()
 
-			if (mail.isEmpty() || password.isEmpty())
-				return@setLoginAction
+				if (mail.isEmpty() || password.isEmpty())
+					return@setLoginAction
 
-			if (isNetworkAvailable() && accountUseCase.login(mail, password).get())
-				onLoginSuccess()
-		} }
+				if (isNetworkAvailable() && accountUseCase.login(mail, password).get())
+					onLoginSuccess()
+			}
+		}
 	}
 
 	override fun onUnbind() {}
