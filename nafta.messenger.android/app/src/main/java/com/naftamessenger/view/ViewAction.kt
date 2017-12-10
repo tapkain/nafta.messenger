@@ -5,3 +5,5 @@ package com.naftamessenger.view
  */
 
 typealias ViewAction = () -> Unit
+
+typealias ParametrizedViewAction<T, R> = (T) -> R

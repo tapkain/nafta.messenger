@@ -4,10 +4,7 @@ import android.content.Context
 import com.naftamessenger.infrastructure.dagger.modules.ApplicationModule
 import com.naftamessenger.infrastructure.dagger.modules.DatabaseModule
 import com.naftamessenger.infrastructure.dagger.modules.WebApiModule
-import com.naftamessenger.view.ChatsFragment
-import com.naftamessenger.view.LoginActivity
-import com.naftamessenger.view.MainActivity
-import com.naftamessenger.view.RegisterActivity
+import com.naftamessenger.view.*
 import dagger.Component
 import javax.inject.Singleton
 
@@ -24,4 +21,5 @@ interface ApplicationComponent {
 	fun inject(mainActivity: LoginActivity)
 	fun inject(registerActivity: RegisterActivity)
 	fun inject(chatsFragment: ChatsFragment)
+	fun inject(conversationActivity: ConversationActivity)
 }

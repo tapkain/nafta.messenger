@@ -1,18 +1,20 @@
 package com.naftamessenger.data.models.local
 
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
+import com.google.gson.annotations.SerializedName
+import java.util.*
 
 /**
  * Created by Bohdan on 19.11.2017
  */
-@Entity(tableName = "messages")
 class Message {
 
-	@PrimaryKey
+	@SerializedName("Id")
 	var id = 0
+	@SerializedName("Text")
 	var text = ""
-	var userId = 0
+	@SerializedName("UserId")
+	var userId = ""
+	@SerializedName("ChatId")
 	var chatId = 0
-	var time: Double = 0.0
+	var time: Date? = null
 }

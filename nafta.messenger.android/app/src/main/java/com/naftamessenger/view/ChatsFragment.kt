@@ -12,8 +12,10 @@ import com.naftamessenger.NaftaMessengerApp
 import com.naftamessenger.R
 import com.naftamessenger.data.models.local.Chat
 import com.naftamessenger.presenter.ChatsPresenter
+import com.naftamessenger.view.View.Companion.EXTRA_CHAT_ID
 import kotlinx.android.synthetic.main.fragment_chats.*
 import kotlinx.android.synthetic.main.list_item_chat.view.*
+import org.jetbrains.anko.startActivity
 import javax.inject.Inject
 
 /**
@@ -39,11 +41,14 @@ class ChatsFragment : Fragment(), ChatsView {
 		recyclerView.adapter = ChatsAdapter(chats)
 	}
 
-	private class ChatsAdapter(private val chats: List<Chat>) : RecyclerView.Adapter<ChatsAdapter.ChatViewHolder>() {
+	private inner class ChatsAdapter(private val chats: List<Chat>) : RecyclerView.Adapter<ChatsAdapter.ChatViewHolder>() {
 
-		override fun onBindViewHolder(holder: ChatViewHolder?, position: Int) {
-			holder?.itemView?.tvChatName?.text = chats[position].name
-			holder?.itemView?.tvChatChar?.text = chats[position].name[0].toUpperCase().toString()
+		override fun onBindViewHolder(holder: ChatViewHolder, position: Int) {
+			holder.itemView.tvChatName.text = chats[position].name
+			holder.itemView.tvChatChar.text = chats[position].name.first().toUpperCase().toString()
+			holder.itemView.setOnClickListener {
+				activity.startActivity<ConversationActivity>(EXTRA_CHAT_ID to chats[position].id)
+			}
 		}
 
 		override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ChatViewHolder =
@@ -51,6 +56,6 @@ class ChatsFragment : Fragment(), ChatsView {
 
 		override fun getItemCount(): Int = chats.size
 
-		class ChatViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+		inner class ChatViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 	}
 }

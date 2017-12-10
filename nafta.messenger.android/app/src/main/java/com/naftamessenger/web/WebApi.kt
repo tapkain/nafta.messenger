@@ -25,7 +25,7 @@ interface WebApi {
 	fun getChats(@Header("Authorization") token: String): Call<List<Chat>>
 
 	@POST("api/chats/{chatId}/send")
-	fun sendMessage(@Path("chatId") chaId: Int, @Body message: MessageModel, @Header("Authorization") token: String)
+	fun sendMessage(@Path("chatId") chaId: Int, @Body message: MessageModel, @Header("Authorization") token: String): Call<Unit>
 
 	@GET("api/chats/{chatId}/messages")
 	fun getMessages(@Path("chatId") chatId: Int, @Header("Authorization") token: String): Call<List<Message>>
